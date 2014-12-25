@@ -1,0 +1,629 @@
+/* Custom text-selection colors */
+::-moz-selection{background: #ff0000; color: #fff; text-shadow: none;}
+::selection {background: #ff0000; color: #fff; text-shadow: none;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFF;
+	background-color: #0D3559;
+}
+
+body {
+   position: relative;
+   min-height: 100%;
+   height: 100%;
+   top: 0px
+}
+
+#main-container {
+	width: 950px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 2;
+	overflow: hidden;
+}
+
+
+/* SUBMARINE */
+#submarine-container {
+	width: 950px;
+	height: 700px;
+	position: fixed;
+	top: 0;	
+	z-index:-1;
+}
+#submarine {	
+	position: absolute;
+	z-index:-1;	
+	/*top: 560px !important;*/	
+}
+
+#submarine-object {
+	width: 131px;
+	height: 83px;
+	background:url(../img/submarine.png) no-repeat 0 0;
+}
+
+
+#submarine-object-above {
+	width: 131px;
+	height: 83px;
+	background:url(../img/submarine.png) no-repeat 0 -83px;
+}
+
+#submarine-lights{
+	background: url(../img/submarine-lights.png) no-repeat 0 0;
+	position:absolute;
+	width: 227px;
+	height: 219px;
+	top: 47px;
+	left: -190px;
+}
+
+#submarine #bubbles {
+	position: absolute;
+	top: -110px;
+	left:110px;
+	z-index: -1;
+	width: 176px;
+	height: 149px;
+	
+	background: url(../img/bubble.gif) no-repeat 0 0;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+
+.right #submarine-object {	
+	background-position: -131px 0;
+}
+
+
+.right #submarine-object-above {
+	background-position: -131px -83px;
+}
+
+
+.right #submarine-lights {
+	background-position: -227px 0;
+	left: 52px;
+  top: 44px;
+}
+
+.right #bubbles {	
+	left:-160px !important;	
+	background-position: -176px 0 !important;
+}
+
+
+/* GENERAL */
+h1, h2 {
+	background:url(../img/sprite-title.png) no-repeat 0 0;
+	width: 375px;
+	
+	font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}
+
+/* PARRALAX */
+#bg-background {
+	background: #3184AC url(../img/bg_background.jpg) no-repeat top center;
+	height: 2870px;
+	width: 100%;
+	left:0px;
+	top:0px;	
+}
+
+#bg-midground {
+	background: url(../img/bg_midground_repeat.png) repeat-x top center;
+	height: 2870px;
+	width: 100%;
+	left:0px;
+	top:0px;	
+}
+
+#bg-midground-inner {
+	background: url(../img/bg_midground_top.png) no-repeat top center;
+	height: 2870px;
+	width: 100%;
+	left:0px;
+	top:0px;	
+}
+
+#bg-midground-inner-bottom {
+	background: url(../img/bg_midground_bottom.jpg) no-repeat top center;
+	height: 2402px;
+	width: 100%;
+	position: absolute;
+	left:0px;
+	top:568px;	
+}
+
+#bg-foreground {
+	background: url(../img/bg_foreground.png) no-repeat 0 -60px;
+	height: 2870px;
+	width: 100%;
+	left:0px;
+	top:0px;	
+}
+
+.flag {
+	background: url("../img/flag_animation.gif") no-repeat scroll 372px 0 transparent;
+	height: 66px;
+	left: 50%;
+	margin: 0 auto;
+	position: absolute;
+	top: 290px;
+	width: 475px;
+}
+
+
+.fish {
+	position:absolute;
+	width: 70px;
+	height: 70px;
+	background: url(../img/fish.gif) no-repeat 0 0;
+}
+
+.fish-large {
+	position:absolute;
+	width: 253px;
+	height: 100px;
+	background: url(../img/fish-large.gif) no-repeat 0 0;	
+}
+
+#fish-large1 {
+	top: 600px;
+	left: 700px;
+}
+
+#fish-large2 {
+	top: 200px;
+	left: 0px;
+	background-position:0 -100px;
+	z-index: -3;	
+}
+
+#fish1 {
+	background-position: 0 0;
+	top: 600px;
+	left: 0;
+}
+
+#fish1a {
+	background-position: 0 0;
+	top: 500px;
+	left: -200px;
+}
+#fish1b {
+	background-position: 0 0;
+	top: 700px;
+	left: 0;
+}
+
+#fish2 {
+	background-position: 0 -140px;
+	top: -25px;
+	left: 850px;
+}
+
+#fish3 {
+	background-position: 0 -210px;
+	top: -80px;
+	left: 650px;
+	z-index: -3;
+}
+
+#fish4 {
+	background-position: 0 -70px;
+	top: 270px;
+	left: 100px;	
+}
+
+#fish5 {
+	background-position: 0 -140px;
+	top: 570px;
+	left: 800px;
+	z-index: -3;	
+}
+
+/* HEADER */
+
+header {
+	height: 555px;	
+	margin-top: 10px;	
+	margin-bottom: 420px;
+}
+
+header hgroup h1 {	
+	height: 135px;
+	margin-top: 30px;
+}
+
+.country-nl header hgroup h1 {
+	background-position:0 -381px;
+}
+
+header hgroup h2 {	
+	height: 81px;
+	background-position: 0 -135px;
+}
+
+header p {
+	color: #245B7F;
+	width: 340px;
+	margin: 10px 0 0 15px;
+}
+
+/* QMUSIC NAV */
+
+#coke-zero {
+	width: 311px;
+	height: 126px;
+	text-indent: -3000px;
+	overflow: hidden;
+	display: block;
+	background: url(../img/coke-zero.png) no-repeat 0 0;
+	position: absolute;
+	top: -8px;
+	left: 637px;
+	z-index: 200;
+}
+
+#q_nav-wrapper {	
+  color: #333;  
+  margin: 0 auto;
+  position: relative;
+  height: 100px;
+  width: 1085px;
+}
+
+
+#q_nav-wrapper #logo {
+  float: left;
+  position: relative;
+  z-index: 20;
+}
+#nav {
+  position: absolute;
+  top: 23px;
+  left: 245px;
+  width: 735px;
+  height: 54px;
+  padding-top: 2px;
+  background-image: url(../images/nav_bg.png);
+  background-repeat: no-repeat;
+  z-index: 20;
+}
+  #nav li {
+    float: left;
+    color: #444;
+    padding-top: 12px;    
+    list-style: none;
+  }
+    #nav #home {
+      width: 99px;
+      height: 51px;
+    }
+    #nav #home:hover {
+      background-image: url(../images/nav_home_bg.png);
+      background-repeat: no-repeat;
+    }
+    #nav #live {
+      width: 100px;
+      height: 51px;
+    }
+    #nav #live:hover {
+      background-image: url(../images/nav_live_bg.png);
+      background-repeat: no-repeat;
+    }
+    #nav #winmetq {
+      width: 112px;
+      height: 51px;
+    }
+    #nav #winmetq:hover {
+      background-image: url(../images/nav_winmetq_bg.png);
+      background-repeat: no-repeat;
+    }
+      #nav #winmetq a {
+        margin-left: 12px;
+      }
+    #nav #media {
+      width: 100px;
+      height: 51px;
+    }
+    #nav #media:hover {
+      background-image: url(../images/nav_media_bg.png);
+      background-repeat: no-repeat;
+    }
+      #nav li a {
+        margin-left: 25px;
+        font-size: 18px;
+        color: #444;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      #nav li:hover a {
+        color: #fff;
+      }
+
+
+/* ARTICLE */
+article.scrollblock {	
+	height: 1000px;	
+	position: relative;	
+}
+
+article p {
+	width: 418px;
+	margin-left: 15px;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+}
+
+#history-2 p {
+	width: 405px;
+}
+
+article h2 {
+	height: 55px; 
+	margin-bottom: 15px;
+}
+
+#history-1 h2 {
+	background-position: 0 -216px;
+}
+
+#history-2 h2 {
+	background-position: 0 -271px;
+}
+
+#history-3 h2 {
+	background-position: 0 -326px;
+}
+
+#history-1 {
+	
+}
+
+#history-2 {
+	background: url(../img/bg-history-2.png) no-repeat;
+}
+
+#history-3 {
+	background: url(../img/bg-history-3.png) no-repeat 320px -75px;
+}
+
+#history-1 .content {
+	float:left;
+	width: 418px;
+}
+#history-1 .anythingSlider {
+	float:left;
+	margin-top: 35px;
+	margin-left: 45px;
+}
+
+#history-2 .content {
+	float:left;
+	width: 418px;
+	margin-top: 50px;
+}
+#history-2 .anythingSlider {
+	float:left;
+	margin-top: 35px;
+	margin-left: 45px;
+}
+
+#history-3 .content {
+	float:left;
+	width: 418px;
+	margin-top: 120px;
+}
+#history-3 .anythingSlider {
+	float:left;
+	margin-top: 35px;
+	margin-left: 45px;
+}
+
+.extra-info {
+	color: #ccc;
+}
+
+.extra-info:hover {
+	color: #fff;
+}
+
+
+.nextArrow {
+	display: block;
+	width: 35px;
+	height: 50px;
+	background: url(../img/nextArrow.gif) no-repeat 0 0;
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	text-indent: -3000px;
+	overflow: hidden;
+}
+
+header .nextArrow {
+	background: url(../img/nextArrowStart.png) no-repeat 0 0;
+	width: 266px;
+	height: 59px;
+	left: 5px;
+	top: 460px;
+	margin-top: 10px;
+}
+
+
+/* FOOTER */
+footer {
+	height: 531px;
+	background: url(../img/bg-footer.png) no-repeat top center;
+	/*z-index: -2;*/
+	position: relative;
+}
+
+.open-form {	
+	display: block;
+	height: 60px;
+	width: 200px;
+	position: absolute;
+	top: 350px;
+	left:	370px;
+	z-index: 99;
+	overflow: hidden;
+	text-indent: -3000px;
+}
+
+
+.footer-logo {
+	background: url(../img/footer-logo.png) no-repeat bottom right;
+	height: 269px;
+	width: 319px;
+	position:absolute;
+	bottom:0;
+	right: 0;	
+	z-index: 2;
+}
+
+.footer-logo-pure {
+	background: url(../img/footer-logo-pure.png) no-repeat 0 0;
+	height: 21px;
+	width: 222px;
+	display: block;
+	position:absolute;
+	bottom:0;
+	left: 0;	
+	z-index: 2;
+	text-indent: -3000px;
+	overflow: hidden;
+}
+
+.footer-logo-pure:hover {
+	background-position: 0 -21px;
+}
+
+#audio {
+	visibility: hidden;
+	width: 0px;
+	height:0px;
+}
+
+/* NAV NL */
+.navigatie_container {
+			width: 950px;
+			height: 100px;
+			position: relative;
+			/*top: 10px;
+			left: 20px;
+			*/
+			z-index: 200;
+		}
+
+.navigatie_container a {
+	text-decoration: none;
+}
+		
+			.html_navigatie {
+				/*background-image: url(http://www.q-music.nl/static/images/navigatie2.png);*/
+				background: url(../images/nav_bg.png) no-repeat top left;
+				width: 677px;
+				height: 35px;
+				float: left;
+				clear: right;
+				margin-top: 19px;
+				margin-left: 4px;
+				font-size: 17px;;
+				padding-top: 17px;
+				padding-left: 30px;
+				font-weight: bold;
+				font-family: Tahoma, Geneva, sans-serif;
+			}
+			
+				.socialnav, .lightbox_share {
+					width: 100px;
+					position: absolute;
+					right: 0px;
+					top: 14px;
+				}
+				
+				.lightbox_share {
+					top: -5px;
+					left: 0px;
+				}
+				
+					.socialnav img, .lightbox_share img {
+						float: left;
+						margin-left: 5px;
+					}
+					
+			
+				.html_navigatie div {
+					float: left;
+					clear: right;
+					margin-right: 15px;
+					height: 25px;
+					padding-bottom: 5px;
+				}
+			
+					.html_navigatie div a {
+						color: #666;
+						height: 25px;
+						overflow: hidden;
+					}
+					
+					.html_navigatie div a:hover {
+						color: #F00;
+					}
+					
+				.submenu {
+					visibility: visible;
+					position: absolute;
+					left: -8px;
+					top: 33px;
+					width: 210px;
+					height: 105px;
+					overflow: hidden;
+				}
+				
+					.submenu_bg {
+						height: 100px;
+						width: 200px;
+						position: absolute;
+						background-color: #e5e5e5;
+						border: 1px solid #FFF;
+						border-top: none;
+						opacity: 0.9;
+						filter: alpha(opacity=90);
+						z-index: 800;
+						top: -102px;
+					}
+					
+					.submenu_txt {
+						height: 100px;
+						width: 200px;
+						position: absolute;
+						z-index: 900;
+						top: -102px;
+					}
+					
+						.submenu_txt div {
+							width: 189px;
+							height: 15px;
+							padding: 3px 3px 3px 10px;
+							border-bottom: 1px solid white;
+							font-size: 13px;
+							font-weight: normal;
+							float: left;
+							clear: left;
+							position: relative;
+						}
+						
+							.submenu_txt div a {
+								color: black;
+							}
+
+
