@@ -5,46 +5,42 @@ var express = require('express'),
 app.use(express.static('.'));
 
 app.get('/', function(req, res){
-	res.sendFile('index.html');});
-
+	res.sendFile('page/index.html');});
 
 app.get('/lifestyle', function(req, res){
-	res.sendFile('lifestyle.html');});
-
+	res.sendFile('page/lifestyle.html');});
 
 app.get('/gaming', function(req, res){
-	res.sendFile('gaming.html');});
-
+	res.sendFile('page/gaming.html');});
 
 app.get('/digitalarts', function(req, res){
-	res.sendFile('digitalarts.html');});
-
+	res.sendFile('page/digitalarts.html');});
 
 app.get('/finearts', function(req, res){
-	res.sendFile('finearts.html');});
+	res.sendFile('page/finearts.html');});
 
 
 app.get('/music', function(req, res){
-	res.sendFile('music.html');});
+	res.sendFile('page/music.html');});
 
 
 app.get('/dance', function(req, res){
-	res.sendFile('dance.html');});
+	res.sendFile('page/dance.html');});
 
 app.get('/chess', function(req, res){
-	res.sendFile('chess.html');});
+	res.sendFile('page/chess.html');});
 
 app.get('/treasurehunt', function(req, res){
-	res.sendFile('treasurehunt.html');});
+	res.sendFile('page/treasurehunt.html');});
 
 app.get('/literary', function(req, res){
-	res.sendFile('literary.html');});
+	res.sendFile('page/literary.html');});
 
 app.get('/quizzing', function(req, res){
-	res.sendFile('quizzing.html');});
+	res.sendFile('page/quizzing.html');});
 
 app.get('/theatre', function(req, res){
-	res.sendFile('theatre.html');});
+	res.sendFile('page/theatre.html');});
 
 
 app.listen(80);
