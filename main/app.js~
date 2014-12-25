@@ -1,0 +1,50 @@
+var express = require('express'),
+    app = express();
+    //nodemailer = require('nodemailer');
+
+app.use(express.static('.'));
+
+app.get('/', function(req, res){
+	res.sendFile('index.html');});
+
+
+app.get('/lifestyle', function(req, res){
+	res.sendFile('index.html');});
+
+
+app.get('/gaming', function(req, res){
+	res.sendFile('index.html');});
+
+
+app.get('/digitalarts', function(req, res){
+	res.sendFile('index.html');});
+
+
+app.get('/finearts', function(req, res){
+	res.sendFile('index.html');});
+
+
+app.get('/music', function(req, res){
+	res.sendFile('index.html');});
+
+
+app.get('/dance', function(req, res){
+	res.sendFile('index.html');});
+
+app.get('/chess', function(req, res){
+	res.sendFile('index.html');});
+
+app.get('/treasurehunt', function(req, res){
+	res.sendFile('index.html');});
+
+app.get('/literary', function(req, res){
+	res.sendFile('index.html');});
+
+app.get('/quizzing', function(req, res){
+	res.sendFile('index.html');});
+
+app.get('/theatre', function(req, res){
+	res.sendFile('theatre.html');});
+
+
+app.listen(80);
