@@ -650,13 +650,6 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#spons{
-		background: url('./images/sponsors1.png');
-		height: 735px;
-		width: 1400px;
-	}
-	
-	
 	#header {
 		position: fixed;
 		z-index: 10000;
@@ -828,6 +821,7 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
 /*********************************************************************************/
 /* Two                                                                           */
 /*********************************************************************************/
