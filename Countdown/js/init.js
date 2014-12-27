@@ -1,6 +1,6 @@
   function initialize() {
    /*Count Down Settings*/
-   datetime='12/26/2014 12:00:00';
+   datetime='12/27/2014 00:00:00';
    /* Google MAP Settings*/
      lat= 28.546863;  //Change the value with your address Latitude
 	 lng= 77.273633;  //Change the value with your address Longitude
