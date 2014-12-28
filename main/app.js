@@ -41,7 +41,7 @@ app.get('/quizzing', function(req, res){
 app.get('/theatre', function(req, res){
 	res.sendFile('/root/odyssey/main/page/theatre.html');});
 
-app.get('/team', function(req,res){
+app.get('/dt', function(req,res){
 	res.sendFile('/root/odyssey/main/landing/dt.html');});
 
 
