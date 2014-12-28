@@ -7,7 +7,7 @@ var path = require('path');
 //app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
-//app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
@@ -33,6 +33,6 @@ app.get('/dt', function(req, res){
 	app.use(express.static('./public/mainPage/'));
 	res.sendFile('/root/odyssey/main/public/mainPage/dt.html');});
 
-//app.listen(3000);
-app.listen(80);
+app.listen(3000);
+//app.listen(80);
 

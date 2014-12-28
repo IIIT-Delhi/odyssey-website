@@ -2,7 +2,22 @@
 /* line 2, /home/atul/Documents/web/odyssey/me/Odyssey15/Dance/Ego WordPress Theme by UDTHEMES_files/myStyle.scss */
 #wrapper {
   cursor: default; }
-
+body::-webkit-scrollbar {
+	width: 10px;
+	height: 15px;
+}
+body::-webkit-scrollbar-track {
+	background-color: rgba(255,255,255,1);
+	-webkit-border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb:vertical {
+	background-color: rgba(0,0,0,0.5);
+	-webkit-border-radius: 6px;
+}
+body::-webkit-scrollbar-thumb:vertical:hover,
+body::-webkit-scrollbar-thumb:horizontal:hover {
+background-color: rgba(0,0,0,.7);
+}
 /* line 3, /home/atul/Documents/web/odyssey/me/Odyssey15/Dance/Ego WordPress Theme by UDTHEMES_files/myStyle.scss */
 html {
   background-color: white; }
@@ -384,4 +399,8 @@ left:30px;
 /* line 385, /home/atul/Documents/web/odyssey/me/Odyssey15/Dance/Ego WordPress Theme by UDTHEMES_files/myStyle.scss */
 #footer {
   margin-top: 300px !important; }
+
+
+
+
 
