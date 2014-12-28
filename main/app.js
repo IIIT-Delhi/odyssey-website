@@ -1,64 +1,34 @@
 var express = require('express'),
     app = express();
 
+var routes = require('./routes');
+var path = require('path');
 
-app.get('/', function(req, res){
-	app.use(express.static('./landing/'));
-	res.sendFile('/landing/index.html');});
+//app.use(app.router);
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/lifestyle', function(req, 
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/lifestyle.html');});
-
-app.get('/gaming', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/gaming.html');});
-
-app.get('/digitalarts', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/digitalarts.html');});
-
-app.get('/finearts', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/finearts.html');});
+//app.set('port', process.env.PORT || 3000);
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
 
 
-app.get('/music', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/music.html');});
+//app.use(express.static('./WEB/WebFiles/'));
 
+app.get('/', routes.mainPage);
 
-app.get('/dance', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/dance.html');});
+app.get('/lifestyle', routes.lifestyle);
+app.get('/finearts', routes.finearts);
+app.get('/dance', routes.dance);
+app.get('/theatre', routes.theatre);
+app.get('/quizzing', routes.quizzing);
+app.get('/chess', routes.chess);
+app.get('/literary', routes.literary);
+app.get('/gaming', routes.gaming);
+app.get('/digitalarts', routes.digitalarts);
+app.get('/treasurehunt', routes.treasurehunt);
+app.get('/music', routes.music);
+app.get('/team', routes.team);
 
-app.get('/chess', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/chess.html');});
-
-app.get('/treasurehunt', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/treasurehunt.html');});
-
-app.get('/literary', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/literary.html');});
-
-app.get('/quizzing', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/quizzing.html');});
-
-app.get('/theatre', function(req, res){
-	app.use(express.static('./categories/'));
-	res.sendFile('/root/odyssey/main/categories/theatre.html');});
-
-app.get('/dt', function(req,res){
-	res.sendFile('/root/odyssey/main/landing/dt.html');});
-
-
-app.get('/team', function(req,res){
-	app.use(express.static('./team-page/'));
-	res.sendFile('/root/odyssey/main/team-page/index.html');});
-
-
+//app.listen(3000);
 app.listen(80);
+
