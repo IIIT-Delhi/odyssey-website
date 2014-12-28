@@ -182,7 +182,7 @@ $('.categoryMenuItem').on('click', function(){
         $('.dropdown').animate({
             left:"0px",
             
-    },300,"cubic-bezier(1,.54,.95,.45)");
+    },300);
         $left*=(-1);
         $clickCount=1;
     }
@@ -190,34 +190,10 @@ $('.categoryMenuItem').on('click', function(){
         $clickCount=0;
           $('.dropdown').animate({
         left:""+$left+"px",     
-    },300,"cubic-bezier(1,.54,.95,.45)");
+    },300);
     }
 });
      
      
             });
 </script>
-<!--<script>
-    var $clickCount=0;
-    var $left=-2500;
-$('.categoryMenuItem').on('click', function(){
-   
-        
-    
-    
-    if($clickCount==0){
-        $('.dropdown').animate({
-            left:"0px",
-            
-    },300);
-        $left*=(-1);
-        $clickCount=1;
-    }
-    else{
-        $clickCount=0;
-          $('.dropdown').animate({
-        left:""+$left+"px",     
-    },300);
-    }
-});
-</script>-->
