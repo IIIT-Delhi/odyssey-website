@@ -29,6 +29,10 @@ app.get('/treasurehunt', routes.treasurehunt);
 app.get('/music', routes.music);
 app.get('/team', routes.team);
 
+app.get('/dt', function(req, res){
+	app.use(express.static('./public/mainPage/'));
+	res.sendFile('/root/odyssey/main/public/mainPage/dt.html');});
+
 //app.listen(3000);
 app.listen(80);
 
