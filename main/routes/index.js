@@ -70,6 +70,11 @@ exports.team = function ( req, res){
 		title: "Odyssey'15 |Organising Team"
 	});
 }
+exports.dt = function ( req, res){
+	res.render('dt', {
+		title: "Odyssey'15 |WebDev Team"
+	});
+}
 
 //
 //app.get('/digitalarts', routes.digitalarts);
