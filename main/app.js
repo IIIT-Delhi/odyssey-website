@@ -27,7 +27,6 @@ app.get('/gaming', routes.gaming);
 app.get('/digitalarts', routes.digitalarts);
 app.get('/treasurehunt', routes.treasurehunt);
 app.get('/music', routes.music);
-
 app.get('/team', routes.team);
 
 //app.listen(3000);
