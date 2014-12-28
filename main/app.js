@@ -1,10 +1,10 @@
 var express = require('express'),
     app = express();
 
-app.use(express.static('./WEB/WebFiles/'));
+app.use(express.static('./landing/'));
 
 app.get('/', function(req, res){
-	res.sendFile('/root/odyssey/main/WEB/Fishy.html');});
+	res.sendFile('/landing/index.html');});
 
 app.get('/lifestyle', function(req, res){
 	res.sendFile('/root/odyssey/main/page/lifestyle.html');});
@@ -40,5 +40,10 @@ app.get('/quizzing', function(req, res){
 
 app.get('/theatre', function(req, res){
 	res.sendFile('/root/odyssey/main/page/theatre.html');});
+
+app.get('/team', function(req,res){
+	app.use(express.static('./team-page/'));
+	res.sendFile('/root/odyssey/main/team-page/index.html');});
+
 
 app.listen(80);
