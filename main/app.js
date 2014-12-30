@@ -29,10 +29,6 @@ app.get('/treasurehunt', routes.treasurehunt);
 app.get('/music', routes.music);
 app.get('/team', routes.team);
 app.get('/dt', routes.dt);
-/*
-app.get('/dt', function(req, res){
-	app.use(express.static('./public/mainPage/'));
-	res.sendFile('/dt.html');});*/
 
 //app.listen(8080);
 app.listen(80);

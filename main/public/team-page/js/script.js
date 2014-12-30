@@ -1,3 +1,14 @@
+
+<script type="text/javascript">
+/* <![CDATA[ */
+( function( $ ) {
+   $( 'a[href="#"]' ).on('click', function(e) {
+      e.preventDefault();
+   } );
+} )( jQuery );
+/* ]]> */
+</script>
+
 var $items = $('#ct-grid div > li'),
 	$window = $(window),
 	$body = $('BODY'),
@@ -9,6 +20,9 @@ $('a,gitLink').on('click',function(){
 });
 $('a,bitBucket').on('click',function(){
     window.location = this.href ;
+});
+$('a.categoryMenuItem').on('click',function(){
+    e.preventDefault();
 });
 function initEvents() {
 	$items.each(function () {
