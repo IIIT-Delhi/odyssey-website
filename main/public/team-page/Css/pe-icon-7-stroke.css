@@ -23,6 +23,10 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+.pe-7s-note2:before {
+	content: "\e6";
+}
+
 
 .pe-7s-cloud-upload:before {
 	content: "\e68a";

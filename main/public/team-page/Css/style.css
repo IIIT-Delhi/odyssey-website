@@ -1,3 +1,36 @@
+.gitLink{
+position: absolute;
+z-index: 1500;
+bottom: 5px;
+width: 32px;
+/* margin: 0 auto; */
+left: 95px;
+height: 32px;
+/*border: 1px solid rgba(0, 0, 0, 1);*/
+background-color: white;
+border-radius: 100%;
+    
+    
+}
+.gitLink > img {
+    position: absolute;
+    width: 100%;;
+    height: 100%;
+    background-color: white;
+    border-radius: 100%;
+}
+.bitBucket{
+    width: contain;
+font-size: 44px;
+position: absolute;
+z-index: 1500;
+bottom: 5px;
+left: 130px;
+    color:rgba(0,0,0,0.69);
+}
+.hover:hover .bitBucket{
+    color:black;
+}
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -421,14 +454,15 @@ table {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?tpgx4j");
-  src: url("../fonts/icomoon.eot?#iefixtpgx4j") format("embedded-opentype"), url("../fonts/icomoon.woff?tpgx4j") format("woff"), url("../fonts/icomoon.ttf?tpgx4j") format("truetype"), url("../fonts/icomoon.svg?tpgx4j#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?-1mz06d");
+  src: url("../fonts/icomoon.eot?#iefix-1mz06d") format("embedded-opentype"), url("../fonts/icomoon.woff?-1mz06d") format("woff"), url("../fonts/icomoon.ttf?-1mz06d") format("truetype"), url("../fonts/icomoon.svg?-1mz06d#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 12, _font.scss */
-[class^="icon-"], [class*=" icon-"] {
+/* line 9, _font.scss */
+[class^="icon-"],
+[class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -436,15 +470,47 @@ table {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
+}
+
+/* line 18, _font.scss */
+* {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 26, _font.scss */
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* line 22, _font.scss */
+.icon-pencil:before {
+  content: "\e600";
+}
+
+/* line 25, _font.scss */
+.icon-play:before {
+  content: "\e601";
+}
+
+/* line 28, _font.scss */
+.icon-copy:before {
+  content: "\e602";
+}
+
+/* line 31, _font.scss */
+.icon-code:before {
+  content: "\e603";
+}
+
+/* line 34, _font.scss */
+.icon-googleplus:before {
+  content: "\e605";
+}
+
+/* line 37, _font.scss */
+.icon-facebook:before {
+  content: "\e606";
+}
+
+/* line 40, _font.scss */
+.icon-screen:before {
+  content: "\e604";
 }
 
 @font-face {
@@ -455,7 +521,7 @@ table {
   font-style: normal;
 }
 
-/* line 41, _font.scss */
+/* line 53, _font.scss */
 [class^="flaticon-"]:before,
 [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after,
@@ -469,105 +535,60 @@ table {
   line-height: 1;
 }
 
-/* line 50, _font.scss */
+/* line 62, _font.scss */
 .flaticon-check3:before {
   content: "\e000";
 }
 
-/* line 53, _font.scss */
+/* line 65, _font.scss */
 .flaticon-cup29:before {
   content: "\e001";
 }
 
-/* line 56, _font.scss */
+/* line 68, _font.scss */
 .flaticon-flag30:before {
   content: "\e002";
 }
 
-/* line 59, _font.scss */
+/* line 71, _font.scss */
 .flaticon-handshake1:before {
   content: "\e003";
 }
 
-/* line 62, _font.scss */
+/* line 74, _font.scss */
 .flaticon-male127:before {
   content: "\e004";
 }
 
-/* line 65, _font.scss */
+/* line 77, _font.scss */
 .flaticon-multiple25:before {
   content: "\e005";
 }
 
-/* line 68, _font.scss */
+/* line 80, _font.scss */
 .flaticon-open131:before {
   content: "\e006";
 }
 
-/* line 72, _font.scss */
-.icon-coin-dollar:before {
-  content: "\e603";
-}
-
-/* line 75, _font.scss */
-.icon-check:before {
-  content: "\f03a";
-}
-
-/* line 78, _font.scss */
-.icon-film:before {
-  content: "\e606";
-}
-
-/* line 81, _font.scss */
-.icon-screen:before {
-  content: "\e607";
-}
-
-/* line 84, _font.scss */
-.icon-cabinet:before {
-  content: "\e601";
-}
-
-/* line 87, _font.scss */
-.icon-users:before {
-  content: "\e602";
-}
-
-/* line 90, _font.scss */
-.icon-code:before {
-  content: "\e605";
-}
-
-/* line 93, _font.scss */
-.icon-event-available:before {
-  content: "\e600";
-}
-
-/* line 96, _font.scss */
-.icon-info:before {
-  content: "\e604";
-}
-
-/* line 15, _teamBlocks.scss */
+/* line 13, _teamBlocks.scss */
 * {
   font-family: 'Lato', sans-serif;
   color: black;
 }
 
-/* line 19, _teamBlocks.scss */
+/* line 17, _teamBlocks.scss */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 24, _teamBlocks.scss */
+/* line 22, _teamBlocks.scss */
 header {
   padding: 1px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.17);
 }
-/* line 26, _teamBlocks.scss */
+/* line 24, _teamBlocks.scss */
 header h1 {
   text-indent: 4em;
   font-size: 4rem;
@@ -575,13 +596,13 @@ header h1 {
   font-weight: 100;
 }
 
-/* line 37, _teamBlocks.scss */
+/* line 32, _teamBlocks.scss */
 section {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 41, _teamBlocks.scss */
+/* line 36, _teamBlocks.scss */
 .container {
   padding: 1px;
   background: url("../Image/bg.svg") fixed;
@@ -589,18 +610,18 @@ section {
   background-position: 0 0;
     margin-top: 20px;
 }
-/* line 46, _teamBlocks.scss */
+/* line 41, _teamBlocks.scss */
 .container .ct-grid {
   display: flex;
   flex-direction: column;
 }
-/* line 49, _teamBlocks.scss */
+/* line 44, _teamBlocks.scss */
 .container .ct-grid > div {
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
 }
-/* line 53, _teamBlocks.scss */
+/* line 48, _teamBlocks.scss */
 .container .ct-grid > div > li {
   height: 15em;
   display: block;
@@ -608,87 +629,59 @@ section {
   cursor: pointer;
   position: relative;
 }
-/* line 61, _teamBlocks.scss */
+/* line 57, _teamBlocks.scss */
 .container .ct-grid div:nth-child(1) > li {
   width: 80%;
 }
-/* line 62, _teamBlocks.scss */
-.container .ct-grid div:nth-child(1) > li li:last-child {
-  font-size: 3em;
-}
-/* line 67, _teamBlocks.scss */
+/* line 60, _teamBlocks.scss */
 .container .ct-grid div:nth-child(2) > li {
   width: 39.5%;
 }
-/* line 68, _teamBlocks.scss */
-.container .ct-grid div:nth-child(2) > li li:last-child {
-  font-size: 3em;
-}
-/* line 73, _teamBlocks.scss */
+/* line 63, _teamBlocks.scss */
 .container .ct-grid div:nth-child(3) > li {
-  width: 19.5%;
+  width: 39.5%;
+}
+/* line 66, _teamBlocks.scss */
+.container .ct-grid .slide1 {
+  background: #261822;
+}
+/* line 68, _teamBlocks.scss */
+.container .ct-grid .slide1 .expand {
+  background-color: #261822;
+}
+/* line 72, _teamBlocks.scss */
+.container .ct-grid .slide2 {
+  background: #40152a;
 }
 /* line 74, _teamBlocks.scss */
-.container .ct-grid div:nth-child(3) > li li:last-child {
-  font-size: 1.9em;
-}
-/* line 79, _teamBlocks.scss */
-.container .ct-grid .slide1 {
-  background: #e74c3c;
-}
-/* line 81, _teamBlocks.scss */
-.container .ct-grid .slide1 .expand {
-  background-color: #e74c3c;
-}
-/* line 85, _teamBlocks.scss */
-.container .ct-grid .slide2 {
-  background: #e88833;
-}
-/* line 87, _teamBlocks.scss */
 .container .ct-grid .slide2 .expand {
-  background-color: #e88833;
+  background-color: #40152a;
 }
-/* line 91, _teamBlocks.scss */
+/* line 78, _teamBlocks.scss */
 .container .ct-grid .slide3 {
-  background: #d35400;
+  background: #731630;
 }
-/* line 93, _teamBlocks.scss */
+/* line 80, _teamBlocks.scss */
 .container .ct-grid .slide3 .expand {
-  background-color: #d35400;
+  background-color: #731630;
 }
-/* line 97, _teamBlocks.scss */
+/* line 84, _teamBlocks.scss */
 .container .ct-grid .slide4 {
-  background: #40d47e;
+  background: #cc1e2c;
 }
-/* line 99, _teamBlocks.scss */
+/* line 86, _teamBlocks.scss */
 .container .ct-grid .slide4 .expand {
-  background-color: #40d47e;
+  background-color: #cc1e2c;
 }
-/* line 103, _teamBlocks.scss */
+/* line 90, _teamBlocks.scss */
 .container .ct-grid .slide5 {
-  background: #2cc26a;
+  background: #ff5434;
 }
-/* line 105, _teamBlocks.scss */
+/* line 92, _teamBlocks.scss */
 .container .ct-grid .slide5 .expand {
-  background-color: #2cc26a;
+  background-color: #ff5434;
 }
-/* line 109, _teamBlocks.scss */
-.container .ct-grid .slide6 {
-  background: #1dd2af;
-}
-/* line 111, _teamBlocks.scss */
-.container .ct-grid .slide6 .expand {
-  background-color: #1dd2af;
-}
-/* line 115, _teamBlocks.scss */
-.container .ct-grid .slide7 {
-  background: #19b496;
-}
-/* line 117, _teamBlocks.scss */
-.container .ct-grid .slide7 .expand {
-  background-color: #19b496;
-}
-/* line 121, _teamBlocks.scss */
+/* line 96, _teamBlocks.scss */
 .container .ct-grid [class^="slide"] > ul {
   height: 100%;
   width: 100%;
@@ -698,37 +691,29 @@ section {
   flex-direction: column;
   justify-content: center;
 }
-/* line 122, _teamBlocks.scss */
+/* line 97, _teamBlocks.scss */
 .container .ct-grid [class^="slide"] > ul li {
   display: block;
   text-indent: 40px;
 }
-/* line 134, _teamBlocks.scss */
-.container .ct-grid [class^="slide"] > ul [class^="icon-"]:before,
-.container .ct-grid [class^="slide"] > ul [class^="flaticon-"]:before {
+/* line 108, _teamBlocks.scss */
+.container .ct-grid [class^="slide"] > ul [class^="icon-"]:before, .container .ct-grid [class^="slide"] > ul [class^="flaticon-"]:before {
   color: white;
-  font-size: 4em;
+  font-size: 3em;
 }
-/* line 138, _teamBlocks.scss */
+/* line 112, _teamBlocks.scss */
 .container .ct-grid [class^="slide"] > ul li:last-child {
   color: white;
+  font-size: 2.7em;
   text-indent: 50px;
 }
-/* line 142, _teamBlocks.scss */
-.container .ct-grid [class^="slide"] > ul li.flaticon-cup29 {
-  text-indent: 30px;
-}
-/* line 145, _teamBlocks.scss */
-.container .ct-grid [class^="slide"] > ul li.slidefix {
-  text-indent: 40px;
-}
-/* line 150, _teamBlocks.scss */
+/* line 119, _teamBlocks.scss */
 .container .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 155, _teamBlocks.scss */
+/* line 124, _teamBlocks.scss */
 .container .expand {
   opacity: 0;
   display: none;
@@ -742,7 +727,7 @@ section {
   pointer-events: none;
   cursor: default;
 }
-/* line 168, _teamBlocks.scss */
+/* line 137, _teamBlocks.scss */
 .container .close {
   position: absolute;
   top: 0.4em;
@@ -753,7 +738,7 @@ section {
   cursor: pointer;
   z-index: 1000;
 }
-/* line 178, _teamBlocks.scss */
+/* line 147, _teamBlocks.scss */
 .container .close:before {
   content: 'x';
   color: white;
@@ -769,7 +754,12 @@ section {
   text-indent: 0px;
 }
 
-/* line 193, _teamBlocks.scss */
+.logo img{
+	width:140px;
+	height:140px;
+}
+
+/* line 162, _teamBlocks.scss */
 footer {
   padding-bottom: 1px;
   height: 25%;
@@ -859,7 +849,7 @@ a {
   overflow: hidden;
   margin: 5px;
   height: 400px;
-  background: #333;
+  background: #fff;
 }
 /* line 64, _innerBlocks.scss */
 .expand > section figure img {
@@ -953,7 +943,7 @@ a {
 /* line 7, style.scss */
 .menu {
   overflow: visible;
-  background-color: rgba(44, 62, 80, 0.95);
+  background-color: rgba(0, 0, 0, 0.54);
   position: fixed;
   width: 200px;
   top: 188px;
@@ -1146,12 +1136,12 @@ a {
 }
 /* line 178, style.scss */
 .menu__inner ul li span:before {
-  font-family: 'icomoon';
   transform: translate3d(-200px, 0, 0);
   transition: all .1s ease;
   position: absolute;
+  font-size: 1em;
 }
-/* line 185, style.scss */
+/* line 184, style.scss */
 .menu__inner ul li a:hover span:before {
   transform: translate3d(-80px, 0, 0);
 }

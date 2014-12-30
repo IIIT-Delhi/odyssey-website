@@ -4,9 +4,9 @@ var $items = $('#ct-grid div > li'),
 	currentIndex = -1,
 	winsize = getWindowSize();
 
-        
-
-
+$('a').on('click',function(){
+    window.location = this.href ;
+});
 function initEvents() {
 	$items.each(function () {
 		var $item = $(this),
@@ -20,12 +20,13 @@ function initEvents() {
 			$overlay.css({
 				display: 'block',
 			});
-                  $rc = $(".round-thumb");
-     $cross = $(".spanExitButton");
-         
-         $('#header').fadeOut(1600);
-         $('#navv').css("padding-right","15px");
-   
+            
+            $('#header').fadeOut(900);
+         $('#nav').css("padding-right","15px");
+            
+     
+      
+            
 			currentIndex = $item.index();
 			var layoutProp = getItemPosition($item),
 				clipPropFirst = 'rect(' + layoutProp.top + 'px ' + (layoutProp.left + layoutProp.width) + 'px ' + (layoutProp.top + layoutProp.height) + 'px ' + layoutProp.left + 'px)',
@@ -47,8 +48,9 @@ function initEvents() {
 			});
 		});
 		$close.on('click', function () {
-  $('#header').fadeIn(1000);
-         $('#navv').css("padding-right","0px");
+  $('#header').fadeIn(800);
+         $('#nav').css("padding-right","0px");
+            
 			$body.css('overflow-y', 'auto');
 			var layoutProp = getItemPosition($item),
 				clipPropFirst = 'rect(' + layoutProp.top + 'px ' + (layoutProp.left + layoutProp.width) + 'px ' + (layoutProp.top + layoutProp.height) + 'px ' + layoutProp.left + 'px)',

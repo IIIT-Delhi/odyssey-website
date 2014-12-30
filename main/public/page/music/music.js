@@ -231,14 +231,14 @@ var eventRegistrationForm = "#";
             desc = rulebook.encore.eventShortDescription;
             arrayOfRules = rulebook.encore.rules;
                 eventHead = rulebook.encore.eventHeads;
-                eventRegistrationForm = "#";
+                eventRegistrationForm = "https://docs.google.com/forms/d/1cqZ2uE81o4aeDXnGzHzFXAyV6OQiTtNmLzsr27FM1Ls/viewform?usp=send_form";
             break;
         case 'aH':
             imagePath = "/page/music/ahBan.png";
             desc = rulebook.aH.eventShortDescription;
             arrayOfRules = rulebook.aH.rules;
                 eventHead = rulebook.aH.eventHeads;
-                eventRegistrationForm = "#";
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1KtmL07cvsaFC3naGRw1Xj5Ezn8V9Hr5z1-Ddk3GniT0/viewform";
             break;
         case 'uml':
             imagePath = "/page/music/umlBan.png";
@@ -252,7 +252,7 @@ var eventRegistrationForm = "#";
             desc = rulebook.swa.eventShortDescription;
             arrayOfRules = rulebook.swa.rules;
                 eventHead = rulebook.swa.eventHeads;
-                eventRegistrationForm = "#";
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1L5IoKlTgNpuDc7k_jcVJo2faeEdpEeKBFaPpX736_j8/viewform";
             break;
 
         }

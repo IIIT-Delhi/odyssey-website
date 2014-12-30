@@ -170,20 +170,20 @@ var imagePath ;
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdUnQ5MFhOa1c1LTg";
                 arrayOfRules = dkrules;
                 description =  drk;
-                eventRegistrationForm = "#";
+                eventRegistrationForm = "https://docs.google.com/forms/d/1ZLoOrdA1VAOHtSXUyLoarveW9xz0CqE5zQMLkeqvosA/viewform?usp=send_form";
                 break;
 
             case 'ph':
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdRlN6dG1jSS1IaG8";
                 arrayOfRules = null;
                 description =  ph;
-                eventRegistrationForm = "#";
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1VTJTNxDIZoDp2J5X0VX_G2taaRe3q-I2KXGvX0_VbIw/viewform";
                 break;
             case 've':
                 imagePath = "/https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdU3FNS3Zyd3NhOVU";
                 arrayOfRules = verules;
                 description =  ve;
-                eventRegistrationForm = "#";
+                eventRegistrationForm = "https://docs.google.com/forms/d/19jaRTwCWqpGht4kL0WjW_a5xHXXjlRukYhnWcYsucow/viewform";
                 break;
 
 

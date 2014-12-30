@@ -92,22 +92,22 @@ var imagePath ;
          function fillEverything(){
              var k =0;
             $('body').addClass('noscroll');
-             console.log(++k);
-            $(".bgRules").css("background","url('')");console.log(++k);
-            $(".bgRulesForModalR").css("background","url('')");console.log(++k);
-            $modalListOfRules.empty();console.log(++k);
-            $list.append("<p>" + description + "</p>" + "<strong style='font-size:20px;font-weight:300;'><br>RULES</strong>");console.log(++k);
-            $mR.css("background", "none");console.log(++k);
+              
+            $(".bgRules").css("background","url('')"); 
+            $(".bgRulesForModalR").css("background","url('')"); 
+            $modalListOfRules.empty(); 
+            $list.append("<p>" + description + "</p>" + "<strong style='font-size:20px;font-weight:300;'><br>RULES</strong>"); 
+            $mR.css("background", "none"); 
             $(".bgRules").css({
             "background": "url('" + imagePath + "') no-repeat"
 
-            });console.log(++k);
+            }); 
             $(".bgRulesForModalR").css({
             "background": "url('" + imagePath + "') no-repeat",
             "background-size": "80% 60%"
 
 
-            });console.log(++k);
+            }); 
            
 
             for (i = 0; i < arrayOfRules.length;) {
@@ -148,7 +148,7 @@ var imagePath ;
                 imagePath = "/page/dance/faceOffBan.png";
                 arrayOfRules = forules;
                 description =  fo;
-                eventRegistrationForm = "#";
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1sC1gU9FxwyTHbAl2J3ihV9nIkxf9quQYQV3P8NfOj5g/viewform?c=0&w=1";
                 break;
         }
         fillEverything();
