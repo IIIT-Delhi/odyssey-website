@@ -1,7 +1,7 @@
 <script type="text/javascript">
 /* <![CDATA[ */
 ( function( $ ) {
-   $( 'a[href="#"]' ).click( function(e) {
+   $( 'a[href="#"]' ).on('click', function(e) {
       e.preventDefault();
    } );
 } )( jQuery );
@@ -192,6 +192,14 @@ $('.categoryMenuItem').on('click', function(){
         left:""+$left+"px",     
     },300);
     }
+    
+    /* <![CDATA[ */
+( function( $ ) {
+   $( 'a[href="#"]' ).on('click', function(e) {
+      e.preventDefault();
+   } );
+} )( jQuery );
+/* ]]> */
 });
      
      

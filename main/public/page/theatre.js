@@ -100,6 +100,8 @@ jQuery(document).ready(function ($) {
 		}
 		$(".nano").nanoScroller();
 
+         $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
+        
 		setTimeout(showpanel, 1900);
 		setTimeout(exitOnclickAnywhere, 2000);
 
@@ -107,7 +109,7 @@ jQuery(document).ready(function ($) {
 		$mL.addClass("showMe").addClass("animL");
 		$('#wrapper').addClass("lightsDim");
 	}
-
+var eventRegistrationForm = "";
 	$rc.click(function () {
 		eventName = $(this).attr('id');
 		switch (eventName) {
@@ -115,11 +117,13 @@ jQuery(document).ready(function ($) {
 			imagePath = "/page/singularityBan.png";
 			arrayOfRules = srules;
 			description = s;
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1vpSXZtqJYmkvttqBUFlLAuZblCKtFrNe1Ld6KdovVEM/viewform";
 			break;
 		case 's':
 			imagePath = "/page/Hasrateinfull.jpg";
 			arrayOfRules = hrules;
 			description = h;
+                eventRegistrationForm = "https://docs.google.com/forms/d/1OTgPO-CuG1XaHRM0lxyHq47o5mJOKhfVwRvB-fU3xQ8/viewform";
 			break;
 
 

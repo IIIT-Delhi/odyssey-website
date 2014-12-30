@@ -141,7 +141,7 @@ jQuery(document).ready(function ($) {
 
         //        $('body:not("modal")')
     }
-
+var eventRegistrationForm = "#";
     function exitOnclickAnywhere() {
         $("#wrapper").dblclick(exitModal);
     }
@@ -205,7 +205,9 @@ jQuery(document).ready(function ($) {
             $list.append("<br>"+(eventHead[i]));
             }
         $(".nano").nanoScroller();
-
+        
+        $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't knwo why.
+        
         setTimeout(showpanel, 1900);
         setTimeout(exitOnclickAnywhere, 2000);
 
@@ -229,24 +231,28 @@ jQuery(document).ready(function ($) {
             desc = rulebook.encore.eventShortDescription;
             arrayOfRules = rulebook.encore.rules;
                 eventHead = rulebook.encore.eventHeads;
+                eventRegistrationForm = "#";
             break;
         case 'aH':
             imagePath = "/page/music/ahBan.png";
             desc = rulebook.aH.eventShortDescription;
             arrayOfRules = rulebook.aH.rules;
                 eventHead = rulebook.aH.eventHeads;
+                eventRegistrationForm = "#";
             break;
         case 'uml':
             imagePath = "/page/music/umlBan.png";
             desc = rulebook.uml.eventShortDescription;
             arrayOfRules = rulebook.uml.rules;
                 eventHead = rulebook.uml.eventHeads;
+                eventRegistrationForm = "#";
             break;
         case 'swa':
             imagePath = "/page/music/swaraanchalBan.png";
             desc = rulebook.swa.eventShortDescription;
             arrayOfRules = rulebook.swa.rules;
                 eventHead = rulebook.swa.eventHeads;
+                eventRegistrationForm = "#";
             break;
 
         }

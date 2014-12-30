@@ -194,6 +194,8 @@ var imagePath ;
             }
         $(".nano").nanoScroller();
 
+             $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
+             
         setTimeout(showpanel, 1900);
         setTimeout(exitOnclickAnywhere, 2000);
 
@@ -202,7 +204,7 @@ var imagePath ;
         $('#wrapper').addClass("lightsDim");
 
         }
-    
+    var eventRegistrationForm = "#";
     $rc.click(function() {
         eventName = $(this).attr('id');
         switch (eventName) { 
@@ -211,6 +213,7 @@ var imagePath ;
                 arrayOfRules = vrules;
                 description = grammarnazi;
                 eventHead =  ["Vrinda Malhotra : 9990297377<br>","Gagan Khanijau : 9910847404<br>"];
+                eventRegistrationForm ="#";
                 break;
 
             case 'hoaxpocus': 
@@ -218,6 +221,7 @@ var imagePath ;
                 arrayOfRules = [];
                 description =  "<br><br><h1>Event Details will be here soon!</h1>";
                 eventHead = [];
+                eventRegistrationForm ="#";
                 break;
 				
 			 case 'rhetorica': 
@@ -225,6 +229,7 @@ var imagePath ;
                 arrayOfRules = rhetorica.rules;
                 description =  rhetorica.eventShortDescription;
                 eventHead =  rhetorica.eventHead;
+                eventRegistrationForm ="#";
                 break;
 				
 			 case 'avadhnam': 
@@ -232,6 +237,7 @@ var imagePath ;
                 arrayOfRules = [];
                 description =  "<br><br><h1>Event Details will be here soon!</h1>";
                 eventHead = [];
+                eventRegistrationForm ="#";
                 break;
 
         }

@@ -96,7 +96,7 @@ var imagePath ;
                 }
             }
             $(".nano").nanoScroller();
-
+$('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
              setTimeout(showpanel, 1900);
         setTimeout(exitOnclickAnywhere, 2000);
 
@@ -104,7 +104,7 @@ var imagePath ;
         $mL.addClass("showMe").addClass("animL");
         $('#wrapper').addClass("lightsDim");
         }
-
+var eventRegistrationForm="#";
     $rc.click(function() {
         eventName = $(this).attr('id');
         switch (eventName) {

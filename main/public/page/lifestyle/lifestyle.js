@@ -121,6 +121,7 @@ var imagePath ;
                 i++;
             }
             $(".nano").nanoScroller();
+              $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
             
              setTimeout(showpanel, 1900);
         setTimeout(exitOnclickAnywhere, 2000);
@@ -130,7 +131,7 @@ var imagePath ;
         $('#wrapper').addClass("lightsDim");
          
         }
-    
+    var eventRegistrationForm;
     $rc.click(function() {
         eventName = $(this).attr('id');
         switch (eventName) { 
@@ -138,12 +139,15 @@ var imagePath ;
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTddERSdWxEem5vcVE";
                 arrayOfRules = vrules;
                 description = verve;
+                eventRegistrationForm = "#";/*"https://docs.google.com/a/iiitd.ac.in/forms/d/1Uk6AyO3BP_-YbAZWjE6NvtZn8q94tzKJ5wJRYjUY1pk/viewform";*/
                 break;
 
             case 'battletroupe': 
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdX0h3NGNheXcyU1E";
                 arrayOfRules = rulesID523;
                 description =  btd;
+                 eventRegistrationForm = "https://docs.google.com/forms/d/17jkNj9nXOH93BC_irbj9FJS90DZhcVbeW7T21GoLzqo/viewform";
+                
                 break;
 
         }

@@ -232,6 +232,8 @@ jQuery(document).ready(function ($) {
             $list.append("<br>"+(eventHead[i]));
             }
         $(".nano").nanoScroller();
+        
+        $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
 
         setTimeout(showpanel, 1900);
         setTimeout(exitOnclickAnywhere, 2000);
@@ -242,6 +244,7 @@ jQuery(document).ready(function ($) {
 
 
     }
+    var eventRegistrationForm;
     $rc.click(function () {
         eventName = $(this).attr('id');
         switch (eventName) {
@@ -250,24 +253,28 @@ jQuery(document).ready(function ($) {
             desc = rulebook.artival.eventShortDescription;
             arrayOfRules = rulebook.artival.rules;
             eventHead = rulebook.artival.eventHeads;
+                eventRegistrationForm ="#";
             break;
         case 'paintOdyssey':
             imagePath = "https://drive.google.com/uc?export=view&id=0BxM10NrmUxTdeTZVelJjWldfRWM";
             desc = rulebook.paintOdyssey.eventShortDescription;
             arrayOfRules = rulebook.paintOdyssey.rules;
                 eventHead = rulebook.paintOdyssey.eventHeads;
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1SKrdOlmJ4bT6-7QMEZocwssHyOmeKwemOdyUJBkkFK0/viewform";
             break;
         case 'biChromaticPainting':
             imagePath = "https://drive.google.com/uc?export=view&id=0BxM10NrmUxTdeTZVelJjWldfRWM";
             desc = rulebook.biChromaticPainting.eventShortDescription;
             arrayOfRules = rulebook.biChromaticPainting.rules;
                 eventHead = rulebook.biChromaticPainting.eventHeads;
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/18oOx5v3vchv6aiw__x5afbwk4Tqj0p-NbIQuSswTJZk/viewform";
             break;
         case 'imaginacia':
             imagePath = "https://drive.google.com/uc?export=view&id=0BxM10NrmUxTdUmN5OHpCUHhTNTQ";
             desc = rulebook.imaginacia.eventShortDescription;
             arrayOfRules = rulebook.imaginacia.rules;
                 eventHead = rulebook.imaginacia.eventHeads;
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1kOilpVrH16IIQNE8-m-9Qo6xHlkOwAeMXucXnzWvkgY/viewform";
             break;
 
         }

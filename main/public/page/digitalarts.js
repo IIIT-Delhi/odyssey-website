@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
     $mR = $(".modalR");
     $rb = $(".rulebook")
     $modalListOfRules = $(".orderedList");
-    
+    var eventRegistrationForm;
     
     var eventName = '';
 
@@ -145,6 +145,8 @@ var imagePath ;
             }
             $(".nano").nanoScroller();
             
+         $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
+
              setTimeout(showpanel, 1900);
         setTimeout(exitOnclickAnywhere, 2000);
         
@@ -153,6 +155,7 @@ var imagePath ;
         $('#wrapper').addClass("lightsDim");
         }
     
+        var eventRegistrationForm = "";
     $rc.click(function() {
         eventName = $(this).attr('id');
         switch (eventName) { 
@@ -160,23 +163,27 @@ var imagePath ;
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdWDhQQkRoTGdSMWc";
                 arrayOfRules = bybrules;
                 description = byb;
+                eventRegistrationForm="https://docs.google.com/forms/d/1HgY_eaz-KxLQnEyLlvDRXNbuU-a8dLtfp1ctven-qTY/viewform";
                 break;
 
             case 'drk': 
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdUnQ5MFhOa1c1LTg";
                 arrayOfRules = dkrules;
                 description =  drk;
+                eventRegistrationForm = "#";
                 break;
 
             case 'ph':
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdRlN6dG1jSS1IaG8";
                 arrayOfRules = null;
                 description =  ph;
+                eventRegistrationForm = "#";
                 break;
             case 've':
                 imagePath = "/https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdU3FNS3Zyd3NhOVU";
                 arrayOfRules = verules;
                 description =  ve;
+                eventRegistrationForm = "#";
                 break;
 
 

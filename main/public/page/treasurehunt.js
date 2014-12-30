@@ -66,7 +66,7 @@ var imagePath ;
                 i++;
             }
             $(".nano").nanoScroller();
-            
+            $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
              setTimeout(showpanel, 1900);
         setTimeout(exitOnclickAnywhere, 2000);
         
@@ -75,7 +75,7 @@ var imagePath ;
         $('#wrapper').addClass("lightsDim");
          
         }
-    
+    var eventRegistrationForm;
     $rc.click(function() {
         eventName = $(this).attr('id');
         switch (eventName) { 
@@ -83,6 +83,7 @@ var imagePath ;
                 imagePath = "/page/dk.jpg";
                 arrayOfRules = tHuntRules;
                 description = "<h1 style='text-align:center;'>Rules will be here soon !<h1><br><h3 style='text-align:center;'>Meanwhile folow us this event on <a href='https://www.facebook.com/events/1387994388164507/?ref=5'>facebook</a></h3>";
+                eventRegistrationForm = "#";
                 break;
 
             

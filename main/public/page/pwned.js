@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
     $mL = $(".modalL");
     $mR = $(".modalR");
     $modalListOfRules = $(".orderedList");
-    
+    var eventRegistrationForm ="";
     
     var eventName = '';
 
@@ -80,7 +80,8 @@ var imagePath ;
             case 'pwned': 
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdZTJSNy1uYzlnRFk"; 
                 arrayOfRules = vrules;
-                description =  "<br><br><h1>Event Details will be here soon!</h1>";;
+                description =  "<br><br><h1>Event Details will be here soon!</h1>";
+                eventRegistrationForm = "#";
                 break;
 
            
