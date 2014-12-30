@@ -1,5 +1,5 @@
 
-<script type="text/javascript">
+
 /* <![CDATA[ */
 ( function( $ ) {
    $( 'a[href="#"]' ).on('click', function(e) {
@@ -7,7 +7,10 @@
    } );
 } )( jQuery );
 /* ]]> */
-</script>
+
+$('a.categoryMenuItem').click(function(e){
+    e.preventDefault();
+})
 
 var $items = $('#ct-grid div > li'),
 	$window = $(window),
