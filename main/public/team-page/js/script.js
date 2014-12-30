@@ -4,7 +4,10 @@ var $items = $('#ct-grid div > li'),
 	currentIndex = -1,
 	winsize = getWindowSize();
 
-$('a').on('click',function(){
+$('a,gitLink').on('click',function(){
+    window.location = this.href ;
+});
+$('a,bitBucket').on('click',function(){
     window.location = this.href ;
 });
 function initEvents() {
