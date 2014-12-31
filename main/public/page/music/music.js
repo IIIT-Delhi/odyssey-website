@@ -49,20 +49,11 @@ jQuery(document).ready(function ($) {
         },
 
         "uml": {
-            "eventName": "Two Tones",
-            "eventShortDescription": "Draw a bi-chromatic painting i.e. by using only two colours of your choice on the given theme",
-            "rules": [
-        "This event is open to both school and college students",
-        "Team size of maximum 2 is allowed.",
-        "Participants will be allowed to use only two colours which they have to specify at the start of the competition.Theme will be given on the spot",
-        "Participants will be provided with A4 size sheet for the first round and A3 sheets for the second round .",
-        "5: In the first round participants have to draw a part of the painting they want to draw in the final round .",
-        "Teams selected in the first round will take part in the second round. ",
-        "All the paintings of the second round will be judged at the end of the second day .",
-        "Decision of judges will be final"
-      ],
+            "eventName": "UML",
+            "eventShortDescription": "Coming Soon!",
+            "rules": [""],
             "facebookLink": "your facebook link without any space",
-            "eventHeads" :["Kunal Sharma : 9711442853", "Divay Prakash : 9650016622", "Pulkit : 7838613665"]
+            "eventHeads" :[]
         },
         
         "encore": {
