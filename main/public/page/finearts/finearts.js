@@ -282,28 +282,28 @@ jQuery(document).ready(function ($) {
         eventName = $(this).attr('id');
         switch (eventName) {
         case 'artival':
-            imagePath = "https://drive.google.com/uc?export=view&id=0BxM10NrmUxTdcThDcE1jWlktZDQ";
+            imagePath = "/page/finearts/artivalBan.png";
             desc = rulebook.artival.eventShortDescription;
             arrayOfRules = rulebook.artival.rules;
             eventHead = rulebook.artival.eventHeads;
                 eventRegistrationForm ="#";
             break;
         case 'paintOdyssey':
-            imagePath = "https://drive.google.com/uc?export=view&id=0BxM10NrmUxTdeTZVelJjWldfRWM";
+            imagePath = "/page/finearts/paintOdysseyBan.png";
             desc = rulebook.paintOdyssey.eventShortDescription;
             arrayOfRules = rulebook.paintOdyssey.rules;
                 eventHead = rulebook.paintOdyssey.eventHeads;
                 eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1SKrdOlmJ4bT6-7QMEZocwssHyOmeKwemOdyUJBkkFK0/viewform";
             break;
         case 'biChromaticPainting':
-            imagePath = "https://drive.google.com/uc?export=view&id=0BxM10NrmUxTdeTZVelJjWldfRWM";
+            imagePath = "/page/finearts/twoToneBan.png";
             desc = rulebook.biChromaticPainting.eventShortDescription;
             arrayOfRules = rulebook.biChromaticPainting.rules;
                 eventHead = rulebook.biChromaticPainting.eventHeads;
                 eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/18oOx5v3vchv6aiw__x5afbwk4Tqj0p-NbIQuSswTJZk/viewform";
             break;
         case 'imaginacia':
-            imagePath = "https://drive.google.com/uc?export=view&id=0BxM10NrmUxTdUmN5OHpCUHhTNTQ";
+            imagePath = "/page/finearts/classicalArtBan.png";
             desc = rulebook.imaginacia.eventShortDescription;
             arrayOfRules = rulebook.imaginacia.rules;
                 eventHead = rulebook.imaginacia.eventHeads;
