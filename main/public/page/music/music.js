@@ -139,7 +139,7 @@ var count=1;
                 left:"40px",
             },800,'easeOutBounce');
         }
-        else{
+        else if(count==0){
              
             
         //for(m=0;m<$subBox.length;++m){
