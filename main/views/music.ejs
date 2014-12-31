@@ -144,7 +144,7 @@
                 </div>
                 <!-- content Box End  -->
             </div>
-
+                </div>
 
 
         </div>
@@ -159,6 +159,66 @@
             <span class="spanExitButton" >&#215;</span>
         </div>
         <div class="modalR modal"><span class="registertxt">Register Here</span><a  href="https://google.com" class="pe-7s-note2 registerbtn" type="Acoustic Hyms" ></a><div class="bgRulesForModalR"></div>
+            <div class="subbtncontainer"><span>Bdwnbdup<a  href="#" class="pe-7s-note2 sub_registerbtn"></a></span><span>Rapsody<a  href="#" class="pe-7s-note2 sub_registerbtn"></a></span><span>Vocal<br>chords<a  href="#" class="pe-7s-note2 sub_registerbtn"></a></span><span>Charade<a  href="#" class="pe-7s-note2 sub_registerbtn"></a></span></div></div>
+            <style>
+                .subbtncontainer{
+                    position:absolute;
+                    bottom:0px;
+                    width: 20px;
+                    left: 255px;
+                    height:contain;
+/*                    border: 1px solid red;*/
+                    opacity:0;
+                }
+                .subbtncontainer>span{
+                    word-break: break-word;
+                    display:inline-block;
+                    height:contain;
+                    bottom:142px;
+                    width:24%;
+                    vertical-align:top;
+                    text-align:center;
+/*                    border: 1px solid red;*/
+                    -webkit-animation: colorChange;
+                      -webkit-animation-duration: 7s;
+                      -webkit-animation-iteration-count: infinite;
+                      -webkit-animation-timing-function: linear;
+                      -moz-animation: colorChange;
+                      -moz-animation-duration: 7s;
+                      -moz-animation-iteration-count: infinite;
+                      -moz-animation-timing-function: linear;
+                      -ms-animation: colorChange;
+                      -ms-animation-duration: 7s;
+                      -ms-animation-iteration-count: infinite;
+                      -ms-animation-timing-function: linear;
+                      animation: colorChange;
+                      animation-duration: 7s;
+                      animation-iteration-count: infinite;
+                      animation-timing-function: linear; 
+                
+                }
+            
+                .sub_registerbtn{
+                    font-size: 24px;
+                    display: block;
+                    z-index: 1500;
+                    bottom: 42px;
+                    left: 260px;
+                    border: 1px solid white;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    border-radius: 100%;
+                    text-align: center;
+                    color: white;
+                    background-color: black;
+                    opacity: 0.8;
+                    margin:0 auto;
+                        
+                }
+                
+            </style>
+          
         </div>
         <!--start footer-->
         <% include /partials/footer.ejs %>

@@ -234,7 +234,7 @@ jQuery(document).ready(function ($) {
         $(".nano").nanoScroller();
         
         $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
-
+        $('.registerbtn').on('click',exception);
         setTimeout(showpanel, 1900);
         setTimeout(exitOnclickAnywhere, 2000);
 
@@ -245,6 +245,39 @@ jQuery(document).ready(function ($) {
 
     }
     var eventRegistrationForm;
+    var count=0;
+      function exception(){
+    if(eventRegistrationForm == "#"){
+        
+          $subBox=$('.subbtncontainer');
+        if(count==0)
+        {
+            count=1;
+        //for(m=0;m<$subBox.length;++m){
+            $subBox.fadeIn(10);
+            $subBox.animate({
+                opacity:1,
+                bottom: "180px",
+                width:"90%",
+                left:"60px",
+            },800,'easeOutBounce');}
+        else{
+             {
+            count=0;
+        //for(m=0;m<$subBox.length;++m){
+                 
+                 $subBox.fadeOut(700);
+            $subBox.animate({
+                opacity:0,
+                bottom: "0px",
+                width:"40px",
+                left:"230px",
+                
+            },500,'linear');}
+        }
+       
+    //    }
+    }}
     $rc.click(function () {
         eventName = $(this).attr('id');
         switch (eventName) {

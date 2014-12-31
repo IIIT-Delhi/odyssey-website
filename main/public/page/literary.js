@@ -229,7 +229,7 @@ var imagePath ;
                 arrayOfRules = rhetorica.rules;
                 description =  rhetorica.eventShortDescription;
                 eventHead =  rhetorica.eventHead;
-                eventRegistrationForm ="#";
+                eventRegistrationForm ="http://goo.gl/forms/r44hZ9EJmp";
                 break;
 				
 			 case 'avadhnam': 

@@ -12,6 +12,7 @@
 
 <script type="text/javascript" src="/page/common/comment-reply.min.js"></script>
         <script type="text/javascript" src="/page/common/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/page/common/easing.js"></script>
 
 
         <script type="text/javascript" src="/page/common/jquery.mobile-touch-swipe-1.0.js"></script>
@@ -177,17 +178,19 @@
      });
      
       var $clickCount=0;
-    var $left=-6500;
+    var $left=-1800;
 $('.categoryMenuItem').on('click', function(){
    
         
     
     
     if($clickCount==0){
+        $('.dropdown').fadeIn(1);
         $('.dropdown').animate({
             left:"0px",
             
-    },300);
+    },800,'easeOutBounce');
+        
         $left*=(-1);
         $clickCount=1;
     }
@@ -195,7 +198,9 @@ $('.categoryMenuItem').on('click', function(){
         $clickCount=0;
           $('.dropdown').animate({
         left:""+$left+"px",     
-    },300);
+    },800,'easeOutBounce');
+        $('.dropdown').fadeOut(10);
+        
     }
     
     /* <![CDATA[ */

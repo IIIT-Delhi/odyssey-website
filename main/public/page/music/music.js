@@ -120,10 +120,42 @@ jQuery(document).ready(function ($) {
     };
 
 
+var eventRegistrationForm = "#";
 
     $cross = $(".spanExitButton");
     $cross.addClass("hideMe");
+var count=1;
+ function exception(){
+    if(eventRegistrationForm == "#"){
+        
+          $subBox=$('.subbtncontainer');
+        if(count==1)
+        {
+        //for(m=0;m<$subBox.length;++m){
+            $subBox.animate({
+                opacity:1,
+                bottom: "282px",
+                width:"90%",
+                left:"40px",
+            },800,'easeOutBounce');
+        }
+        else{
+             
+            
+        //for(m=0;m<$subBox.length;++m){
+            $subBox.animate({
+                opacity:0,
+                bottom: "0px",
+                width:"20px",
+                left:"255px",
+            },800,'easeInBounce');
+        }
+                    count*=(-1);
 
+       
+    //    }
+    }}
+    
     function exitModal() {
         $cross.addClass("hideMe");
         $('body').removeClass('noscroll');
@@ -141,7 +173,6 @@ jQuery(document).ready(function ($) {
 
         //        $('body:not("modal")')
     }
-var eventRegistrationForm = "#";
     function exitOnclickAnywhere() {
         $("#wrapper").dblclick(exitModal);
     }
@@ -172,6 +203,8 @@ var eventRegistrationForm = "#";
 
 
         });
+        
+        
         //console.log(++k);
 
         if (desc.constructor === Array) {
@@ -207,7 +240,7 @@ var eventRegistrationForm = "#";
         $(".nano").nanoScroller();
         
         $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't knwo why.
-        
+        $('.registerbtn').on('click',exception);
         setTimeout(showpanel, 1900);
         setTimeout(exitOnclickAnywhere, 2000);
 
