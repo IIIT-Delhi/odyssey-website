@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
     var menuIn = false;
     
     var description = ""; 
-    var vrules =  [];
+    var vrules =  ["Rules will be updated soon."];
 
     $cross = $(".spanExitButton");
     $cross.addClass("hideMe");
@@ -80,11 +80,9 @@ var imagePath ;
             case 'pwned': 
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdZTJSNy1uYzlnRFk"; 
                 arrayOfRules = vrules;
-                description =  "<br><br><h1>Event Details will be here soon!</h1>";
+                description =  "<br><br><h1>Event Details will be here soon!</h1><br/><p>Prizes worth 65k were up for grabs last year!</p><p>&#42; iLAN Gaming systems were provided.</p>";
                 eventRegistrationForm = "#";
-                break;
-
-           
+                break;           
         }
         fillEverything();
     });

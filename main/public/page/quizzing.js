@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
 	var drk = "<h1>Dilli Walla Quiz</h1><p>This is a Quiz about all things Delhi. Meant to be a tribute to the culture of Delhi, the Quiz would cover everything<br> – the Culture, the Heritage and the History of this majestic metropolis.</br><br>Duration: 3.5 Hours (1.5 for the prelims, 0.5 for checking, 1 for the finals, 0.5 Buffer)</p>";
 
 
-	var ph = "<h1>Fantasia -The Fantasy World themed quiz</h1><p>Trivialis IIITD’s quizzing club presents Fantasia.Think you’re a master of fantasy ? .. Come find out at Fantasia - The Fantasy World themed quiz </p><p> Rules & Regulations</p>"
+	var ph = "<h1>Fantasia -The Fantasy World themed quiz</h1><p>Trivialis IIITD’s quizzing club presents Fantasia.Think you’re a master of fantasy ? .. Come find out at Fantasia - The Fantasy World themed quiz </p>"
 
 
 	var ve = "<h1>The Jabberwock</h1><p>Trivialis brings to you The Jabberwock, the general quiz event of Odyssey 2015. Expect anything.br>Organizers : Anudeep Athlur and Shubhorup Biswas</p><ol><li> Teams of maximum 2, college or school. Cross college/school teams allowed.</li><li> No usage of electronic devices except watches during any of the rounds</li><li> QM’s decision is final. You may appeal factual correctness but it is ultimately up to the QM whether to accept or reject it.</li></ol>";
