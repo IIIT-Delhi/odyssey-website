@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
 
     var menuIn = false;
     var desc,eventHead;
-
+$subBox=$('.subbtncontainer');
 
     var rulebook = {
         "artival": {
@@ -183,6 +183,7 @@ jQuery(document).ready(function ($) {
         $(".bgRulesForModalR").css("background", "url('')");
         //console.log(++k);
         $modalListOfRules.empty();
+        $subBox.fadeOut(10);
         //console.log(++k);
         $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
         //console.log(++k);
@@ -252,7 +253,7 @@ jQuery(document).ready(function ($) {
       function exception(){
     if(eventRegistrationForm == "#"){
         
-          $subBox=$('.subbtncontainer');
+          
         if(count==0)
         {
             count=1;
@@ -302,7 +303,7 @@ jQuery(document).ready(function ($) {
             break;
         case 'biChromaticPainting':
                 eventTitle = rulebook.biChromaticPainting.eventName;
-            imagePath = "/page/finearts/twoToneBan.png";
+            imagePath = "/page/finearts/twoTonesBan.png";
             desc = rulebook.biChromaticPainting.eventShortDescription;
             arrayOfRules = rulebook.biChromaticPainting.rules;
                 eventHead = rulebook.biChromaticPainting.eventHeads;

@@ -112,6 +112,8 @@ jQuery(document).ready(function ($) {
 
 
 var eventRegistrationForm = "#";
+              $subBox=$('.subbtncontainer');
+
 
     $cross = $(".spanExitButton");
     $cross.addClass("hideMe");
@@ -119,7 +121,6 @@ var count=1;
  function exception(){
     if(eventRegistrationForm == "#"){
         
-          $subBox=$('.subbtncontainer');
         if(count==1)
         {
         //for(m=0;m<$subBox.length;++m){
@@ -178,6 +179,7 @@ var count=1;
         $(".bgRulesForModalR").css("background", "url('')");
         //console.log(++k);
         $modalListOfRules.empty();
+        $subBox.fadeOut(10);
         //console.log(++k);
         $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
         //console.log(++k);
