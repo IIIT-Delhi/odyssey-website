@@ -12,9 +12,8 @@ jQuery(document).ready(function($) {
     
     var description = []; // change the event wise description in the switch case at the end not this
 
-    var btd = "<h1>Reverbe: The Fashion Parade</h1>“Fashion is about dressing according to what's fashionable. Style is more about being yourself. “ -Oscar de la Renta <p>A shout-out to all the designers, models and all you beautiful people out there! Pull up your socks ‘cuz Odyssey 2015 brings to you the most exciting and glamorous event of the year, Reverbe. The New York Times had very aptly quoted, “The sun never sets on the runway”. The most happening Fashion Parade of the year awaits you. If fashion is your thing, then this is the ‘IT’ place to be. We’re rolling out the red carpet for all you talented designers and super-glam models. So stop thinking and hurry up. Register now!</p>";
 
-	var grammarnazi = "<h1>Grammar Nazi</h1>This event would be aiming at testing your skills for the global language we all converse in. We want to create hype about your knowledge, your speed, your skills, efficiency, fluency and correcting your each grammatical mistakes mistake you make. So get ready to test where your level is and prove us are you a Grammar Nazi. Your each correction will be PS : Dare u use d chatin lang here . its al abot bludy grammar :P";
+	var grammarnazi = "This event would be aiming at testing your skills for the global language we all converse in. We want to create hype about your knowledge, your speed, your skills, efficiency, fluency and correcting your each grammatical mistakes mistake you make. So get ready to test where your level is and prove us are you a Grammar Nazi. Your each correction will be PS : Dare u use d chatin lang here . its al abot bludy grammar :P";
 
     var vrules = [
    "There would be two major rounds in total which would be further divided into smaller tasks to be accomplished.",
@@ -111,6 +110,7 @@ var rhetorica = {
 
     $cross = $(".spanExitButton");
     $cross.addClass("hideMe");
+    var eventTitle;
 var eventHead;
     function exitModal() {
         $cross.addClass("hideMe");
@@ -145,7 +145,7 @@ var imagePath ;
         //console.log(++k);
         $modalListOfRules.empty();
         //console.log(++k);
-        $list.append("<strong style='font-size:20px;font-weight:300;'><br>RULES</strong>");
+        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
@@ -173,6 +173,8 @@ var imagePath ;
         } else
             $list.prepend("<p style='text-align:left;'>" + description + "</p><br><br>");
          
+             $list.prepend("<h1 style='font-size:44px;text-align:left;'>" + eventTitle + "</h1><br><br>");
+             
         for (i = 0; i < arrayOfRules.length;) {
 
             if (arrayOfRules[i].constructor === Array) {
@@ -209,6 +211,7 @@ var imagePath ;
         eventName = $(this).attr('id');
         switch (eventName) { 
             case 'grammarnazi': 
+                eventTitle = "Grammar Nazi";
                 imagePath = "http://drive.google.com/uc?export=view&id=0BxM10NrmUxTdOGdVS0NpZDB4aUk";
                 arrayOfRules = vrules;
                 description = grammarnazi;
@@ -217,6 +220,7 @@ var imagePath ;
                 break;
 
             case 'hoaxpocus': 
+                eventTitle = "Hoax Pocus";
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdUXZUNDRNUDRKaGM";
                 arrayOfRules = [];
                 description =  "<br><br><h1>Event Details will be here soon!</h1>";
@@ -225,6 +229,7 @@ var imagePath ;
                 break;
 				
 			 case 'rhetorica': 
+                eventTitle = "Rhetorica";
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdQVpEbkdxTWQxMHM";
                 arrayOfRules = rhetorica.rules;
                 description =  rhetorica.eventShortDescription;
@@ -233,10 +238,11 @@ var imagePath ;
                 break;
 				
 			 case 'avadhnam': 
+                eventTitle = "Avadhanam";
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTda2FRUWlaMDVvWGc";
                 arrayOfRules = [];
                 description =  "<br><br><h1>Event Details will be here soon!</h1>";
-                eventHead = [];
+                eventHead = [];x
                 eventRegistrationForm ="#";
                 break;
 

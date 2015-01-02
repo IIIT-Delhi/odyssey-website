@@ -71,7 +71,7 @@ jQuery(document).ready(function ($) {
 		$modalListOfRules.empty();
 		console.log(++k);
 		if (arrayOfRules != null) {
-			$list.append("<p>" + description + "</p>" + "<strong style='font-size:20px;font-weight:300;'><br>RULES</strong>");
+			$list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
 			console.log(++k);
 		} else {
 			$list.append("<p>" + description + "</p>");

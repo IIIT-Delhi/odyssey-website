@@ -150,7 +150,7 @@ jQuery(document).ready(function ($) {
 
     $cross = $(".spanExitButton");
     $cross.addClass("hideMe");
-
+    var eventTitle;
     function exitModal() {
         $cross.addClass("hideMe");
         $('body').removeClass('noscroll');
@@ -184,7 +184,7 @@ jQuery(document).ready(function ($) {
         //console.log(++k);
         $modalListOfRules.empty();
         //console.log(++k);
-        $list.append("<strong style='font-size:20px;font-weight:300;'><br>RULES</strong>");
+        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
@@ -211,6 +211,9 @@ jQuery(document).ready(function ($) {
 
         } else
             $list.prepend("<p style='text-align:left;'>" + desc + "</p><br><br>");
+
+        
+        $list.prepend("<h1 style='font-size:44px;text-align:left;'>" + eventTitle + "</h1><br><br>");
 
         for (i = 0; i < arrayOfRules.length;) {
 
@@ -282,6 +285,7 @@ jQuery(document).ready(function ($) {
         eventName = $(this).attr('id');
         switch (eventName) {
         case 'artival':
+                eventTitle = rulebook.artival.eventName;
             imagePath = "/page/finearts/artivalBan.png";
             desc = rulebook.artival.eventShortDescription;
             arrayOfRules = rulebook.artival.rules;
@@ -289,6 +293,7 @@ jQuery(document).ready(function ($) {
                 eventRegistrationForm ="#";
             break;
         case 'paintOdyssey':
+                eventTitle = rulebook.paintOdyssey.eventName;
             imagePath = "/page/finearts/paintOdysseyBan.png";
             desc = rulebook.paintOdyssey.eventShortDescription;
             arrayOfRules = rulebook.paintOdyssey.rules;
@@ -296,6 +301,7 @@ jQuery(document).ready(function ($) {
                 eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1SKrdOlmJ4bT6-7QMEZocwssHyOmeKwemOdyUJBkkFK0/viewform";
             break;
         case 'biChromaticPainting':
+                eventTitle = rulebook.biChromaticPainting.eventName;
             imagePath = "/page/finearts/twoToneBan.png";
             desc = rulebook.biChromaticPainting.eventShortDescription;
             arrayOfRules = rulebook.biChromaticPainting.rules;
@@ -303,6 +309,7 @@ jQuery(document).ready(function ($) {
                 eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/18oOx5v3vchv6aiw__x5afbwk4Tqj0p-NbIQuSswTJZk/viewform";
             break;
         case 'imaginacia':
+                eventTitle = rulebook.imaginacia.eventName;
             imagePath = "/page/finearts/classicalArtBan.png";
             desc = rulebook.imaginacia.eventShortDescription;
             arrayOfRules = rulebook.imaginacia.rules;

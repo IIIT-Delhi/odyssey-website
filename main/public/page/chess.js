@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
     
     var description = ""; // change the event wise description in the switch case at the end not this
 
-  var chessRules = [], chessDesc = "<h1 style='text-align:center;'>Rules will be here soon !</h1>";
+  var chessRules = [], chessDesc = "<h1>Chess</h1><h2 style='text-align:left;'>Rules will be here soon !</h2>";
 
 
     $cross = $(".spanExitButton");
@@ -47,7 +47,7 @@ var imagePath ;
             $(".bgRules").css("background","url('')");console.log(++k);
             $(".bgRulesForModalR").css("background","url('')");console.log(++k);
             $modalListOfRules.empty();console.log(++k);
-            $list.append("<p>" + description + "</p>" + "<strong style='font-size:20px;font-weight:300;'><br>RULES</strong>");console.log(++k);
+            $list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");console.log(++k);
             $mR.css("background", "none");console.log(++k);
             $(".bgRules").css({
             "background": "url('" + imagePath + "') no-repeat"

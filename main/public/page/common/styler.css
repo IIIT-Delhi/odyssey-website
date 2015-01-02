@@ -1883,39 +1883,16 @@ textarea {
 	----------------------------*/
 
 #footer {
-    position: relative;
-    overflow: hidden;
-    padding: 50px 0;
-    z-index: 6;
-    height: 200px;
-    width: 100%;
+ font-family: 'Source Sans Pro','Open Sans', sans-serif !important;
+    height: 100px !important;
+    font-size: 20px !important;
+    line-height: 100px !important;
+    font-weight: 100 !important;
 }
-#footer .footer_content_wrapper {
-    display: table;
-    width: 100%;
-    height: 100%;
+#footer .menu{
+    margin-top:42px !important;
 }
-#footer .content {
-    max-width: 930px;
-    margin: auto;
-    text-align: center;
-    white-space: nowrap;
-    display: table-cell;
-    vertical-align: middle;
-}
-#footer .content .logo {
-    margin-bottom: 30px;
-}
-#footer p.copyright {
-    margin-bottom: 0;
-}
-#footer {
-    background: #353535 url(/images/pattern-header-banner.png);
-    color: #999;
-}
-#footer p.copyright {
-    font: 12px/14px Arial, Helvetica, sans-serif;
-}
+
 /*even*/
 
  ul.socialSmall li a {
@@ -1959,6 +1936,8 @@ textarea {
 .section-button a.page-up:hover {
     color: #fff;
 }
+
+
 /*media
 	----------------------------*/
 

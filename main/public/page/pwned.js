@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
     var menuIn = false;
     
     var description = ""; 
-    var vrules =  ["Rules will be updated soon."];
+    var vrules =  [];
 
     $cross = $(".spanExitButton");
     $cross.addClass("hideMe");
@@ -46,7 +46,7 @@ var imagePath ;
             $(".bgRules").css("background","url('')");console.log(++k);
             $(".bgRulesForModalR").css("background","url('')");console.log(++k);
             $modalListOfRules.empty();console.log(++k);
-            $list.append("<p>" + description + "</p>" + "<strong style='font-size:20px;font-weight:300;'><br>RULES</strong>");console.log(++k);
+            $list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");console.log(++k);
             $mR.css("background", "none");console.log(++k);
             $(".bgRules").css({
             "background": "url('" + imagePath + "') no-repeat"
@@ -80,9 +80,11 @@ var imagePath ;
             case 'pwned': 
                 imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdZTJSNy1uYzlnRFk"; 
                 arrayOfRules = vrules;
-                description =  "<br><br><h1>Event Details will be here soon!</h1><br/><p>Prizes worth 65k were up for grabs last year!</p><p>&#42; iLAN Gaming systems were provided.</p>";
+                description =  "<h1>PWNDED</h1><br><br><h2>Event Details will be here soon!</h2>";
                 eventRegistrationForm = "#";
-                break;           
+                break;
+
+           
         }
         fillEverything();
     });

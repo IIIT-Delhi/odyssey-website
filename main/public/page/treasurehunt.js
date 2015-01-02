@@ -47,7 +47,7 @@ var imagePath ;
             $(".bgRules").css("background","url('')");console.log(++k);
             $(".bgRulesForModalR").css("background","url('')");console.log(++k);
             $modalListOfRules.empty();console.log(++k);
-            $list.append("<p>" + description + "</p>" + "<strong style='font-size:20px;font-weight:300;'><br>RULES</strong>");console.log(++k);
+            $list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");console.log(++k);
             $mR.css("background", "none");console.log(++k);
             $(".bgRules").css({
             "background": "url('" + imagePath + "') no-repeat"

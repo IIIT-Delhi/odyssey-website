@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
     var rulebook = {
         "aH": {
 "eventName": "Acoustic Hymns",
-"eventShortDescription": "If jamming away your blues or singing to celebrate is your thing, then no look further! We present to you Acoustic hymns, the acoustic music event of Odyssey’15 wherein you can turn on the Mozart in you and compose music that touches the soul. Compete in this heated acoustic performance rivalry and win the crowd over!<br>This time the strings are attached!",
+"eventShortDescription": "<h1>Acoustic Hymns</h1><br><br>If jamming away your blues or singing to celebrate is your thing, then no look further! We present to you Acoustic hymns, the acoustic music event of Odyssey’15 wherein you can turn on the Mozart in you and compose music that touches the soul. Compete in this heated acoustic performance rivalry and win the crowd over!<br>This time the strings are attached!",
 "rules": [
 "Team Composition: minimum-3 and maximum-8",
 "Teams per College: Unlimited",
@@ -42,7 +42,7 @@ jQuery(document).ready(function ($) {
 
         "bob": {
             "eventName": "Battle Of Bands",
-            "eventShortDescription": "<h1>Rules will be here soon !</h1>",
+            "eventShortDescription": "<h1>Battle Of Bands</h1><br><br><h2>Rules will be here soon !</h2>",
             "rules": [],
             "facebookLink": "your facebook link without any space",
             "eventHeads" :["Kushagra singh : 8130962007","Gurshabad Grover : +919873686518", "Puneet Jain : 9717037957"]
@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
 
         "uml": {
             "eventName": "UML",
-            "eventShortDescription": "Coming Soon!",
+            "eventShortDescription": "<h1>Battle Of Bands</h1><br><br><h2>Rules will be here soon !</h2>",
             "rules": [""],
             "facebookLink": "your facebook link without any space",
             "eventHeads" :[]
@@ -58,7 +58,7 @@ jQuery(document).ready(function ($) {
         
         "encore": {
 "eventName": "Encore",
-"eventShortDescription": ["‘Without music, life would be an error.’","<br>Do you have a penchant for singing or an instrument and think you are skilled enough to beat the best? Is music an escape from the reality you live in? Then Encore, Odyssey’15 is the platform you’ve been looking for! Compete with the best singers / instrumentalists and show your talent to the world. Exciting prizes up for grabs!"],
+"eventShortDescription": ["<h1>Acoustic Hymns</h1><br><br>Without music, life would be an error.’<br>Do you have a penchant for singing or an instrument and think you are skilled enough to beat the best? Is music an escape from the reality you live in? Then Encore, Odyssey’15 is the platform you’ve been looking for! Compete with the best singers / instrumentalists and show your talent to the world. Exciting prizes up for grabs!"],
 "rules": [
 "All those in the age group 17-25 years are eligible.",
 "Vocals will be held on the first day and Instrumentals on the second day of the fest",
@@ -81,7 +81,7 @@ jQuery(document).ready(function ($) {
 },
         "swa":{
 "eventName": "Swaraanchal: Solo Indian music ",
-"eventShortDescription": "For all those musical enthusiasts who love Indian music it’s an event where they can bring out the soulful music within and create a melodious atmosphere with their performance. You just don’t have to sing or play, you have to feel it and make others not just only love it but also live it.",
+"eventShortDescription": "<h1>Swaraanchal: Solo Indian music</h1><br><br>For all those musical enthusiasts who love Indian music it’s an event where they can bring out the soulful music within and create a melodious atmosphere with their performance. You just don’t have to sing or play, you have to feel it and make others not just only love it but also live it.",
 "rules": [
 "You should be a college student.",
 "There will be two separate categories for vocal and instrumental rounds. Each participant is allowed to participate in both.",
@@ -179,7 +179,7 @@ var count=1;
         //console.log(++k);
         $modalListOfRules.empty();
         //console.log(++k);
-        $list.append("<strong style='font-size:20px;font-weight:300;'><br>RULES</strong>");
+        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
