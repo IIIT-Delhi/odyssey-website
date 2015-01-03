@@ -76,6 +76,11 @@ exports.dt = function ( req, res){
 	});
 }
 
+exports.hellquest = function ( req, res){
+	res.render('hellquest', {
+		title: "Odyssey'15 | HellQuest"
+	});
+}
 //
 //app.get('/digitalarts', routes.digitalarts);
 //app.get('/gaming', routes.gaming);
