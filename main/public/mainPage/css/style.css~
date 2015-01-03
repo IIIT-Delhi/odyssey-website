@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
-@import url('font-awesome.min.css');
+@import url('/mainPage/css/font-awesome.min.css');
 
 /*
 	Big Picture by HTML5 UP
@@ -160,7 +160,7 @@
 				top: 0;
 				width: 100%;
 				height: 100%;
-				background: url('images/overlay.png');
+				background: url('/mainPage/images/overlay.png');
 			}
 		
 			.image img {
@@ -419,20 +419,23 @@
 			.button.down {
 				width: 5em;
 				height: 5em;
-				line-height: 4.5em;
+				line-height: 5em;
 				padding: 0;
-				background-image: url('images/dark-arrow.svg');
+				background-image: url('/mainPage/images/dark-arrow.svg');
 				background-position: center center;
 				background-repeat: no-repeat;
 				text-indent: -10em;
 				overflow: hidden;
 			}
+.atulX.button.down.anchored{
+    bottom: 130px !important;
+}
 			
 				.button.down.anchored {
-					bottom: 0;
+					bottom: 80px;
 					border-bottom: 0;
-					border-radius: 3em 3em 0 0;
-					height: 4.5em;
+					border-radius: 100%;
+					height: 5em;
 					margin-left: -2.5em;
 				}
 			
@@ -619,7 +622,7 @@
 				}
 				
 				.dark .button.style2.down {
-					background-image: url('images/dark-arrow.svg');
+					background-image: url('/mainPage/images/dark-arrow.svg');
 				}
 		
 /*********************************************************************************/
@@ -650,6 +653,13 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
+	#spons{
+		background: url('/mainPage/images/sponsors1.png');
+		height: 735px;
+		width: 1400px;
+	}
+	
+	
 	#header {
 		position: fixed;
 		z-index: 10000;
@@ -713,7 +723,7 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/overlay.png'), url('../images/intro.jpg');
+		background: url('images/overlay.png'), url('/mainPage//images/intro.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -725,7 +735,7 @@
 /*********************************************************************************/
 
 	#one {
-		background: url('images/overlay.png'), url('../images/one.jpg');
+		background: url('/mainPage/images/overlay.png'), url('/mainPage//images/one.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -736,7 +746,7 @@
 /*********************************************************************************/
 
 	#two {
-		background: url('images/overlay.png'), url('../images/two.png');
+		background: url('/mainPage/images/overlay.png'), url('/mainPage//images/two.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -746,7 +756,7 @@
 /*********************************************************************************/
 
 	#three {
-		background: url('images/overlay.png'), url('../images/three.png');
+		background: url('images/overlay.png'), url('/mainPage//images/three.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -806,7 +816,7 @@
 /*********************************************************************************/
 
 	#nine {
-		background: url('images/overlay.png'), url('../images/nine.png');
+		background: url('images/overlay.png'), url('../images/nine.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -821,7 +831,6 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-
 /*********************************************************************************/
 /* Two                                                                           */
 /*********************************************************************************/
