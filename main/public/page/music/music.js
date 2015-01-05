@@ -80,32 +80,32 @@ jQuery(document).ready(function ($) {
     "eventHeads" : ["Apurba Mondal : 8826358908", "Arushi Jain : 9650732552", "Pulkit Kumar Gupta : 9818753076"]
 },
         "swa":{
-"eventName": "Swaraanchal: Solo Indian music ",
-"eventShortDescription": "<h1>Swaraanchal: Solo Indian music</h1><br><br>For all those musical enthusiasts who love Indian music it’s an event where they can bring out the soulful music within and create a melodious atmosphere with their performance. You just don’t have to sing or play, you have to feel it and make others not just only love it but also live it.",
-"rules": [
-"You should be a college student.",
-"There will be two separate categories for vocal and instrumental rounds. Each participant is allowed to participate in both.",
-"Only one entry in each category will be accepted. ",
-"Participants can perform on any Hindi classical or Bollywood composition.",
-"Vocals will be held on the first day and Instrumentals on the second day of the fest. The prelims will be immediately followed by the further rounds on the same day.",
-"Round 1(Prelims): You can either opt for online or on-campus prelim rounds. Fill your choice carefully in registration form.People opting for online prelims will get preference.",
-"Online Prelims: Participants are required to sing/play any 1 song of their choice for 2 minutes .Only video clips allowed for instrumental round. But for vocal both audio and video clips are allowed.No audio editing is allowed. Doing so will lead to straight disqualification.Karaoke tracks and accompaniments(not more than 2) are allowed.",
-"Offline Prelims: Participants are required to sing/play any 1 song of their choice for 1.5 minutes.Karaoke needs to be sent to us beforehand.Accompaniments are allowed but not more than 2.",
-"Only one entry in each category (singing/Instrumental) should be submitted. Multiple entries will lead to disqualification.",
-"Note: One can only apply for either online or offline prelims. Applying for both will lead to disqualification. ",
-"Round 2(On-Campus Knockouts) for Instrumental only: 10 participants will be shortlisted(9+1(Wildcard entry)). Only 2 accompaniments are allowed . Participants will play any composition in jugalbandi round (pair of 2) for 5 minutes. Participants need to bring their instruments along. Please ensure that your instruments are well tuned before your performance. No time will be given for tuning.",
-"Round 3(Finals) for Vocal: 10 participants will be shortlisted (9+1(Wildcard entry)).Only 2 accompaniments are allowed with the participant. If no accompaniments ,karaoke tracks are allowed. Tracks need to be submitted beforehand. Each participant has to sing two songs in 4 minutes. One song for 2 minutes from a list of songs that will be posted on website and one song of their choice for next 2 minutes.",
-"Round 3(Finals) for Instrumental:No. of participants shortlisted will be 5. Participants have to play on any composition of their choice in 4 minutes.",
-" Wildcard Round: Apart from all this procedure there also a wildcard entry to final round on the basis of maximum facebook likes. The video or their link need to be sent to us on “swaraanchal@gmail.com” with subject “WILDCARD”. ",
-"Karaoke tracks should be sent to us on “swaraanchal@gmail.com” with subject “PRELIM KARAOKE” for prelim's karaoke and “FINALE KARAOKE” for finale's karaoke.",
-" Background tracks and accompaniments are allowed. Make sure that it is your talent that shows not of your mates.",
-"Last date of registration: Registrations are bound to close depending on the number of entries with time.",
-"Link to registration form : https://docs.google.com/forms/d/1L5IoKlTgNpuDc7k_jcVJo2faeEdpEeKBFaPpX736_j8/viewform?usp=send_form",
-"The organisers have the right to disqualify any participant that violates the rules and regulations."
-],
-"facebookLink": "https://www.facebook.com/events/584442228324400/",
-            "eventHeads":["Nikhil singhal : 8527470596", "Devyani Rohilla : 8587094431", "Harsh Vardhan Jaiswal	: +91-9953630355"]
+    "eventName": "Swaraanchal: Solo Indian music ",
+    "eventShortDescription": "<h1>Swaraanchal: Solo Indian music</h1><br><br>For all those musical enthusiasts who love Indian music it’s an event where they can bring out the soulful music within and create a melodious atmosphere with their performance. You just don’t have to sing or play, you have to feel it and make others not just only love it but also live it.",
+    "rules": [
+        "You should be a college/school student. Minimum age limit is 16 years",
+        "There will be two separate categories for vocal and instrumental rounds. Each participant is allowed to participate in both.",
+        "Only one entry in each category will be accepted. ",
+        "Participants can perform on any Hindi classical or Bollywood composition.",
+        "Vocals will be held on the first day and Instrumentals on the second day of the fest. The prelims will be immediately followed by the further rounds on the same day.",
+        "You can either opt for online or on-campus prelim rounds. Fill your choice carefully in registration form. People opting for online prelims will get preference. Only limited slots available for offline prelims",
+        "Online Prelims: Participants are required to sing/play any 1 song of their choice for 2 minutes. ",
+        "Only video clips allowed for instrumental round. Both audio and video clips allowed in vocal category. ",
+        "Karaoke tracks and accompaniments (atmost 2) are allowed. No audio editing is allowed in submissions. Make sure that it is your talent that shows not of your mates.",
+        "Offline Prelims: Participants are required to sing/play any 1 song of their choice for 1.5 minutes. Karaoke needs to be sent to us beforehand to swaraanchal@gmail.com with subject <yourname_karaoke>. Accompaniments (atmost 2) are allowed.",
+        "10 participants in each category will be shortlisted for further rounds that would be held on campus. Participants need to bring their instruments along. Make sure your instruments are well tuned before your performance.",
+        "Instrumental category would consist of a jugalbandi round. This would be a face-off round between 2 participants. This is the only round in which accompaniments are NOT allowed",
+        "Finals (Vocals): Participants have to sing one song of their choice and one from this list: http://goo.gl/uzTL3R . 2 minutes for each song will be given. People using karaoke tracks are advised to send them to us in advance.",
+        "Finals (Instrumental) Participants have to play on any composition of their choice in 4 minutes.",
+        "The organizers have the right to disqualify any participant that violates the rules and regulations.",
+        "Judges Decision would be unquestionable and final.",
+        "Bonus marks will be awarded for tuning of intruments and incorporating the 'Alternate Reality' theme of the fest "
+    ],
+    "facebookLink": "https://www.facebook.com/events/584442228324400/",
+    "eventHeads":["Nikhil singhal : 8527470596", "Devyani Rohilla : 8587094431", "Harsh Vardhan Jaiswal	: +91-9953630355"]
 }
+          
+
 
 
     };
@@ -154,7 +154,7 @@ var count=1;
         $mR.removeClass("animR").removeClass("showMe");
         $mL.removeClass("animL").removeClass("showMe");
         $('#wrapper').removeClass("lightsDim");
-        $("#wrapper").unbind("click", exitModal);
+        $("#wrapper").unbind("click", exitModal);$(".nano").nanoScroller({ stop: true });
     }
     var imagePath;
     var arrayOfRules;
@@ -181,7 +181,7 @@ var count=1;
         $modalListOfRules.empty();
         $subBox.fadeOut(10);
         //console.log(++k);
-        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
+        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
@@ -230,19 +230,27 @@ var count=1;
         {
             $list.append("<br>"+(eventHead[i]));
             }
-        $(".nano").nanoScroller();
+        $list.append("<br><br><br>");
         
         $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't knwo why.
         $('.registerbtn').on('click',exception);
         setTimeout(showpanel, 1900);
-        setTimeout(exitOnclickAnywhere, 2000);
-
+        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });         }, 2400);
+       
+ /*setTimeout(function(){
+        $(".nano").nanoScroller({alwaysVisible: true });
+        }, 2400);*/
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");
         $('#wrapper').addClass("lightsDim");
+        
 
 
     }
+//    $("body > *").click(function(){alert($(this).prop('tagName'));});
+    $('.round-image > a > img').click(function(e){
+    e.stopPropagation();
+});
     $rc.click(function () {
         eventName = $(this).attr('id');
         switch (eventName) {

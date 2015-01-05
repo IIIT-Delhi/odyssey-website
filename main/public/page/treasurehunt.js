@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
         $mR.removeClass("animR").removeClass("showMe");
         $mL.removeClass("animL").removeClass("showMe");
         $('#wrapper').removeClass("lightsDim");
-        $("#wrapper").unbind("click", exitModal);
+        $("#wrapper").unbind("click", exitModal);$(".nano").nanoScroller({ stop: true });
     }
 var imagePath ;
     var arrayOfRules ;
@@ -47,7 +47,7 @@ var imagePath ;
             $(".bgRules").css("background","url('')");console.log(++k);
             $(".bgRulesForModalR").css("background","url('')");console.log(++k);
             $modalListOfRules.empty();console.log(++k);
-            $list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");console.log(++k);
+            $list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");console.log(++k);
             $mR.css("background", "none");console.log(++k);
             $(".bgRules").css({
             "background": "url('" + imagePath + "') no-repeat"
@@ -65,10 +65,10 @@ var imagePath ;
                 $list.append("<li style='color:rgba(255,255,255,1);'>" + (i + 1) + ".&nbsp;&nbsp;" + arrayOfRules[i] + "</li>");
                 i++;
             }
-            $(".nano").nanoScroller();
+             
             $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
              setTimeout(showpanel, 1900);
-        setTimeout(exitOnclickAnywhere, 2000);
+        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });         }, 2400);
         
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");

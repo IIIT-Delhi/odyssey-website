@@ -46,10 +46,10 @@ var rhetorica = {
 ],
 "rules": [
 "Two teams of size exactly 3 will be competing together on a common topic. One team will be “for” and one “against” the argument.",
-"There would be THREE rounds:","1st:Opening arguments ( 5 min on clock for each team member )","2nd:Rebuttals/Cross-questioning (10 min/team )","3rd:Audience Q & A ( 15 minutes min/team )",
+"There would be THREE rounds:",["1st:Opening arguments ( 5 min on clock for each team member )","2nd:Rebuttals/Cross-questioning (10 min/team )","3rd:Audience Q & A ( 15 minutes min/team )"],
 "Two polls will be conducted among the audience(including the judges) – One before the start of the debate and one after the round 3.",
 "The team which manages to sway maximum no. of votes to their side wins.",
-"Prizes :",["One winning team ( 3 participants )","Best speaker","Prizes include(subject to changes):","1. Participaton certificates for all the 6 finalists.","2. Trophies for the winning and the runners-up team.","3. Cash prize,both for the winning team and the best speaker."],
+"Prizes :",["One winning team ( 3 participants )","Best speaker"],
 "FAQs:", [
 "1. Is Rhetorica a team event or it has individual participation?",
 "Rhetorica is a team event; however you have to apply as an individual. Participants will be shortlisted based on their performance in the video round and the shortlisted participants would be divided into two teams who will speak for and against a topic.","2. What is in it for the audience?",
@@ -118,7 +118,7 @@ var eventHead;
         $mR.removeClass("animR").removeClass("showMe");
         $mL.removeClass("animL").removeClass("showMe");
         $('#wrapper').removeClass("lightsDim");
-        $("#wrapper").unbind("click", exitModal);
+        $("#wrapper").unbind("click", exitModal);$(".nano").nanoScroller({ stop: true });
     }
 var imagePath ;
     var arrayOfRules ;
@@ -145,7 +145,7 @@ var imagePath ;
         //console.log(++k);
         $modalListOfRules.empty();
         //console.log(++k);
-        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
+        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
@@ -194,12 +194,12 @@ var imagePath ;
         {
             $list.append("<br>"+(eventHead[i]));
             }
-        $(".nano").nanoScroller();
+         
 
              $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
              
         setTimeout(showpanel, 1900);
-        setTimeout(exitOnclickAnywhere, 2000);
+        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });         }, 2400);
 
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");

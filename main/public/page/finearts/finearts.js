@@ -91,7 +91,7 @@ $subBox=$('.subbtncontainer');
             ]
 ],
             "facebookLink": "your facebook link without any space",
-            "eventHeads" :["Nikita Singh (Mask Making) : 9654448350","Masroor Ahmad (Graffiti) : 9650073818","Aarushi (Cartoon Strip) : 9711187857"]
+            "eventHeads" :["Nikita Singh (Mask Making) : 9654448350","Masroor Ahmad (Graffiti) : 9650073818","Aarushi (Cartoon Strip) : 9711187857","Masroor Ahmad (Paper-o-Mosaic) : 9650073818"]
         },
 
         "paintOdyssey": {
@@ -118,13 +118,15 @@ $subBox=$('.subbtncontainer');
         "Team size of maximum 2 is allowed.",
         "Participants will be allowed to use only two colours which they have to specify at the start of the competition.Theme will be given on the spot",
         "Participants will be provided with A4 size sheet for the first round and A3 sheets for the second round .",
-        "5: In the first round participants have to draw a part of the painting they want to draw in the final round .",
+        "In the first round participants have to draw a part of the painting they want to draw in the final round .",
         "Teams selected in the first round will take part in the second round. ",
         "All the paintings of the second round will be judged at the end of the second day .",
+        "All the participants have to bring there own material other than the sheets. Only sheets will be provided",
+        "Total duration of the event will be 2 to 2.5 hrs",
         "Decision of judges will be final"
       ],
             "facebookLink": "your facebook link without any space",
-            "eventHeads" :["Shambhavi Singh : 8010159531"]
+            "eventHeads" :["Shambhavi Singh : 8010159531","Prerna Singh :9560396724"]
         },
         "imaginacia": {
             "eventName": "Imaginacia",
@@ -157,7 +159,7 @@ $subBox=$('.subbtncontainer');
         $mR.removeClass("animR").removeClass("showMe");
         $mL.removeClass("animL").removeClass("showMe");
         $('#wrapper').removeClass("lightsDim");
-        $("#wrapper").unbind("click", exitModal);
+        $("#wrapper").unbind("click", exitModal);$(".nano").nanoScroller({ stop: true });
     }
     var imagePath;
     var arrayOfRules;
@@ -185,7 +187,7 @@ $subBox=$('.subbtncontainer');
         $modalListOfRules.empty();
         $subBox.fadeOut(10);
         //console.log(++k);
-        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
+        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
@@ -235,12 +237,12 @@ $subBox=$('.subbtncontainer');
         {
             $list.append("<br>"+(eventHead[i]));
             }
-        $(".nano").nanoScroller();
+         
         
         $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
         $('.registerbtn').on('click',exception);
         setTimeout(showpanel, 1900);
-        setTimeout(exitOnclickAnywhere, 2000);
+        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });         }, 2400);
 
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");

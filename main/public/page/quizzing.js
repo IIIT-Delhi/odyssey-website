@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
         $mR.removeClass("animR").removeClass("showMe");
         $mL.removeClass("animL").removeClass("showMe");
         $('#wrapper').removeClass("lightsDim");
-        $("#wrapper").unbind("click", exitModal);
+        $("#wrapper").unbind("click", exitModal);$(".nano").nanoScroller({ stop: true });
     }
     
 var imagePath ;
@@ -76,7 +76,7 @@ var imagePath ;
             $(".bgRulesForModalR").css("background","url('')");console.log(++k);
             $modalListOfRules.empty();console.log(++k);
             if (arrayOfRules != null) {
-                $list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");console.log(++k);
+                $list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");console.log(++k);
              } else {
                 $list.append("<p>" + description + "</p>");console.log(++k); }
             $mR.css("background", "none");console.log(++k);
@@ -97,10 +97,10 @@ var imagePath ;
                     i++;
                 }
             }
-            $(".nano").nanoScroller();
+             
 $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
              setTimeout(showpanel, 1900);
-        setTimeout(exitOnclickAnywhere, 2000);
+        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });         }, 2400);
 
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");

@@ -3,11 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 
 <head><% include partials/header.ejs %>
+    <link rel="stylesheet" href="/scroller/scroller1/jquery.mCustomScrollbar.css" />
     </head>
 
 
     <body class="home page page-id-15 page-template-default">
-
+<script src="/scroller/scroller1/jquery.mCustomScrollbar.concat.min.js"></script>
 <% include /partials/catBodyHead.ejs %>
 
         <!--<embed src="Music/dance.mp3" autostart=true loop=true style="height:0;width:0;display:hidden;"></embed>-->
@@ -44,9 +45,8 @@
                     <div class="column_one_third  last tl" style="margin-left:16em">
                         <div class="round-thumb-container " style="width:250px; max-width:100%; margin:auto;">
                             <div class="round-thumb lightbox" id="bob" >
-                                <!-- add event name here in -->
-                                <a title="Battle Of Bands" class="lightbox"  >
-                                    <img class="roundImage " href="#" src="/page/music/bob.png"  alt="ARTIVAL" href="#">
+                                <a title="Battle Of Bands" class="lightbox" href="#"   >
+                                    <img class="roundImage " href="#" src="/page/music/bob.png"  alt="ARTIVAL">
                                 </a>
                             </div>
 
@@ -63,7 +63,7 @@
                         <div class="round-thumb-container " style="width:250px; max-width:100%; margin:auto;">
                             <div class="round-thumb lightbox" id="aH">
                                 <!-- add event name here in -->
-                                <a title="Acoustic Hymns" class="lightbox" >
+                                <a title="Acoustic Hymns" class="lightbox" href="#"  >
                                     <img  class="roundImage " href="#" src="/page/music/ah.png" alt="">
                                 </a>
                             </div>
@@ -81,7 +81,7 @@
                         <div class="round-thumb-container " style="width:250px; max-width:100%; margin:auto;">
                             <div class="round-thumb lightbox" id="uml">
                                 <!-- add event name here in -->
-                                <a title="Underground Music League" class="lightbox" >
+                                <a title="Underground Music League" class="lightbox" href="#"  >
                                     <img class="roundImage "   href="#" src="/page/music/uml.png" alt="">
                                 </a>
                             </div>
@@ -99,8 +99,8 @@
                         <div class="round-thumb-container " style="width:250px; max-width:100%; margin:auto;">
                             <div class="round-thumb lightbox"  href="#" id="swa">
                                 <!-- add event name here in -->
-                                <a title="Swaraanchal" class="lightbox" >
-                                    <img class="roundImage "   src="/page/music/swaraanchal.png" alt="">
+                                <a title="Swaraanchal" class="lightbox" href="#"  >
+                                    <img class="roundImage "   src="/page/music/swaraanchal.png" alt="" href="#">
                                 </a>
                             </div>
 
@@ -117,8 +117,8 @@
                         <div class="round-thumb-container " style="width:250px; max-width:100%; margin:auto;">
                             <div class="round-thumb lightbox"  href="#" id="encore">
                                 <!-- add event name here in -->
-                                <a title="Singing Competition" class="lightbox" >
-                                    <img class="roundImage "   src="/page/music/encore.png" alt="">
+                                <a title="Singing Competition" class="lightbox" href="#"  >
+                                    <img class="roundImage"   src="/page/music/encore.png" alt="" href="#" >
                                 </a>
                             </div>
 
@@ -149,7 +149,7 @@
 
         </div>
         <!--end wrapper-->
-        <div class="modalL modal">
+        <div class="modalL modal ">
             <div class="bgRules"></div>
             <div class="rulebook nano" >
                 <br>
@@ -215,8 +215,10 @@
                     opacity: 0.8;
                     margin:0 auto;
                         
+                    
+                    
                 }
-                
+            
             </style>
           
         </div>

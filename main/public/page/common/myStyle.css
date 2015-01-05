@@ -41,7 +41,9 @@ html {
 
 
 .modalL ol {
-    overflow-y: scroll;
+    list-style-type: none;
+    overflow: -moz-scrollbars-none !important; 
+    overflow-y: hidden;
   overflow-x: hidden;
   word-wrap: break-word;
   position: absolute;
@@ -50,6 +52,7 @@ html {
   width: 600px;
   height: 540px;
     margin-top: 50px;
+    margin-bottom: 100px;
   margin-left: 15px; 
 font-weight: 500;
 letter-spacing: 1px;
@@ -60,20 +63,25 @@ letter-spacing: 1px;
 
 }
 
-
 .nano .nano-pane {
-  background: #aaa; }
+  background: #aaa; 
+    width:12px;
+    border-radius: 0%;
+}
 
 
 .nano .nano-slider {
-  background: #888; }
+  background: #888;
+    width:12x;
+border-radius: 0% !important;
+}
 
 
 .rulebook ol li {
   width: 100%;
   color: white;
   text-align: center;
-  padding: 10px 5px;
+  padding: 10px 0px;
   width: 100%;
   text-align: left; 
     font-size: 14px;
@@ -84,6 +92,7 @@ letter-spacing: 1px;
   position: absolute;
   top: 0;
   padding: 10px;
+    padding-right: 555px;
   width: 93.5%;
   height: 96.6%;
   color: white; 
@@ -97,9 +106,9 @@ left:30px;
   background: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  -ms-filter: "alpha(opacity=20)";
-  filter: alpha(opacity=20);
-  opacity: 0.2; }
+  -ms-filter: "alpha(opacity=5)";
+  filter: alpha(opacity=5);
+  opacity: 0.05; }
 
 
 .modalL {

@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
 	var description = ""; // change the event wise description in the switch case at the end not this
 
 	var s = "<h1>Singularity</h1></br><p>“All the world's a stage and most of us are desperately unrehearsed.”</br> ― Seán O'Casey</p><p>If you can mesmerise everyone by your acting prowess and if you are adaring lone wolf. Come show us your soliloquy .The stage is set and the spot lights are on.</p>";
-	var h = "<h1>HASRATEIN</h1></br><p></p>";
+	var h = "<h1>HASRATEIN</h1></br><p>I believe that in a great city, or even in a small city or a village, a great theatre is the outward and visible sign of an inward and probable culture.<br>~Laurence Olivier<br><br>Is this what theatre means to you as well? Is there a social message that you want to spread? Do you, for once, feel the urge of breaking the barriers and letting your voice be heard?<br><br>So, take it to the STREETS! Sing, Act, Dance! Voice your views, Leave a mark, Be the impact!<br><br>IIITD's very own cultural fest, Odyssey welcomes all to 'Hasratein: The Voice in You', a street play competition. A fiesta which brings young talent to the foyer and gives them a platform to highlight social issues!<br>To top it all, you get to compete against some of the best teams in town!<br><br> Date and Time: <br>30th-31st Jan, 10 am- 4 pm<br>Registration starts at 9 am.</p>";
 
 
 	var srules = ["Record a monologue or any solo act of about 5 min and send it toxyz@abc.com",
@@ -23,14 +23,22 @@ jQuery(document).ready(function ($) {
 "campus on the day of the fest. There will 4 rounds in the event and elimination after first 2 rounds.",
 "Participants are supposed to arrange and bring props if required by them.",
 "Decision of the judges will be final and irrevocable.",
-"Obscenity strictly not allowed."]
-		var hrules = ["Team size: 8-20(including actors and music accompanists)",
-"Preliminary round",
-"Shortlisted candidates will be contacted and will have to be present in thecampus on the day of the fest.",
-"campus on the day of the fest. There will 4 rounds in the event and elimination after first 2 rounds.",
-"Participants are supposed to arrange and bring props if required by them.",
-"Decision of the judges will be final and irrevocable.",
-"Obscenity strictly not allowed."]
+"Obscenity strictly not allowed.<br><br>."];
+
+
+		var hrules =["Team size: 8-20(including actors and music accompanists)","All registered teams are subject to a preliminary round in case we receive higher participation. For this, the teams will have to submit in a short video (no time limit) of their act for pre-evaluation. ","Time limit for final day: 15 minutes","The team size represents the number of people registered as a team. Only these shall be allowed to perform the street play.",  
+" Maximum 20 members allowed including music accompanists.", "Minimum of 8 actors to be included in the team.",
+"Teams are expected to perform at the open air venue, with an audience on all sides.",
+"Plays can be in Hindi, English or Bilingual.",
+"Plays can be based on any theme related to a social issue.",
+"The script can be original or an adaptation. If it is an adaptation of already published work, due credit must be given to the owner of the content.",
+"No technical support will be provided.",
+"Teams are allowed to use Dholak, Flute or any other music instrument of their choice, but usage of electrical instruments is not allowed.",
+"Teams will be penalised if they exceed the time limit.",
+"Obscenity (at the discretion of judges) of any kind is not allowed and may lead to disqualification.",
+"The decision of the judges and organisers will be final and binding.",
+" The organizers reserve the right to change the rules as they deem fit.",
+" Organizers have the right to disqualify any team if they break any rule.<br><br>","----CONTACT-----------<br><br>Manish Kumar<br>Email : Manish12142@iiitd.ac.in<br>Ph. : 9990422801<br><br>Sahar Siddiqui<br>Email : sahar14091@iiitd.ac.in<br>Ph. : 9871278784<br><br>Arushi Kumar <br>Email : arushi14023@iiitd.ac.in<br>Ph. : 9560070521<br><br>Nandika Chaudhary<br>Email : nandika13066@iiitd.ac.in<br>Ph. : 8826811598<br><br>"];
 
 
 
@@ -43,7 +51,7 @@ jQuery(document).ready(function ($) {
 		$mR.removeClass("animR").removeClass("showMe");
 		$mL.removeClass("animL").removeClass("showMe");
 		$('#wrapper').removeClass("lightsDim");
-		$("#wrapper").unbind("click", exitModal);
+		$("#wrapper").unbind("click", exitModal);$(".nano").nanoScroller({ stop: true });
 	}
 	var imagePath;
 	var arrayOfRules;
@@ -71,7 +79,7 @@ jQuery(document).ready(function ($) {
 		$modalListOfRules.empty();
 		console.log(++k);
 		if (arrayOfRules != null) {
-			$list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES</strong>");
+			$list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");
 			console.log(++k);
 		} else {
 			$list.append("<p>" + description + "</p>");
@@ -98,12 +106,12 @@ jQuery(document).ready(function ($) {
 				i++;
 			}
 		}
-		$(".nano").nanoScroller();
+		 
 
          $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
         
 		setTimeout(showpanel, 1900);
-		setTimeout(exitOnclickAnywhere, 2000);
+		setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });         }, 2400);
 
 		$mR.addClass("showMe").addClass("animR");
 		$mL.addClass("showMe").addClass("animL");
