@@ -5,58 +5,58 @@ exports.mainPage = function ( req, res){
 }
 exports.lifestyle = function ( req, res){
 	res.render('lifestyle', {
-		title: "Odyssey'15 |Lifestyle"
+		title: "Odyssey'15 | Lifestyle"
 	});
 }
 exports.finearts = function ( req, res){
 	res.render('finearts', {
-		title:"Odyssey'15 |Fine Arts"
+		title:"Odyssey'15 | Fine Arts"
 	});
 }
 exports.theatre = function ( req, res){
 	res.render('theatre', {
-		title: "Odyssey'15 |Theatre"
+		title: "Odyssey'15 | Theatre"
 	});
 }
 exports.dance = function ( req, res){
 	res.render('dance', {
-		title: "Odyssey'15 |Dance"
+		title: "Odyssey'15 | Dance"
 	});
 }
 
 exports.quizzing = function ( req, res){
 	res.render('quizzing', {
-		title: "Odyssey'15 |Quizzes"
+		title: "Odyssey'15 | Quizzes"
 	});
 }
 
 exports.literary = function ( req, res){
 	res.render('literary', {
-		title: "Odyssey'15 |Literary"
+		title: "Odyssey'15 | Literary"
 	});
 }
 
 exports.digitalarts = function ( req, res){
 	res.render('digitalarts', {
-		title: "Odyssey'15 |Digital Arts"
+		title: "Odyssey'15 | Digital Arts"
 	});
 }
 
 exports.gaming = function ( req, res){
 	res.render('gaming', {
-		title: "Odyssey'15 |Gaming"
+		title: "Odyssey'15 | Gaming"
 	});
 }
 
 exports.music = function ( req, res){
 	res.render('music', {
-		title: "Odyssey'15 |Music"
+		title: "Odyssey'15 | Music"
 	});
 }
 
 exports.treasurehunt = function ( req, res){
 	res.render('treasurehunt', {
-		title: "Odyssey'15 |Tresure Hunt"
+		title: "Odyssey'15 | Tresure Hunt"
 	});
 }
 
@@ -76,12 +76,7 @@ exports.dt = function ( req, res){
 	});
 }
 
-exports.hellquest = function ( req, res){
-	res.render('hellquest', {
-		title: "Odyssey'15 | HellQuest"
-	});
-}
-//
+
 //app.get('/digitalarts', routes.digitalarts);
 //app.get('/gaming', routes.gaming);
 //app.get('/music', routes.music);

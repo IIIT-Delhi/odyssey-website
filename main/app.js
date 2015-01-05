@@ -29,7 +29,6 @@ app.get('/treasurehunt', routes.treasurehunt);
 app.get('/music', routes.music);
 app.get('/team', routes.team);
 app.get('/dt', routes.dt);
-app.get('/hellquest', routes.hellquest);
 
-//app.listen(8080);
-app.listen(80);
+app.listen(8080);
+//app.listen(80);
