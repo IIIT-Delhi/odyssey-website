@@ -56,7 +56,7 @@ jQuery(document).ready(function ($) {
            "<a href='https://docs.google.com/document/d/1ueeugpizBX-VXzZFNiNqA4KfgmKBY0Begv1ZnRWQuig/edit?usp=sharing' id='sub12' target='_blank'>2. Vocal Chords</a>",
            "<a href='https://docs.google.com/document/d/1Qs7LOtu2Eolc2co7gv87i3tVJy-vCIptF6x_XosKq-0/edit?usp=sharing' id='sub13' target='_blank'>3. BdwnBdup</a>",
            "<a href='https://docs.google.com/document/d/13xPWiCs9HFCWUjwx2Meen3Vli4k4q_y6BO6mS90f_Tk/edit?usp=sharing' id='sub14' target='_blank'>4. Charade</a>"],
-            "rules": ["(All the above are individual events. Prizes will be awarded to the top three teams in each of the above. Participants can choose to participate in them separately or take part in artival)"],
+            "rules": ["(All the above are individual events.)"],
             "facebookLink": "your facebook link without any space",
             "eventHeads" :[]
         },
