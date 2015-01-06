@@ -80,7 +80,7 @@ var imagePath ;
         eventName = $(this).attr('id');
         switch (eventName) { 
           case 'chess': 
-                imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdZHFod1ZSb2RDQ2c";
+                imagePath = "/page/chessBan.png";
                 arrayOfRules = chessRules;
                 description =  chessDesc;
                 eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1yD7b1s5YSbVKWGT_k8N9omru63nKBQet9CX0UUjyiBs/viewform";

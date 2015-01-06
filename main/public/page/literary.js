@@ -212,7 +212,7 @@ var imagePath ;
         switch (eventName) { 
             case 'grammarnazi': 
                 eventTitle = "Grammar Nazi";
-                imagePath = "http://drive.google.com/uc?export=view&id=0BxM10NrmUxTdOGdVS0NpZDB4aUk";
+                imagePath = "/page/grammarNazi.png";
                 arrayOfRules = vrules;
                 description = grammarnazi;
                 eventHead =  ["Vrinda Malhotra : 9990297377<br>","Gagan Khanijau : 9910847404<br>"];
@@ -221,7 +221,7 @@ var imagePath ;
 
             case 'hoaxpocus': 
                 eventTitle = "Hoax Pocus";
-                imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdUXZUNDRNUDRKaGM";
+                imagePath = "/page/hoaxPocusBan.png";
                 arrayOfRules = [];
                 description =  "<br><br><h1>Event Details will be here soon!</h1>";
                 eventHead = [];
@@ -230,7 +230,7 @@ var imagePath ;
 				
 			 case 'rhetorica': 
                 eventTitle = "Rhetorica";
-                imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdQVpEbkdxTWQxMHM";
+                imagePath = "/page/rhetoricaBan.png";
                 arrayOfRules = rhetorica.rules;
                 description =  rhetorica.eventShortDescription;
                 eventHead =  rhetorica.eventHead;
@@ -239,7 +239,7 @@ var imagePath ;
 				
 			 case 'avadhnam': 
                 eventTitle = "Avadhanam";
-                imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTda2FRUWlaMDVvWGc";
+                imagePath = "/page/avadhnamBan.png";
                 arrayOfRules = [];
                 description =  "<br><br><h1>Event Details will be here soon!</h1>";
                 eventHead = [];x

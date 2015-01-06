@@ -78,7 +78,7 @@ var imagePath ;
         eventName = $(this).attr('id');
         switch (eventName) { 
             case 'pwned': 
-                imagePath = "https://drive.google.com/a/iiitd.ac.in/uc?export=view&id=0BxM10NrmUxTdZTJSNy1uYzlnRFk"; 
+                imagePath = "/page/pwnedthumb.jpg"; 
                 arrayOfRules = vrules;
                 description =  "<h1>PWNDED</h1><br><br><h2>Event Details will be here soon!</h2>";
                 eventRegistrationForm = "#";

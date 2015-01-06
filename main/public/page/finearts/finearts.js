@@ -142,7 +142,7 @@ $subBox=$('.subbtncontainer');
 "Judges decision would be considered final"
 ],
             "facebookLink": "your facebook link without any space",
-            "eventHeads" :["Rachna : 8010173355"]
+            "eventHeads" :["Rachna -> rachna13077@iiitd.ac.in : 8010173355","Paridhi Mittal -> paridhi12069@iiitd.ac.in"]
         }
 
 
@@ -251,14 +251,14 @@ $subBox=$('.subbtncontainer');
 
     }
     var eventRegistrationForm;
-    var count=0;
+    var count=1;
       function exception(){
     if(eventRegistrationForm == "#"){
         
           
-        if(count==0)
+        if(count==1)
         {
-            count=1;
+            
         //for(m=0;m<$subBox.length;++m){
             $subBox.fadeIn(10);
             $subBox.animate({
@@ -269,7 +269,7 @@ $subBox=$('.subbtncontainer');
             },800,'easeOutBounce');}
         else{
              {
-            count=0;
+            
         //for(m=0;m<$subBox.length;++m){
                  
                  $subBox.fadeOut(700);
@@ -281,7 +281,7 @@ $subBox=$('.subbtncontainer');
                 
             },500,'linear');}
         }
-       
+       count*=(-1);
     //    }
     }}
     $rc.click(function () {
