@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
 
 	var verve = "<h1>Mr. and Ms. Odyssey</h1><p>Dainty shoes and that glorious crown; classy tuxedo, shimmering gown.Ever dreamt of being the king of an event and having the spotlight on you ? Here is your chance to live your reverie, to go down in history as Mr or Ms Odyssey. So this is the time to reveal yourself to the world! Time to carry your own true 'creative' self in your oh-so-amazing attire through this glamorous journey!<br><br> For any query, contact:<br> Pavani Tripathi: pavani13147@iiitd.ac.in <br>Saloni Kogta: saloni13155@iiitd.ac.in<br> Nalin Gupta: nalin14065@iiitd.ac.in</p>";
 
-    var vrules = [
+    var vrules = ["The video to be uploaded on YouTube should be of 1minute duration. In the video you should tell us why you should be selected. Also tell us that one thing that you would not want to exist in your alternate world. Looking forward to some really creative answers",
    "The competition is open to all school students who are presently studying in 11th or 12th class, or to all college/university students who are either still pursuing their degree or who passed out not before 12 months at the time of registration.",
 
 "IIIT-Delhi will not bear the cost of travel and/or accommodation.",
@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
 		"Contestants selected in the prelims will have to confirm their participation for the next stage within a stipulated period of time.",
 
 "It will be the responsibility of the participant to arrange and maintain the instruments if he/she requires any for the stage performance",
-"The judges' decision in relation to any aspect of the competition is final and binding.",
+"The judges' decision in relation to any aspect of the competition is final and binding.","Please refer to out our <a href='https://www.facebook.com/events/792157200877927/?ref=br_tf'>facebook page</a>for further information on the rounds"
 	]
 
     var rulesID523 = [
