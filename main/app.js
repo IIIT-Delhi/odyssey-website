@@ -11,9 +11,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-
-//app.use(express.static('./WEB/WebFiles/'));
-
 app.get('/', routes.mainPage);
 
 app.get('/lifestyle', routes.lifestyle);

@@ -187,7 +187,7 @@ $subBox=$('.subbtncontainer');
         $modalListOfRules.empty();
         $subBox.fadeOut(10);
         //console.log(++k);
-        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");
+        $list.append("<strong id='rulesRules' style='font-size:35px;font-weight:300;font-family:'Source Sans Pro','Open Sans', sans-serif;'><br>RULES<br><br></strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
@@ -268,7 +268,7 @@ $subBox=$('.subbtncontainer');
                 left:"60px",
             },800,'easeOutBounce');}
         else{
-             {
+             
             
         //for(m=0;m<$subBox.length;++m){
                  
@@ -279,7 +279,7 @@ $subBox=$('.subbtncontainer');
                 width:"40px",
                 left:"230px",
                 
-            },500,'linear');}
+            },500,'linear');
         }
        count*=(-1);
     //    }

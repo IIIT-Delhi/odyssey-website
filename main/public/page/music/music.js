@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
 
         "uml": {
             "eventName": "UML - Undergound Music League",
-            "eventShortDescription": ["Underground Music League",
+            "eventShortDescription": ["<h1>Underground Music League</h1>",
            "Sub Events:(click on the event to see the rules)",
            "<a href='https://docs.google.com/document/d/1gdT-rH74pn9bMjZUR4xhkdQHyaQlZ9TJC5Y_kZMs5i0/edit?usp=sharing'  id='sub11' target='_blank'>1. Rapsody</a>",
            "<a href='https://docs.google.com/document/d/1ueeugpizBX-VXzZFNiNqA4KfgmKBY0Begv1ZnRWQuig/edit?usp=sharing' id='sub12' target='_blank'>2. Vocal Chords</a>",
@@ -63,7 +63,7 @@ jQuery(document).ready(function ($) {
         
         "encore": {
 "eventName": "Encore",
-"eventShortDescription": ["<h1>Acoustic Hymns</h1><br><br>Without music, life would be an error.’<br>Do you have a penchant for singing or an instrument and think you are skilled enough to beat the best? Is music an escape from the reality you live in? Then Encore, Odyssey’15 is the platform you’ve been looking for! Compete with the best singers / instrumentalists and show your talent to the world. Exciting prizes up for grabs!"],
+"eventShortDescription": ["<h1>Encore- Solo Western Music</h1><br><br>Without music, life would be an error.’<br>Do you have a penchant for singing or an instrument and think you are skilled enough to beat the best? Is music an escape from the reality you live in? Then Encore, Odyssey’15 is the platform you’ve been looking for! Compete with the best singers / instrumentalists and show your talent to the world. Exciting prizes up for grabs!"],
 "rules": [
 "All those in the age group 17-25 years are eligible.",
 "Vocals will be held on the first day and Instrumentals on the second day of the fest",
@@ -129,23 +129,25 @@ var count=1;
         if(count==1)
         {
         //for(m=0;m<$subBox.length;++m){
+            $subBox.fadeIn(10);
             $subBox.animate({
                 opacity:1,
                 bottom: "282px",
                 width:"90%",
-                left:"40px",
+                left:"90px",
             },800,'easeOutBounce');
         }
-        else if(count==0){
+        else {
              
             
         //for(m=0;m<$subBox.length;++m){
+            $subBox.fadeOut(700);
             $subBox.animate({
                 opacity:0,
                 bottom: "0px",
                 width:"20px",
                 left:"255px",
-            },800,'easeInBounce');
+            },800,'linear');
         }
                     count*=(-1);
 
@@ -186,7 +188,7 @@ var count=1;
         $modalListOfRules.empty();
         $subBox.fadeOut(10);
         //console.log(++k);
-        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");
+        $list.append("<strong id='rulesRules' style='font-size:35px;font-weight:300;font-family:'Source Sans Pro','Open Sans', sans-serif !important;'><br>RULES<br><br></strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
@@ -308,12 +310,3 @@ var count=1;
 
 });
 
-/*
-
-
-"1.Arty Graffiti",
-           "2.MASK-ermind",
-           "3.OEKAKI - The Sketching Contest",
-           "4.Cartoonista- Cartoon Strip",
-           "5.Paper-o-Mosaic",
-*/

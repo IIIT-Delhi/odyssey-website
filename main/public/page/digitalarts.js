@@ -115,7 +115,7 @@ var imagePath ;
             $(".bgRulesForModalR").css("background","url('')");console.log(++k);
             $modalListOfRules.empty();console.log(++k);
             if (arrayOfRules != null) {
-                $list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");console.log(++k);
+                $list.append("<p>" + description + "</p>" + "<strong id='rulesRules' style='font-size:35px;font-weight:300;font-family:'Source Sans Pro','Open Sans', sans-serif;'><br>RULES<br><br></strong>");console.log(++k);
              } else {
                 $list.append("<p>" + description + "</p>");console.log(++k); }
             $mR.css("background", "none");console.log(++k);

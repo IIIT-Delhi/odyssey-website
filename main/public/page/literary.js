@@ -145,7 +145,7 @@ var imagePath ;
         //console.log(++k);
         $modalListOfRules.empty();
         //console.log(++k);
-        $list.append("<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");
+        $list.append("<strong id='rulesRules' style='font-size:35px;font-weight:300;font-family:'Source Sans Pro','Open Sans', sans-serif;'><br>RULES<br><br></strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
@@ -212,7 +212,7 @@ var imagePath ;
         switch (eventName) { 
             case 'grammarnazi': 
                 eventTitle = "Grammar Nazi";
-                imagePath = "/page/grammarNazi.png";
+                imagePath = "/page/grammarNaziBan.png";
                 arrayOfRules = vrules;
                 description = grammarnazi;
                 eventHead =  ["Vrinda Malhotra : 9990297377<br>","Gagan Khanijau : 9910847404<br>"];
@@ -242,7 +242,7 @@ var imagePath ;
                 imagePath = "/page/avadhnamBan.png";
                 arrayOfRules = [];
                 description =  "<br><br><h1>Event Details will be here soon!</h1>";
-                eventHead = [];x
+                eventHead = [];
                 eventRegistrationForm ="#";
                 break;
 

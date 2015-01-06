@@ -103,7 +103,7 @@ var imagePath ;
             $(".bgRules").css("background","url('')");console.log(++k);
             $(".bgRulesForModalR").css("background","url('')");console.log(++k);
             $modalListOfRules.empty();console.log(++k);
-            $list.append("<p>" + description + "</p>" + "<strong style='font-size:35px;font-weight:300;'><br>RULES<br><br></strong>");console.log(++k);
+            $list.append("<p>" + description + "</p>" + "<strong id='rulesRules' style='font-size:35px;font-weight:300;font-family:'Source Sans Pro','Open Sans', sans-serif;'><br>RULES<br><br></strong>");console.log(++k);
             $mR.css("background", "none");console.log(++k);
             $(".bgRules").css({
             "background": "url('" + imagePath + "') no-repeat"
@@ -131,21 +131,12 @@ var imagePath ;
         $mL.addClass("showMe").addClass("animL");
         $('#wrapper').addClass("lightsDim");
              
-             setTimeout(padR, 2200);
+             
              
          
         }
     
-    function padR(){
-     var padR = $(document).width();
-     console.log(padR);
-     var p =($(".rulebook").position().left + $(".rulebook").width());
-     console.log(p);
-     padR -= p;
-        padR-=38;
-     console.log(padR);
-     $('.rulebook').css('padding-right',padR + 'px');
-    }
+   
     
     var eventRegistrationForm;
     $rc.click(function() {

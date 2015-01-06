@@ -177,7 +177,19 @@
         $('#header').fadeIn(1000);
          $('#nav').css("padding-right","0px");
      });
-    
+    $rc = $(".round-thumb");
+     $rc.click(function(){setTimeout(padR, 2200);});
+      function padR(){
+     var padR = $(document).width();
+     console.log(padR);
+     var p =($(".rulebook").position().left + $(".rulebook").width());
+     console.log(p);
+     padR -= p;
+        padR-=38;
+     console.log(padR);
+     $('.rulebook').css('padding-right',padR + 'px');
+    }
+     
      
       var $clickCount=0;
     var $left=-1800;
