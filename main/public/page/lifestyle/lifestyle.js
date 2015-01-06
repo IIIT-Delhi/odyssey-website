@@ -130,21 +130,36 @@ var imagePath ;
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");
         $('#wrapper').addClass("lightsDim");
+             
+             setTimeout(padR, 2200);
+             
          
         }
+    
+    function padR(){
+     var padR = $(document).width();
+     console.log(padR);
+     var p =($(".rulebook").position().left + $(".rulebook").width());
+     console.log(p);
+     padR -= p;
+        padR-=38;
+     console.log(padR);
+     $('.rulebook').css('padding-right',padR + 'px');
+    }
+    
     var eventRegistrationForm;
     $rc.click(function() {
         eventName = $(this).attr('id');
         switch (eventName) { 
             case 'verve': 
-                imagePath = "/page/reverbeBan.png";
+                imagePath = "/page/MrMsOdysseyBan.png";
                 arrayOfRules = vrules;
                 description = verve;
-                eventRegistrationForm = "#";/*"https://docs.google.com/a/iiitd.ac.in/forms/d/1Uk6AyO3BP_-YbAZWjE6NvtZn8q94tzKJ5wJRYjUY1pk/viewform";*/
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1MMjq5EYbr-f1JDeTO5utALp2i1Z-tHndEtnF0CoHCug/viewform?c=0&w=1";/*"https://docs.google.com/a/iiitd.ac.in/forms/d/1Uk6AyO3BP_-YbAZWjE6NvtZn8q94tzKJ5wJRYjUY1pk/viewform";*/
                 break;
 
             case 'battletroupe': 
-                imagePath = "/page/MrMsOdysseyBan.png";
+                imagePath = "/page/reverbeBan.jpg";
                 arrayOfRules = rulesID523;
                 description =  btd;
                  eventRegistrationForm = "https://docs.google.com/forms/d/17jkNj9nXOH93BC_irbj9FJS90DZhcVbeW7T21GoLzqo/viewform";
