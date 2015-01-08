@@ -15,14 +15,13 @@ $subBox=$('.subbtncontainer');
     var rulebook = {
         "artival": {
             "eventName": "Artival- Carnival of Art",
-            "eventShortDescription": ["The two day art marathon.",
+            "eventShortDescription": ["The two day art marathon.", "<br>(All the above are individual events. Prizes will be awarded to the top three teams in each of the above. Participants can choose to participate in them separately or take part in artival)",
            "Sub Events:",
            "<a href='https://www.facebook.com/events/755963587817648/' id='sub11'>1. Arty Graffiti</a>",
            "<a href='https://www.facebook.com/events/651609038291557/?context=create&previousaction=create&source=49&sid_create=2577524534' id='sub12'>2. MASK-ermind</a>",
            "<a href='#' id='sub13'>3. OEKAKI - The Sketching Contest</a>",
            "<a href='https://www.facebook.com/events/723983697671160/' id='sub14'>4. Cartoonista- Cartoon Strip</a>",
-           "<a href='#' id='sub15'>5. Paper-o-Mosaic</a>",
-           "<br>(All the above are individual events. Prizes will be awarded to the top three teams in each of the above. Participants can choose to participate in them separately or take part in artival)"],
+           "<a href='#' id='sub15'>5. Paper-o-Mosaic</a>",]
             "rules": [
 "Maximum team size allowed: 4",
 "Only 2 team members are allowed to participate in any sub event and earn points for the team.",
