@@ -114,28 +114,33 @@ var eventRegistrationForm="#";
                 imagePath = "/page/culturatiBan.png";
                 arrayOfRules = bybrules;
                 description = byb;
+                eventRegistrationForm = "https://docs.google.com/forms/d/1VGn93KgBjUXaIJdlJv7leZrM7Z50XvFdWc9ivouExNw/viewform";
                 break;
 
             case 'drk':
                 imagePath = "/page/dilliwalaQuizBan.png";
                 arrayOfRules = drkrules;
                 description =  drk;
+                eventRegistrationForm = "https://docs.google.com/forms/d/1UYBxim3hILHT-MpdMkRJtFe192rx1e30_33S7JsXAcI/viewform";
                 break;
 
             case 'ph':
                 imagePath = "/page/fantasyQuizzingBan.png";
                 arrayOfRules = phrules;
                 description =  ph;
+                eventRegistrationForm = "https://docs.google.com/forms/d/11qxf2u3dPEC_EirNLGt5_g4H2DP7sy_4puufUxqu33c/viewform";
                 break;
             case 've':
                 imagePath = "/page/generalQuizzingBan.png";
                 arrayOfRules = veRules;
                 description =  ve;
+                eventRegistrationForm = "https://docs.google.com/forms/d/1cyuEbYx4fhytrzqlzHLdgLWNSfxI3ooGvCublB6pdIU/viewform";
                 break;
 			case 'sports':
                 imagePath = "/page/sportsQuizBan.png";
                 arrayOfRules = null;
                 description =  sports;
+                eventRegistrationForm = "https://docs.google.com/forms/d/1UkosOuzfa-xw1K1R6zNxWV6pGfHwwie8EDxnwWgUV8w/viewform";
                 break;
 
 
