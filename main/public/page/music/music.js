@@ -51,14 +51,13 @@ jQuery(document).ready(function ($) {
         "uml": {
             "eventName": "UML - Undergound Music League",
             "eventShortDescription": ["<h1>Underground Music League</h1>",
-           "Sub Events:(click on the event to see the rules)",
+           "Sub Events: (click on the event to see the rules)",
            "<a href='https://docs.google.com/document/d/1gdT-rH74pn9bMjZUR4xhkdQHyaQlZ9TJC5Y_kZMs5i0/edit?usp=sharing'  id='sub11' target='_blank'>1. Rapsody</a>",
            "<a href='https://docs.google.com/document/d/1ueeugpizBX-VXzZFNiNqA4KfgmKBY0Begv1ZnRWQuig/edit?usp=sharing' id='sub12' target='_blank'>2. Vocal Chords</a>",
-           "<a href='https://docs.google.com/document/d/1Qs7LOtu2Eolc2co7gv87i3tVJy-vCIptF6x_XosKq-0/edit?usp=sharing' id='sub13' target='_blank'>3. BdwnBdup</a>",
-           "<a href='https://docs.google.com/document/d/13xPWiCs9HFCWUjwx2Meen3Vli4k4q_y6BO6mS90f_Tk/edit?usp=sharing' id='sub14' target='_blank'>4. Charade</a>"],
-            "rules": ["(All the above are individual events.)"],
+           "<a href='https://docs.google.com/document/d/1Qs7LOtu2Eolc2co7gv87i3tVJy-vCIptF6x_XosKq-0/edit?usp=sharing' id='sub13' target='_blank'>3. BdwnBdup</a>"],
+            "rules": [],
             "facebookLink": "your facebook link without any space",
-            "eventHeads" :[]
+            "eventHeads" :["Email ID : umlodyssey@gmail.com<br><br>","Divay Prakash : +91-9650016622","Kunal Sharma : +91-9711442853","Pulkit Rohilla : +91-7838613665"]
         },
         
         "encore": {
@@ -188,7 +187,8 @@ var count=1;
         $modalListOfRules.empty();
         $subBox.fadeOut(10);
         //console.log(++k);
-        $list.append("<strong id='rulesRules' style='font-size:35px;font-weight:300;font-family:'Source Sans Pro','Open Sans', sans-serif !important;'><br>RULES<br><br></strong>");
+        if(eventName!="uml")
+            $list.append("<strong id='rulesRules' style='font-size:35px;font-weight:300;font-family:'Source Sans Pro','Open Sans', sans-serif !important;'><br>RULES<br><br></strong>");
         //console.log(++k);
         $mR.css("background", "none");
         //console.log(++k);
