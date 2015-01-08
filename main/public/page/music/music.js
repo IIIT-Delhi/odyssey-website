@@ -266,6 +266,7 @@ var count=1;
             desc = rulebook.bob.eventShortDescription;
             arrayOfRules = rulebook.bob.rules;
             eventHead = rulebook.bob.eventHeads;
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1ccbHFglpN0-8uOeFXhwrjXZ-bYYC07bsJrLDaPi9zEU/viewform";
             break;
         case 'encore':
             imagePath = "/page/music/encoreBan.png";
