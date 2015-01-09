@@ -42,8 +42,8 @@ jQuery(document).ready(function ($) {
 
         "bob": {
             "eventName": "Battle Of Bands",
-            "eventShortDescription": "<h1>Battle Of Bands</h1><br><br><p>Rock the stage with IIIT-Delhi's battle of the bands. Get a chance to battle it out with the best bands across India and make your place among the legends. Battle of Bands '15 gives you the platform to exhibit the hard rock talent in you. With entrancing music and ear-splitting performances, we promise you an amazing experience. Be there!<br><br>There are two stages in the competition. The first is online prelims. Bands will submit two recordings, out of which at least one is an original composition. Six bands will be shortlisted by the judges, which will perform live on 24th Jan.<br>Send us in at least two recorded entries and video links to your band’s performances. Entries must be sent in before 11:59 PM, 20th January.<br><br>Registrations will open shortly.</p>",
-            "rules": [" No registration fees will be charged."," The band can have at most eight (8) members . No more than 8 inputs will be provided on the stage. "," Having a vocalist in the band is a necessity. No instrumental tracks will be considered. "," No college/age restrictions "," The preliminary round will be open to all bands. The bands will be asked to submit two recordings of at most 10 minutes each. At least one of them has to be an original composition."," There will be no language restrictions on the entries. "," The selection of teams will be the sole discretion of the judges.Professionals will be handling the judging of the event. Judges for both rounds can be different. They will be announced before hand ","We believe in transparency, marks awarded to each band in the second round will be declared"," Once you have cleared the preliminary round, further details shall be provided to you about the finals. Six bands will be short listed by the judges for the final round. ","Please be on time for the final event at the venue specified. If you reach after your performance slot, you will not be allowed to participate. ","on the spot registration will not be allowed at the venue of the event. ","The time limit for the performance is 20 minutes on and off the stage, exceeding which a deduction in the score for that performance will take place as per the rules decided by the judges. "," Each band has to get its own instruments. Only a common drum kit with a single bass pedal will be provided. Drummers can bring their own cymbals and pedals. "," Sequencing will NOT be allowed. It will result in the band being disqualified","The final decision regarding any matter is unquestionable and lies in the hands of the organizers and judges."," For the final round, each band will have to submit the lyrics of their original song as a typed sheet. Please do not scrawl it out on a piece of paper at the last minute and present to the judges. Our judges are music experts- not handwriting analysts. "],
+            "eventShortDescription": "<h1>Battle Of Bands</h1><br><br><p>Rock the stage with IIIT-Delhi's battle of the bands. Get a chance to battle it out with the best bands across India and make your place among the legends. Battle of Bands '15 gives you the platform to exhibit the hard rock talent in you. With entrancing music and ear-splitting performances, we promise you an amazing experience. Be there!<br><br>There are two stages in the competition. The first is online prelims. Bands will submit two recordings, out of which at least one is an original composition. Six bands will be shortlisted by the judges, which will perform live on 24th Jan.<br>Send us in at least two recorded entries and video links to your band’s performances. Entries must be sent in before 11:59 PM, 20th January.<br><br>Registrations now open.</p>",
+            "rules": [" No registration fees will be charged."," The band can have at most eight (8) members and minimum three (3) members . No more than 8 inputs will be provided on the stage. "," Having a vocalist in the band is a necessity. No instrumental tracks will be considered. "," No college/age restrictions "," The preliminary round will be open to all bands. The bands will be asked to submit two recordings of at most 10 minutes each. At least one of them has to be an original composition."," There will be no language restrictions on the entries. "," The selection of teams will be the sole discretion of the judges.Professionals will be handling the judging of the event. Judges for both rounds can be different. They will be announced before hand ","We believe in transparency, marks awarded to each band in the second round will be declared"," Once you have cleared the preliminary round, further details shall be provided to you about the finals. Six bands will be short listed by the judges for the final round. ","Please be on time for the final event at the venue specified. If you reach after your performance slot, you will not be allowed to participate. ","on the spot registration will not be allowed at the venue of the event. ","The time limit for the performance is 20 minutes on and off the stage, exceeding which a deduction in the score for that performance will take place as per the rules decided by the judges. "," Each band has to get its own instruments. Only a common drum kit with a single bass pedal will be provided. Drummers can bring their own cymbals and pedals. "," Sequencing will NOT be allowed. It will result in the band being disqualified","The final decision regarding any matter is unquestionable and lies in the hands of the organizers and judges."," For the final round, each band will have to submit the lyrics of their original song as a typed sheet. Please do not scrawl it out on a piece of paper at the last minute and present to the judges. Our judges are music experts- not handwriting analysts. "],
             "facebookLink": "your facebook link without any space",
             "eventHeads" :["Kushagra singh : 8130962007","Gurshabad Grover : +919873686518", "Puneet Jain : 9717037957"]
         },
@@ -242,14 +242,19 @@ var count=1;
         $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't knwo why.
         $('.registerbtn').on('click',exception);
         setTimeout(showpanel, 1900);
-        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });         }, 2400);
+        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });      $('.rulebook ol li').css("margin-right","7px");         }, 2400);
        
  /*setTimeout(function(){
-        $(".nano").nanoScroller({alwaysVisible: true });
+        $(".nano").nanoScroller({alwaysVisible: true });      $('.rulebook ol li').css("margin-right","7px");
         }, 2400);*/
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");
         $('#wrapper').addClass("lightsDim");
+        
+//        setTimeout(function(){
+  
+//        },1000);
+        
         
 
 
@@ -266,7 +271,7 @@ var count=1;
             desc = rulebook.bob.eventShortDescription;
             arrayOfRules = rulebook.bob.rules;
             eventHead = rulebook.bob.eventHeads;
-                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/forms/d/1ccbHFglpN0-8uOeFXhwrjXZ-bYYC07bsJrLDaPi9zEU/viewform";
+                eventRegistrationForm = "http://www.songdew.com/contests/IIIT-Delhi-Battle-of-bands/94";
             break;
         case 'encore':
             imagePath = "/page/music/encoreBan.png";
@@ -276,7 +281,7 @@ var count=1;
                 eventRegistrationForm = "https://docs.google.com/forms/d/1cqZ2uE81o4aeDXnGzHzFXAyV6OQiTtNmLzsr27FM1Ls/viewform?usp=send_form";
             break;
         case 'aH':
-            imagePath = "/page/music/ahBan.png";
+            imagePath = "/page/music/AcousticHymnsBan.png";
             desc = rulebook.aH.eventShortDescription;
             arrayOfRules = rulebook.aH.rules;
                 eventHead = rulebook.aH.eventHeads;

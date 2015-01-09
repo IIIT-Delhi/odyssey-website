@@ -67,7 +67,7 @@ var imagePath ;
              
             
              setTimeout(showpanel, 1900);
-        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });         }, 2400);
+        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });      $('.rulebook ol li').css("margin-right","7px");         }, 2400);
         
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");

@@ -232,7 +232,7 @@ $subBox=$('.subbtncontainer');
         $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
         $('.registerbtn').on('click',exception);
         setTimeout(showpanel, 1900);
-        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });         }, 2400);
+        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });      $('.rulebook ol li').css("margin-right","7px");         }, 2400);
 
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");
@@ -279,7 +279,7 @@ $subBox=$('.subbtncontainer');
         switch (eventName) {
         case 'artival':
                 eventTitle = rulebook.artival.eventName;
-            imagePath = "/page/finearts/artivalBan.png";
+            imagePath = "/page/finearts/artivalBan.jpg";
             desc = rulebook.artival.eventShortDescription;
             arrayOfRules = rulebook.artival.rules;
             eventHead = rulebook.artival.eventHeads;
@@ -287,7 +287,7 @@ $subBox=$('.subbtncontainer');
             break;
         case 'paintOdyssey':
                 eventTitle = rulebook.paintOdyssey.eventName;
-            imagePath = "/page/finearts/paintOdysseyBan.png";
+            imagePath = "/page/finearts/paintOdysseyBan.jpg";
             desc = rulebook.paintOdyssey.eventShortDescription;
             arrayOfRules = rulebook.paintOdyssey.rules;
                 eventHead = rulebook.paintOdyssey.eventHeads;
@@ -295,7 +295,7 @@ $subBox=$('.subbtncontainer');
             break;
         case 'biChromaticPainting':
                 eventTitle = rulebook.biChromaticPainting.eventName;
-            imagePath = "/page/finearts/twoTonesBan.png";
+            imagePath = "/page/finearts/twoTonesBan.jpg";
             desc = rulebook.biChromaticPainting.eventShortDescription;
             arrayOfRules = rulebook.biChromaticPainting.rules;
                 eventHead = rulebook.biChromaticPainting.eventHeads;
