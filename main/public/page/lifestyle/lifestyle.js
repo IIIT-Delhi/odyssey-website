@@ -41,13 +41,13 @@ jQuery(document).ready(function($) {
 
  "For the finals, the designer must submit the music and an AV (if there is one) till 20th January. (Considering the event might be on the 24th.)",
 
-"The Designers 'must' bring their own models. (A minimum of 3 and maximum of 10)",
+"The designers can't participate as a model",
 
 "Every team will be provided with a total of 15 minutes to make the required set ups and showcase their designs. From the time your team’s name is announced to the time you finally exit.",
 
 "The designs must be original. The designers are free to use any material of their choice. There are NO restrictions as such.",
 
-"The team allowed should consist of a. Minimum 1 designer Maximum 2 designer b. Minimum 5 models Maximum 10 models c. Minimum 2 crew members Maximum 4 crew members who take care of the designing, ",
+"The team allowed should consist of a.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Minimum 1 designer Maximum 2 designer.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Minimum 5 models Maximum 12 models.",
 		
 
  "Teams must be well versed with their light requirements so as to be able to utilise their transition time period optimally.",
