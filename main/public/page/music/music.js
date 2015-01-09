@@ -85,7 +85,7 @@ jQuery(document).ready(function ($) {
 },
         "swa":{
     "eventName": "Swaraanchal: Solo Indian music ",
-    "eventShortDescription": "<h1>Swaraanchal: Solo Indian music</h1><br><br>For all those musical enthusiasts who love Indian music it’s an event where they can bring out the soulful music within and create a melodious atmosphere with their performance. You just don’t have to sing or play, you have to feel it and make others not just only love it but also live it.",
+    "eventShortDescription": "For all those musical enthusiasts who love Indian music it’s an event where they can bring out the soulful music within and create a melodious atmosphere with their performance. You just don’t have to sing or play, you have to feel it and make others not just only love it but also live it.",
     "rules": [
         "You should be a college/school student. Minimum age limit is 16 years",
         "There will be two separate categories for vocal and instrumental rounds. Each participant is allowed to participate in both.",
@@ -96,17 +96,16 @@ jQuery(document).ready(function ($) {
         "Online Prelims: Participants are required to sing/play any 1 song of their choice for 2 minutes. ",
         "Only video clips allowed for instrumental round. Both audio and video clips allowed in vocal category. ",
         "Karaoke tracks and accompaniments (atmost 2) are allowed. No audio editing is allowed in submissions. Make sure that it is your talent that shows not of your mates.",
-        "Offline Prelims: Participants are required to sing/play any 1 song of their choice for 1.5 minutes. Karaoke needs to be sent to us beforehand to swaraanchal@gmail.com with subject <yourname_karaoke>. Accompaniments (atmost 2) are allowed.",
+        "Offline Prelims: Participants are required to sing/play any 1 song of their choice for 1.5 minutes. Karaoke needs to be sent to us beforehand to swaraanchal@gmail.com with subject <yourname_karaoke>. Accompaniments (atmost 2) are allowed in all rounds.",
         "10 participants in each category will be shortlisted for further rounds that would be held on campus. Participants need to bring their instruments along. Make sure your instruments are well tuned before your performance.",
-        "Instrumental category would consist of a jugalbandi round. This would be a face-off round between 2 participants. This is the only round in which accompaniments are NOT allowed",
+        "One entry for the finals will be selected on the basis of facebook likes and shares. We will post the entries on your behalf on our facebook page",
         "Finals (Vocals): Participants have to sing one song of their choice and one from this list: http://goo.gl/uzTL3R . 2 minutes for each song will be given. People using karaoke tracks are advised to send them to us in advance.",
-        "Finals (Instrumental) Participants have to play on any composition of their choice in 4 minutes.",
+        "Finals (Instrumental) Participants have to play on any composition of their choice in 5 minutes.",
         "The organizers have the right to disqualify any participant that violates the rules and regulations.",
         "Judges Decision would be unquestionable and final.",
-        "Bonus marks will be awarded for tuning of intruments and incorporating the 'Alternate Reality' theme of the fest "
+        "Bonus marks will be awarded for incorporating the 'Alternate Reality' theme of the fest "
     ],
-    "facebookLink": "https://www.facebook.com/events/584442228324400/",
-    "eventHeads":["Nikhil singhal : 8527470596", "Devyani Rohilla : 8587094431", "Harsh Vardhan Jaiswal	: +91-9953630355"]
+    "facebookLink": "https://www.facebook.com/events/584442228324400/"
 }
           
 
