@@ -85,7 +85,7 @@ jQuery(document).ready(function ($) {
 },
         "swa":{
     "eventName": "Swaraanchal: Solo Indian music ",
-    "eventShortDescription": "For all those musical enthusiasts who love Indian music it’s an event where they can bring out the soulful music within and create a melodious atmosphere with their performance. You just don’t have to sing or play, you have to feel it and make others not just only love it but also live it.",
+    "eventShortDescription": "<h1>Swaraanchal: Solo Indian music</h1><br><br>For all those musical enthusiasts who love Indian music it’s an event where they can bring out the soulful music within and create a melodious atmosphere with their performance. You just don’t have to sing or play, you have to feel it and make others not just only love it but also live it.",
     "rules": [
         "You should be a college/school student. Minimum age limit is 16 years",
         "There will be two separate categories for vocal and instrumental rounds. Each participant is allowed to participate in both.",
@@ -108,6 +108,7 @@ jQuery(document).ready(function ($) {
     "facebookLink": "https://www.facebook.com/events/584442228324400/"
 }
           
+
 
 
 
