@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
     
     var description = ""; // change the event wise description in the switch case at the end not this
 
-    var btd = "<h1>Battle Troupe</h1><br><br><p>Let Your Moves Do The talking.</p><p><b>Two rounds event :</b></p><p><b>Prelims :</b> Video based selection round (judged by a particular panel - judging criteria to be decided).</b></p><p><b>Finals :</b> Best 15 teams selected from the prelims will compete against each other on the day of the final event (judged by a particular panel - judging criteria to be decided)</p><p>Odyssey’15, IIIT Delhi invites you to a fleeting moment where you feel alive, to enchant with your vibrant rhythm, to speak out all through dance and of-course claim the BattleTroupe crown!</p>";
+    var btd = "<h1>Battle Troupe</h1><br><br><p>Let Your Moves Do The talking.</p><p>Odyssey’15, IIIT Delhi invites you to a fleeting moment where you feel alive, to enchant with your vibrant rhythm, to speak out all through dance and of-course claim the BattleTroupe crown!</p><p><b>Two rounds event :</b></p><p><b>Prelims :</b> Video based selection round (judged by a particular panel - judging criteria to be decided).</b></p><p><b>Finals :</b> Best 15 teams selected from the prelims will compete against each other on the day of the final event (judged by a particular panel - judging criteria to be decided)</p>";
     var fo = "<h1>Face Off</h1><br><br><p>Face it off against your rivals. Prove your mettle. Be so good, they just can’t ignore you!</p>";
     var verve = "<h1>Verve</h1><br><br><p>\"Get your body out of the way and let your spirit soar!\" - Ibrahim Farrah</p> <p>Calling out all dance enthusiasts out there to dance their heart out. Whatever your interest be - jazz, hip hop, contemporary ,classical or freestyle, come join us this Odyssey ! Verve gives you the chance to showcase your hidden talent and passion for dance. Put forward a short solo performance in the preliminary round to secure your spot in the finals.</p>";
 
@@ -29,20 +29,21 @@ jQuery(document).ready(function($) {
 "The decision of the judges will be final and binding."]
 
     var rulesID523 = [
+	"The last date of registration for prelims is 22nd January 2015.",
     "There is no restriction on the theme. It’s an Open theme Group Dance Competition.",
     "Maximum 2 teams per college allowed.",
     "Cross-college teams are not allowed.",
-    "Only college students are allowed to participate.",
+    "Only college students are allowed to participate.<br/> <br/> Prelims:-",
     "Teams have to submit a 3-5 minute video of their performance for prelims.",
 "Incase of multiple video submissions,only the first one will be considered for evaluation.",
 "No late entries shall be tolerated.",
 "On clearing the preliminary round, further details will be provided to the selected teams about the finals via mail/phone.",
 "Decision of the judges and the Organising Committee will be final and binding.",
-"No responsibility will be held by Odyssey’15, IIITD for any late or lost entries or any such events.",
-"Time limit per team : 4-6 minutes. (+1 for setting up and clearance). Teams will be penalized in case the time limit is exceeded.",
-"Team size should not be more than 20. However there must be at least 4 members on stage at any point during the performance.",
+"No responsibility will be held by Odyssey’15, IIITD for any late or lost entries or any such events.<br/><br/> Finals:-",
+"Time limit per team : 8 minutes. Teams will be penalized in case the time limit is exceeded.",
+"Team size should not be more than 15. However there must be at least 4 members on stage at any point during the performance.",
 "It is mandatory for all the team members to carry their college ID cards to the final event.",
-"Usage of props is allowed and should be consulted with any of the event heads in advance. PS it does not carry extra credit.",
+"Usage of props is allowed and should be consulted with any of the event heads in advance. (it does not carry extra credit).",
 "Use of fire or any other inflammable object is restricted and accounts for negative marking.",
 "No lead dancer or solo performance is allowed at any point of time during the performance.",
 "The selected teams must send their final song track 2 days before the final event and also bring the same in a pendrive/CD on the day of the final event.",
@@ -148,11 +149,5 @@ var imagePath ;
     });
 
     $cross.click(exitModal);
-
-
-
-    
-    
-
 
 });
