@@ -47,7 +47,7 @@ jQuery(document).ready(function($) {
 
 "The designs must be original. The designers are free to use any material of their choice. There are NO restrictions as such.",
 
-"The team allowed should consist of a.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Minimum 1 designer Maximum 2 designer.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Minimum 5 models Maximum 12 models.",
+"The team allowed should consist of :-<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Minimum 1 designer Maximum 2 designer.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Minimum 5 models Maximum 12 models.",
 		
 
  "Teams must be well versed with their light requirements so as to be able to utilise their transition time period optimally.",
