@@ -203,7 +203,7 @@ $('.categoryMenuItem').on('click', function(){
         $('.dropdown').animate({
             left:"0px",
             
-    },800,'easeOutBounce');
+    },800,'easeInBack');
         
         $left*=(-1);
         $clickCount=1;
@@ -212,7 +212,7 @@ $('.categoryMenuItem').on('click', function(){
         $clickCount=0;
           $('.dropdown').animate({
         left:""+$left+"px",     
-    },800,'easeOutBounce');
+    },800,'easeInBack');
         $('.dropdown').fadeOut(10);
         
     }

@@ -134,7 +134,7 @@ var count=1;
                 bottom: "282px",
                 width:"90%",
                 left:"90px",
-            },800,'easeOutBounce');
+            },800,'easeInBack');
         }
         else {
              

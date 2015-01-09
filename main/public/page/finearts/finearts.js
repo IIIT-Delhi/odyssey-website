@@ -15,7 +15,7 @@ $subBox=$('.subbtncontainer');
     var rulebook = {
         "artival": {
             "eventName": "Artival- Carnival of Art",
-            "eventShortDescription": ["The two day art marathon.", "<br>(All the above are individual events. Prizes will be awarded to the top three teams in each of the above. Participants can choose to participate in them separately or take part in artival)",
+            "eventShortDescription": ["The two day art marathon.",
            "Sub Events:",
            "<a href='https://www.facebook.com/events/755963587817648/' id='sub11'>1. Arty Graffiti</a>",
            "<a href='https://www.facebook.com/events/651609038291557/?context=create&previousaction=create&source=49&sid_create=2577524534' id='sub12'>2. MASK-ermind</a>",
@@ -256,7 +256,7 @@ $subBox=$('.subbtncontainer');
                 bottom: "180px",
                 width:"90%",
                 left:"60px",
-            },800,'easeOutBounce');}
+            },800,'easeInBack');}
         else{
              
             
