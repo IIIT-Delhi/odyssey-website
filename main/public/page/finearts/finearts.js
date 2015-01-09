@@ -21,26 +21,16 @@ $subBox=$('.subbtncontainer');
            "<a href='https://www.facebook.com/events/651609038291557/?context=create&previousaction=create&source=49&sid_create=2577524534' id='sub12'>2. MASK-ermind</a>",
            "<a href='#' id='sub13'>3. OEKAKI - The Sketching Contest</a>",
            "<a href='https://www.facebook.com/events/723983697671160/' id='sub14'>4. Cartoonista- Cartoon Strip</a>",
-           "<a href='#' id='sub15'>5. Paper-o-Mosaic</a>",]
-            "rules": [
-"Maximum team size allowed: 4",
+           "<a href='#' id='sub15'>5. Paper-o-Mosaic</a>"],
+            "rules": ["Maximum team size allowed: 4",
 "Only 2 team members are allowed to participate in any sub event and earn points for the team.",
 "Rest of the team members may participate in the said event but won’t be representing their team and hence will not be eligible for any points.",
 "Each team needs to take part in minimum 3 events to qualify for Artival",
 "If you register for Artival via the registration tab, you need not register for the sub-events again.",
 "Teams earn following points for each sub-event as follows:",
  ["1st position: 100 points",
-"2nd position: 80 points",
-"3rd position: 60 points",
-"4th position: 40 points",
-"5th position: 25 points",
-"Participating: 10 points",
-"Not Participating: 0 point"],
-"Top 2 teams will be the art category winners!!<br>",
-"<span style='text-decoration: underline; color:red;font-size:20px;'>Arty Graffiti:-</span>",
-                [
-                    "People say graffiti is ugly, irresponsible and childish...but that’s only if it’s done properly.”-Bansky. Did you ever fancy the spray paintings on wall shown in movies ? Ever had the dream of painting your imagination and thoughts on the wall ? Well then this is a golden chance to turn the wall into your canvas. Graffiti is itself an alternate reality, a utopia.There are no hard and fast rules for the graffiti art so get street smart and come out with your funky side. Just let your imagination run wild and let the things flow...",
-                    "<strong>More Rules :</strong>",
+"2nd position: 80 points","3rd position: 60 points","4th position: 40 points","5th position: 25 points","Participating: 10 points","Not Participating: 0 point"],"Top 2 teams will be the art category winners!!<br>","<span style='text-decoration: underline; color:red;font-size:20px;'>Arty Graffiti:-</span>",
+                ["People say graffiti is ugly, irresponsible and childish...but that’s only if it’s done properly.”-Bansky. Did you ever fancy the spray paintings on wall shown in movies ? Ever had the dream of painting your imagination and thoughts on the wall ? Well then this is a golden chance to turn the wall into your canvas. Graffiti is itself an alternate reality, a utopia.There are no hard and fast rules for the graffiti art so get street smart and come out with your funky side. Just let your imagination run wild and let the things flow...","<strong>More Rules :</strong>",
                     "The theme is “Alternate Reality”. Every team needs to incorporate this theme and explain the drawing in round 1 to the judges. Based on the idea and theme portrayed in the drawing, judges will decide who will go into the next round.",
                     "The event consists of 2 rounds:<br>", "Max Team size 4 (min size 2)", "Age Limit: 18-25 yrs",
                     "Round 1 (Duration 20 minutes):", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Every group will be given a chart paper for drawing the idea for the graffiti.", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Based on the drawing the judges will decide the teams for the next round", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The top 10 teams will go into the next round.",
@@ -49,7 +39,8 @@ $subBox=$('.subbtncontainer');
                     "The participants should be between 18-25 yrs.",
                     "10 teams shall be selected for the second round i.e final round.<br>"
                 ],
-                "<span style='text-decoration: underline; color:red;font-size:20px;'>MASK-ermind</span><p><br>Remember the iconic mask of Darth Vadar ?Charmed to death by V ? They say give a man a mask,and he’ll show you his true self. Well, Odyssey’s tagline ‘Reality is an illusion’ cannot be anymore suited for this! We hereby present to you our mask making event - MASK-ermind! Get those creative juices flowing and prove the artistic flair in you, by unveiling the disparity between the mask,and what it is obscuring beneath. Because ofcourse, there’s always more to that encounter than meets the eye ;) </p>", ["Everything has to be made on the spot-no prior preparations allowed.", " Use of cellphones or other such reference material is strictly prohibited.", "Any medium of colour can be used. ", " A3 size chart paper and extra chart paper ,glue will be provided.", "Other required stationery has to be brought by the participants. It will not be provided.", "Podium Finish- 1st , 2nd and 3rd. <br><br>"],
+                "<span style='text-decoration: underline; color:red;font-size:20px;'>MASK-ermind</span><p><br>Remember the iconic mask of Darth Vadar ?Charmed to death by V ? They say give a man a mask,and he’ll show you his true self. Well, Odyssey’s tagline ‘Reality is an illusion’ cannot be anymore suited for this! We hereby present to you our mask making event - MASK-ermind! Get those creative juices flowing and prove the artistic flair in you, by unveiling the disparity between the mask,and what it is obscuring beneath. Because ofcourse, there’s always more to that encounter than meets the eye ;) </p>",
+            ["Everything has to be made on the spot-no prior preparations allowed."," Use of cellphones or other such reference material is strictly prohibited.","Any medium of colour can be used. "," A3 size chart paper and extra chart paper ,glue will be provided.", "Other required stationery has to be brought by the participants. It will not be provided.", "Podium Finish- 1st , 2nd and 3rd.<br><br>"],
 
                 "<span style='text-decoration:underline; color:red;font-size:20px;'>Cartoonista : escape into your own reality!</span>",
             [
