@@ -105,7 +105,8 @@ jQuery(document).ready(function ($) {
         "Judges Decision would be unquestionable and final.",
         "Bonus marks will be awarded for incorporating the 'Alternate Reality' theme of the fest "
     ],
-    "facebookLink": "https://www.facebook.com/events/584442228324400/"
+    "facebookLink": "https://www.facebook.com/events/584442228324400/",
+            "eventHeads":["Nikhil singhal : 8527470596", "Devyani Rohilla : 8587094431", "Harsh Vardhan Jaiswal	: +91-9953630355"]
 }
           
 
