@@ -7,7 +7,7 @@ var path = require('path');
 //app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.set('port', process.env.PORT || 8080);
+//app.set('port', process.env.PORT || 8080);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
@@ -27,5 +27,5 @@ app.get('/music', routes.music);
 app.get('/team', routes.team);
 app.get('/dt', routes.dt);
 
-app.listen(8080);
-//app.listen(80);
+//app.listen(8080);
+app.listen(80);
