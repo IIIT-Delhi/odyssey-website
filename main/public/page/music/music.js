@@ -99,7 +99,7 @@ jQuery(document).ready(function ($) {
         "Offline Prelims: Participants are required to sing/play any 1 song of their choice for 1.5 minutes. Karaoke needs to be sent to us beforehand to swaraanchal@gmail.com with subject <yourname_karaoke>. Accompaniments (atmost 2) are allowed in all rounds.",
         "10 participants in each category will be shortlisted for further rounds that would be held on campus. Participants need to bring their instruments along. Make sure your instruments are well tuned before your performance.",
         "One entry for the finals will be selected on the basis of facebook likes and shares. We will post the entries on your behalf on our facebook page",
-        "Finals (Vocals): Participants have to sing one song of their choice and one from this list: http://goo.gl/uzTL3R . 2 minutes for each song will be given. People using karaoke tracks are advised to send them to us in advance.",
+        "Finals (Vocals): Participants have to sing one song of their choice and one from this list: <a href='http://goo.gl/uzTL3R'>http://goo.gl/uzTL3R</a> . 2 minutes for each song will be given. People using karaoke tracks are advised to send them to us in advance.",
         "Finals (Instrumental) Participants have to play on any composition of their choice in 5 minutes.",
         "The organizers have the right to disqualify any participant that violates the rules and regulations.",
         "Judges Decision would be unquestionable and final.",
