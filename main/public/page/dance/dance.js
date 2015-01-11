@@ -16,7 +16,14 @@ jQuery(document).ready(function($) {
     var fo = "<h1>Face Off</h1><br><br><p>Face it off against your rivals. Prove your mettle. Be so good, they just can’t ignore you!</p>";
     var verve = "<h1>Verve</h1><br><br><p>\"Get your body out of the way and let your spirit soar!\" - Ibrahim Farrah</p> <p>Calling out all dance enthusiasts out there to dance their heart out. Whatever your interest be - jazz, hip hop, contemporary ,classical or freestyle, come join us this Odyssey ! Verve gives you the chance to showcase your hidden talent and passion for dance. Put forward a short solo performance in the preliminary round to secure your spot in the finals.</p>";
 
-    var forules = ["Preferred dance styles are Hip Hop and Breakdance. But if you're feeling lucky with your own style, give it a go!","Props Allowed.","Battle Time : Approx 3 minutes. 2 rounds/team.","Participants must send their own music for the first round by at least 2 days before the event kicks off. The track should be of approximately 1 minute 30 seconds with a transition after around 40 seconds. Submitted tracks should be in .mp3 format.","School and college students only.","All participants must report at the registration desk two hours before the event.","It is mandatory for all the participants to carry their institute ID cards to the event."," Decision of the judges and the Organizing Committee will be final and binding.","No responsibility will be held by Odyssey'15, IIITD for any late or lost entries or any such events.","The college reserves the right, in its sole discretion, to disqualify any entry at any time in the event if it is determined that the entrant has not complied with these rules or has acted in an unsportsmanlike or disruptive manner. The organizers reserve the right to change the rules as they deem fit.","The prizes are subject to change on the basis of participation."]
+    var forules = ["Age Limit : 16 - 25 years.",
+                   "Last date of online registration is 24th January 2015. On the spot registrations will also be open but priority will be given to online registrations.",
+"Any props/costumes if to be used should be arranged by the participants. Use of fire or any other inflammable object is restricted and accounts for negative marking.",
+"Qualified participants have to ensure that one copy of their edited song is with the event head and one copy they should carry with them. Song should be in .mp3 format. Also, it is the contestant’s duty to be careful and aware of the order of performance and should be present 15 mins before the allotted time.",
+"All the participants are required to carry their identity cards to the campus on the day of the event.",
+"The organizing committee reserves the right to change the venue, time and rules, if required.",
+"The decision of the judges will be final and binding.",
+"Organizers have the right to disqualify any team if they break any rule."]
 
     var vrules = [
     "Only college students are allowed.",

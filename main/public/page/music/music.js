@@ -62,7 +62,7 @@ jQuery(document).ready(function ($) {
         
         "encore": {
 "eventName": "Encore",
-"eventShortDescription": ["<h1>Encore- Solo Western Music</h1><br><br>Without music, life would be an error.’<br>Do you have a penchant for singing or an instrument and think you are skilled enough to beat the best? Is music an escape from the reality you live in? Then Encore, Odyssey’15 is the platform you’ve been looking for! Compete with the best singers / instrumentalists and show your talent to the world. Exciting prizes up for grabs!"],
+"eventShortDescription": ["<h1>Encore- Solo Western Music</h1><br><br>Without music, life would be an error.’<br>Do you have a penchant for singing or an instrument and think you are skilled enough to beat the best? Is music an escape from the reality you live in? Then Encore, Odyssey’15 is the platform you’ve been looking for! Compete with the best singers / instrumentalists and show your talent to the world. Exciting prizes up for grabs!<br><br>Event Dates :-<br>Encore solo instrumental: 30th Jan<br>Encore solo singing: 31st Jan<br>"],
 "rules": [
 "All those in the age group 17-25 years are eligible.",
 "Vocals will be held on the first day and Instrumentals on the second day of the fest",
