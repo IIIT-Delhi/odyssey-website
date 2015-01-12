@@ -132,7 +132,7 @@ var imagePath ;
          $('.registerbtn').prop('href',eventRegistrationForm); // using prop instead attr makes it work. Don't know why.
 
              setTimeout(showpanel, 1900);
-        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });      $('.rulebook ol li').css("margin-right","7px");         }, 2400);
+        setTimeout(exitOnclickAnywhere, 2000);setTimeout(function(){         $(".nano").nanoScroller({alwaysVisible: true });      $('.rulebook ol li').css("margin-right","7px !important");         }, 2400);
         
         $mR.addClass("showMe").addClass("animR");
         $mL.addClass("showMe").addClass("animL");

@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
     var verve = "<h1>Verve</h1><br><br><p>\"Get your body out of the way and let your spirit soar!\" - Ibrahim Farrah</p> <p>Calling out all dance enthusiasts out there to dance their heart out. Whatever your interest be - jazz, hip hop, contemporary ,classical or freestyle, come join us this Odyssey ! Verve gives you the chance to showcase your hidden talent and passion for dance. Put forward a short solo performance in the preliminary round to secure your spot in the finals.</p>";
 
     var forules = ["Age Limit : 16 - 25 years.",
-                   "Last date of online registration is 24th January 2015. On the spot registrations will also be open but priority will be given to online registrations.",
+                   "Last date of online registration is 28th January 2015. On the spot registrations will also be open but priority will be given to online registrations.",
 "Any props/costumes if to be used should be arranged by the participants. Use of fire or any other inflammable object is restricted and accounts for negative marking.",
 "Qualified participants have to ensure that one copy of their edited song is with the event head and one copy they should carry with them. Song should be in .mp3 format. Also, it is the contestant’s duty to be careful and aware of the order of performance and should be present 15 mins before the allotted time.",
 "All the participants are required to carry their identity cards to the campus on the day of the event.",

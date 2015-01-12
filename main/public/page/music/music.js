@@ -17,6 +17,7 @@ jQuery(document).ready(function ($) {
 "eventName": "Acoustic Hymns",
 "eventShortDescription": "<h1>Acoustic Hymns</h1><br><br>If jamming away your blues or singing to celebrate is your thing, then no look further! We present to you Acoustic hymns, the acoustic music event of Odyssey’15 wherein you can turn on the Mozart in you and compose music that touches the soul. Compete in this heated acoustic performance rivalry and win the crowd over!<br>This time the strings are attached!",
 "rules": [
+    "Event date is 31st January",
 "Team Composition: minimum-3 and maximum-8",
 "Teams per College: Unlimited",
 "Registration: Online, Pre-Registration must",
@@ -87,6 +88,7 @@ jQuery(document).ready(function ($) {
     "eventName": "Swaraanchal: Solo Indian music ",
     "eventShortDescription": "<h1>Swaraanchal: Solo Indian music</h1><br><br>For all those musical enthusiasts who love Indian music it’s an event where they can bring out the soulful music within and create a melodious atmosphere with their performance. You just don’t have to sing or play, you have to feel it and make others not just only love it but also live it.",
     "rules": [
+        "Vocals:<br>Date- 30 Jan, 2015<br>Time- 10am to 4 pm","Instrumentals:<br>Date- 31 Jan, 2015<br>Time- 10 am to 4pm",
         "You should be a college/school student. Minimum age limit is 16 years",
         "There will be two separate categories for vocal and instrumental rounds. Each participant is allowed to participate in both.",
         "Only one entry in each category will be accepted. ",
@@ -103,7 +105,8 @@ jQuery(document).ready(function ($) {
         "Finals (Instrumental) Participants have to play on any composition of their choice in 5 minutes.",
         "The organizers have the right to disqualify any participant that violates the rules and regulations.",
         "Judges Decision would be unquestionable and final.",
-        "Bonus marks will be awarded for incorporating the 'Alternate Reality' theme of the fest "
+        "Bonus marks will be awarded for incorporating the 'Alternate Reality' theme of the fest.",
+        "Western based instruments are not allowed except Acoustic Guitar."
     ],
     "facebookLink": "https://www.facebook.com/events/584442228324400/",
             "eventHeads":["Nikhil singhal : 8527470596", "Devyani Rohilla : 8587094431", "Harsh Vardhan Jaiswal	: +91-9953630355"]
