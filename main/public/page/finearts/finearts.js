@@ -120,19 +120,21 @@ $subBox=$('.subbtncontainer');
         },
         "imaginacia": {
             "eventName": "Imaginacia",
-            "eventShortDescription": "<br>'The world of reality has its limits; the world of imagination is boundless'<br><br>Do you like to put down your thoughts beautifully on the canvas? If yes, its time to wake up the painter inside you and paint the town red. Odyssey’15 presents to you an event - Imaginacia - which lets you bring out the best of your imagination. You will be rendezvoused with a classic painting event that lets you showcase your talent and paint your hearts out. Wear your painting gloves, stuff some brushes and head towards IIITD for an imaginative outburst of colors.",
+            "eventShortDescription": "'The world of reality has its limits; the world of imagination is boundless'<br><br>Do you like to put down your thoughts beautifully on the canvas? If yes, its time to wake up the painter inside you and paint the town red.<br><br>Odyssey’15 presents to you an event - Imaginacia - which lets you bring out the best of your imagination. You will be rendezvoused with a classical painting event that will let you showcase your talent and paint your hearts out. Wear your painting gloves, stuff some brushes and head towards IIITD for an imaginative outburst of colors.<br><br>Schedule:<br>30th Jan '15 -- 11:00am - 1:00pm<br>31st Jan '15 -- 11:00am - 1:00pm<br>",
             "rules": [
-"2 members per team. Lone wolves are also allowed.",
-"Cross college teams allowed",
-"Themes would be announced on the spot",
-"Teams to bring in materials they require for painting (poster colors, charcoal, oil paints ,etc)",
-"Participants would be required to create a piece of art in a timespan of 2 hours.",
-"Any technique of painting can be used",
-"Organizers reserves the right to change the venue, time and rules, if required.",
-"Judges decision would be considered final"
+" 2 members per team. Lone wolves are also allowed.",
+" Cross college teams allowed.",
+" Themes would be announced on the spot.",
+" Teams to bring in materials they require for painting (poster colors, charcoal, oil paints ,etc)",
+" Participants would be required to create a piece of art in a timespan of 2 hours.",
+" Any technique of painting can be used.",
+" Decision of Organizers shall be final and binding.",
+" The organizers reserve the right to change the rules as they deem fit.",
+" Organizers have the right to disqualify any team if they break any rule.",
+" Judges' decision would be considered final."
 ],
             "facebookLink": "your facebook link without any space",
-            "eventHeads" :["Rachna -> rachna13077@iiitd.ac.in : 8010173355","Paridhi Mittal -> paridhi12069@iiitd.ac.in"]
+            "eventHeads" :["Rachna -> rachna13077@iiitd.ac.in : 8010173355","Paridhi Mittal -> paridhi12069@iiitd.ac.in : 919013549494"]
         }
 
 
