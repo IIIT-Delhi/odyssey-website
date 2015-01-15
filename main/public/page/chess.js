@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
     
     var description = ""; // change the event wise description in the switch case at the end not this
 
-  var chessRules = ["Detailed Event Structure : - <br><br><strong>DAY 1</strong><br>Reporting Time: 2:00 pm<br>Round 1: 3:00-4:00<br>Round 2: 4:00-5:00<br><br><strong>DAY 2</strong><br>5 rounds + Breaks + Tie-breaker (if required) (Entire Day)","Event Venue:-<br><br>Venue: IIIT-Delhi, Okhla Industrial Area, Phase III, New Delhi (Near Govindpuri Metro Station), Library Block : LR0, LR2, LR3, Library<br>","Individual Participation, Swiss League Event",
+  var chessRules = ["Detailed Event Structure : - <br><br><strong>DAY 1</strong><br>Reporting Time: 2:00 pm<br>Round 1: 3:00-4:00<br>Round 2: 4:00-5:00<br><br><strong>DAY 2</strong><br>5 rounds + Breaks + Tie-breaker (if required) (Entire Day)<br><br>Event Venue:-<br><br> IIIT-Delhi, Okhla Industrial Area, Phase III, New Delhi (Near Govindpuri Metro Station)","Individual Participation, Swiss League Event",
 "The tournament will be played as per FIDE’s Rules and Regulations.",
 "All players will play all 7* rounds.",
 "Time format : 25 minutes + 10 Seconds or 30 minutes each.",
@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 "In the case of any dispute or claim, the decision of the arbiter will be final and binding to all rules and regulations.","First-come, first-served (Cap - 100).","Preference will still be given to rated players.","Entry fee - Rs 250/-","-------------Contact-------------------<br><br>● Ankit Verma - 9810581076, ankit13017@iiitd.ac.in<br>● HarshVardhan Kalra - 9910127900, harshvardhan14043@iiitd.ac.in<br>● Nikita Gupta - 9899813036,nikita13068@iiitd.ac.in<br>● Sumit Keswani - 9999748647, sumit13111@iiitd.ac.in",
   
   
-  ], chessDesc = "<h1>Chess</h1><h2 style='text-align:left;'><strong>Event duration</strong> : 2 Days<br><br><Strong>Event Dates</strong> : 30th and 31st Jan’15</h2><br><br><h3>For all Chess enthusiasts out there, IIIT-Delhi presents its very 2nd Chess Tournament at Odyssey’15. If \"Chess is life\" for you too, make good of this opportunity to compete against the best players in the city and earn amazing prizes worth Rs 25,000/-</h3><br><br>Eligibility: For college students and school students only.";
+  ], chessDesc = "<h1>Chess</h1><p style='text-align:left;'><strong>Event duration</strong> : 2 Days<br><br><Strong>Event Dates</strong> : 30th and 31st Jan’15<p><br><br><p>For all Chess enthusiasts out there, IIIT-Delhi presents its very 2nd Chess Tournament at Odyssey’15. If \"Chess is life\" for you too, make good of this opportunity to compete against the best players in the city and earn amazing prizes worth Rs 25,000/-</p><br><br>Eligibility: For college students and school students only.";
 
 
     $cross = $(".spanExitButton");
