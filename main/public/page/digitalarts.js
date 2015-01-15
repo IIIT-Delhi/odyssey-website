@@ -30,7 +30,8 @@ jQuery(document).ready(function($) {
 " All entries would be tested for plagiarism", "Any plagiarised content would lead to disqualification",
 " Decision of Organisers shall be final and binding",
 " The organisers reserve the right to change the rules as they deem fit",
-" Organisers have the right to disqualify any team if they break any rule","---Contact---<br>	Paarth Arora -> paarth14150@iiitd.ac.in :9999337522","Adesh Pandey -> adesh14004@iiitd.ac.in : 9899260375"]
+" Organisers have the right to disqualify any team if they break any rule",
+                   "<br><br>For more information email us at createoflix.odyssey@gmail.com<br>","---Contact---<br>	Paarth Arora -> paarth14150@iiitd.ac.in :9999337522","Adesh Pandey -> adesh14004@iiitd.ac.in : 9899260375"]
 
     var bybrules = ["You can participate as individual or team, but the limit of team members is four.",
 "You can use any form of digital designing.",
@@ -177,7 +178,7 @@ var imagePath ;
                 imagePath = "/page/videoMakingBan.png";
                 arrayOfRules = verules;
                 description =  ve;
-                eventRegistrationForm = "https://docs.google.com/forms/d/19jaRTwCWqpGht4kL0WjW_a5xHXXjlRukYhnWcYsucow/viewform";
+                eventRegistrationForm = "http://goo.gl/forms/UhwhgROlHB";
                 break;
 
 
