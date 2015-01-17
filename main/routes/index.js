@@ -62,20 +62,25 @@ exports.treasurehunt = function ( req, res){
 
 exports.chess = function ( req, res){
 	res.render('chess', {
-		title: "Odyssey'15 |Chess"
+		title: "Odyssey'15 | Chess"
 	});
 }
 exports.team = function ( req, res){
 	res.render('team', {
-		title: "Odyssey'15 |Organising Team"
+		title: "Odyssey'15 | Organising Team"
 	});
 }
 exports.dt = function ( req, res){
 	res.render('dt', {
-		title: "Odyssey'15 |WebDev Team"
+		title: "Odyssey'15 | WebDev Team"
 	});
 }
 
+exports.informals = function ( req, res){
+	res.render('informals', {
+		title: "Odyssey'15 | Informal Events"
+	});
+}
 
 //app.get('/digitalarts', routes.digitalarts);
 //app.get('/gaming', routes.gaming);
