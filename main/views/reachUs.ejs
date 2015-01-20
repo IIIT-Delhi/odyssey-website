@@ -1,0 +1,88 @@
+</html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head><% include partials/header.ejs %>
+    </head>
+
+
+    <body>
+
+<% include /partials/catBodyHead.ejs %>
+<style>
+        .dyssey{
+            font-size: 20px;
+        }
+   
+        </style>
+        
+        
+        <div id="gMap">
+        <div style="margin-top:60px;text-align:center;"><br><br><h1 class="title" ><a name="directions" ></a>Directions to Campus</h1></div>
+            
+<p>IIIT-Delhi campus is located in Okhla, near Nehru Place, New Delhi.</p>
+<p>To reach the campus, coming from Nehru Place on outer ring road, follow these directions:</p>
+<ul>
+<li>After about half KM, turn Right from under the first flyover (it is oneway).</li>
+<li>After about 300 m, turn Left from under the Govind Puri Metro station (there is a IIITD sign at this turn).</li>
+<li>After about 300 m, there will be a &#39;Y&#39; - take the left road of the &#39;Y&#39;.</li>
+<li>Follow signs for IIIT-D - the main gate is after about 500 m.</li>
+</ul>
+<p><iframe frameborder="0" height="480" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.co.in/maps?q=IIIT+Delhi,+okhla&amp;hl=en&amp;sll=28.545558,77.268412&amp;sspn=0.008378,0.016512&amp;t=h&amp;hnear=IIIT-Delhi,+Okhla+Phase+III,+Okhla+Industrial+Area,+New+Delhi,+South+Delhi,+Delhi&amp;ie=UTF8&amp;hq=&amp;ll=28.544677,77.272618&amp;spn=0.008379,0.016512&amp;z=14&amp;output=embed" width="640"></iframe><br />
+	<small><a href="https://www.google.co.in/maps/dir//IIIT+Delhi,+Okhla+Industrial+Estate,+Near+Govind+Puri+Metro+Station,+Phase+III,+New+Delhi,+Delhi+110020/@28.544677,77.272618,5533m/data=!3m1!1e3!4m12!1m3!3m2!1s0x390ce3e564daac1d:0x2c582e340e7bc556!2sIIIT+Delhi!4m7!1m0!1m5!1m1!1s0x390ce3e564daac1d:0x2c582e340e7bc556!2m2!1d77.272637!2d28.545996?hl=en" style="color:#0000FF;text-align:left" target="_blank">View Larger Map</a></small></p>
+<p>&nbsp;</p>
+</div>
+<p id="address" style="">IIIT-Delhi<br style=""><br>
+					Okhla Industrial Estate,Phase III<br style=""><br>
+					(Near Govind Puri Metro Station)<br style=""><br>
+					New Delhi, India - 110020</p>
+        <style>
+            body{
+                height: auto;
+                margin-top:-20px;
+                background-color:white;
+            }
+            #gMap{
+               display:inline-block;
+                vertical-align:top;
+                padding: 0 20px;
+                width:auto;
+                min-height:1300px;
+                height:inherit;
+                background-color: #B2CD52;
+                margin-top:40px;
+                right:0;
+                
+            }
+            #address{
+                display:inline-block;
+                position:fixed;
+                border: 1px dotted rgb(173, 216, 230);
+                padding: 1em;
+                vertical-align:top;
+                margin-top:180px;
+                margin-right:-400px;
+            }
+            #footer{
+                
+                top: -300px;
+            }
+            
+            #bewadafooter{
+                height: 100px;
+                overflow: hidden;
+                position: relative;
+                
+            }
+        </style>
+        
+        <!--start footer-->
+        
+        <div id="bewadafooter"><% include /partials/footer.ejs %></div>
+        
+        <!--end footer-->
+       <% include /partials/defaultJS.ejs %>
+    </body>
+    
+
+</html>

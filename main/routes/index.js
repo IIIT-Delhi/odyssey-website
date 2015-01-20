@@ -82,10 +82,9 @@ exports.informals = function ( req, res){
 	});
 }
 
-//app.get('/digitalarts', routes.digitalarts);
-//app.get('/gaming', routes.gaming);
-//app.get('/music', routes.music);
-//app.get('/chess', routes.chess);
-//app.get('/treasurehunt', routes.treasurehunt);
 
-
+exports.reach_us = function ( req, res){
+	res.render('reachUs', {
+		title: "Odyssey'15 | Directions"
+	});
+}

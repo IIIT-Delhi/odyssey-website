@@ -134,7 +134,7 @@ var eventRegistrationForm="#";
                 imagePath = "/page/generalQuizzingBan.png";
                 arrayOfRules = veRules;
                 description =  ve;
-                eventRegistrationForm = "https://docs.google.com/forms/d/1cyuEbYx4fhytrzqlzHLdgLWNSfxI3ooGvCublB6pdIU/viewform";
+                eventRegistrationForm = "https://docs.google.com/a/iiitd.ac.in/spreadsheets/d/1OerfBIpw21tYLFhOguINbTAjz5eKQ1YCHnd77WXG9Fs/edit#gid=1477453905";
                 break;
 			case 'sports':
                 imagePath = "/page/sportsQuizBan.png";

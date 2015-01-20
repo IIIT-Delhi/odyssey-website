@@ -27,6 +27,7 @@ app.get('/music', routes.music);
 app.get('/team', routes.team);
 app.get('/dt', routes.dt);
 app.get('/informals', routes.informals);
+app.get('/reach_us', routes.reach_us);
 
 //app.listen(8080);
 app.listen(80);
