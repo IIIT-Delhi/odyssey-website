@@ -106,6 +106,12 @@ var rhetorica = {
 " Be considerate of others. Remain as quiet as possible backstage. Do not gossip or discuss the show or circumstances that arise during the show. Discuss the experiences of the show afterward.",
     ];
     
+                       var avadhanamRules = ["<h3 style='display:inline;vertical-align:top;'>Mixed Bag</h3><br><br>It is a team event, with the team consisting of maximum two members. More than one team can register from a college.<br>Judging: The coordinator shall act as the judge, with the assistance of other members of the organizing team.",
+//                       "<h3 style='display:inline;vertical-align:top;'>Literary Quiz</h3><br><br>Coming soon.",
+                       "<h3 style='display:inline;vertical-align:top;'>Dumb Charades</h3><br><br>It will be an individual participation event.<br>&rarr; Most rules and guidelines will be given on the spot.<br>&rarr; The participants might be given anything to act out, right from movies and books to abstract words and personalities, real or fictional.<br>&rarr; Normal Dumb Charades rules apply. These include things like no splitting of words, no rhyming, no enactment of out of context meanings of words, no reference of proper nouns with their meanings, and no depiction of individual letters and numbers. However, conventions for common words are allowed and heavily encouraged! <br>Judging:<br>&rarr;The competition shall be judged by the coordinators.<br>&rarr;The  decisions taken by the judges shall be final and binding.<br>&rarr; Detailed points distribution shall be announced as the rounds progress.<br>",
+                       "<h3 style='display:inline;vertical-align:top;'>JAM</h3><br><br>This will be an individual contest. However, more than one person from each college can register for the event.<br>&rarr;It will be a knockout elimination contest.<br>&rarr;The topic shall be picked out by the participants at random(chit system).<br>&rarr;The time shall commence either when a speaker starts speaking or when twenty seconds collapse after the topic is given, whichever is earlier.<br>&rarr;The judging criteria will be the lucidity, flawlessness, time for which the participant speaks and the refutations.<br>&rarr;The refutations shall be allowed on unnecessary repetition of sentences, stammer, grammatical errors, unnatural pauses, late and early starts, out of context speaking, plagiarism and errors of a similar kind"
+];
+                       var avadhanamDesc = "Avadhanam shall be an amalgamation of literary events – a tour de force that would look for contestants who fancy themselves as jacks of all trades, and masters of some. This one-of-a-kind and all-in-one literary fiesta will be a mini symposium in itself.<br><br>The events of Avadhanam have all the ingredients of an incredibly fun, engaging and challenging ordeal"
 
 
     $cross = $(".spanExitButton");
@@ -240,10 +246,10 @@ var imagePath ;
 			 case 'avadhnam': 
                 eventTitle = "Avadhanam";
                 imagePath = "/page/avadhnamBan.png";
-                arrayOfRules = [];
-                description =  "<br><br><h1>Event Details will be here soon!</h1>";
-                eventHead = [];
-                eventRegistrationForm ="#";
+                arrayOfRules = avadhanamRules;
+                description =  avadhanamDesc;
+                eventHead = ["ishita14051@iiitd.ac.in &rarr; Ishita Verma &rarr; 9582084386", "anant14014@iiitd.ac.in &rarr; Anant Jain"];
+                eventRegistrationForm ="https://docs.google.com/a/iiitd.ac.in/forms/d/1nomMCQipTwPN4HCHyJ3cAJES4l9nDir8OB-qWRTc-HI/viewform";
                 break;
 
         }

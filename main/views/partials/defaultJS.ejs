@@ -162,10 +162,12 @@
     
  jQuery(document).ready(function($) {
      $('a.registerbtn').on('click',function(){
-        window.location = this.href ; //the <a> tag forgot its behaviour :P
+//        window.location = this.href ; //the <a> tag forgot its behaviour :P
+         window.open(this.href, '_blank');
              
 });
-   
+   $('a.registerbtn').prop('target', '_blank');
+     
               $rc = $(".round-thumb");
      $cross = $(".spanExitButton");
      $rc.on('click', function(){
