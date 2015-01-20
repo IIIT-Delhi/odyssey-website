@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
 		"Contestants selected in the prelims will have to confirm their participation for the next stage within a stipulated period of time.",
 
 "It will be the responsibility of the participant to arrange and maintain the instruments if he/she requires any for the stage performance",
-"The judges' decision in relation to any aspect of the competition is final and binding.","Please refer to out our <a href='https://www.facebook.com/events/792157200877927/?ref=br_tf'>facebook page</a>for further information on the rounds"
+"The judges' decision in relation to any aspect of the competition is final and binding.","Please refer to our <a href='https://www.facebook.com/events/792157200877927/?ref=br_tf'> facebook page</a> for further information on the rounds"
 	]
 
     var rulesID523 = [
