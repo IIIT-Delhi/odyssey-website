@@ -18,8 +18,10 @@ jQuery(document).ready(function($) {
 
     var forules = ["Age Limit : 16 - 25 years.",
                    "Last date of online registration is 28th January 2015. On the spot registrations will also be open but priority will be given to online registrations.",
-"Any props/costumes if to be used should be arranged by the participants. Use of fire or any other inflammable object is restricted and accounts for negative marking.",
-"Qualified participants have to ensure that one copy of their edited song is with the event head and one copy they should carry with them. Song should be in .mp3 format. Also, it is the contestant’s duty to be careful and aware of the order of performance and should be present 15 mins before the allotted time.",
+                   "All Hip-Hop styles allowed (Popping Locking, Breakdance etc.)",
+                   "The event consists of  classic one-on-one dance battle event. 4. The event consists of classic one-on-one dance battle event. Knockout fixtures will be created. Each battle will be of approx. 3min. 30-40Sec rounds, 2 rounds per person.",
+                   "For the first round, participants have the option to provide their own music. Participants have to ensure that one copy of their edited song is with the event head and one copy they should carry with them. Song should be in .mp3 format.",
+                   "Any props/costumes if to be used should be arranged by the participants. Use of fire or any other inflammable object is restricted and accounts for negative marking. Also, it is the contestant’s duty to be careful and aware of the order of performance and should be present 15 mins before the allotted time.",
 "All the participants are required to carry their identity cards to the campus on the day of the event.",
 "The organizing committee reserves the right to change the venue, time and rules, if required.",
 "The decision of the judges will be final and binding.",
