@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
     var menuIn = false;
     
     var description = ""; 
-    var vrules =  [];
+    var vrules =  ["DoTA2","CSGo","NFS Most Wanted 2005","FIFA 11"];
 
     $cross = $(".spanExitButton");
     $cross.addClass("hideMe");
@@ -46,7 +46,7 @@ var imagePath ;
             $(".bgRules").css("background","url('')");console.log(++k);
             $(".bgRulesForModalR").css("background","url('')");console.log(++k);
             $modalListOfRules.empty();console.log(++k);
-            $list.append("<p>" + description + "</p>" + "<strong id='rulesRules' style='font-size:35px;font-weight:300;font-family:'Source Sans Pro','Open Sans', sans-serif;'><br>RULES<br><br></strong>");console.log(++k);
+            $list.append("<p>" + description + "</p>" + "<strong id='rulesRules' style='font-size:35px;font-weight:300;font-family:'Source Sans Pro','Open Sans', sans-serif;'><br>br><br></strong>");console.log(++k);
             $mR.css("background", "none");console.log(++k);
             $(".bgRules").css({
             "background": "url('" + imagePath + "') no-repeat"
@@ -80,7 +80,7 @@ var imagePath ;
             case 'pwned': 
                 imagePath = "/page/pwnedthumb.jpg"; 
                 arrayOfRules = vrules;
-                description =  "<h1>PWNDED</h1><br><br><h2>Event Details will be here soon!</h2>";
+                description =  "<h1>PwNed</h1><br><br><h2>Event Details will be here soon!</h2>";
                 eventRegistrationForm = "#";
                 break;
 
