@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
     var menuIn = false;
     
     var description = ""; 
-    var vrules =  ["DoTA2","CSGo","NFS Most Wanted 2005","FIFA 11"];
+    var vrules =  ["DoTA2 - Team of 5","Counter Strike 1.6 - Team of 5","NFS Most Wanted 2005","FIFA 11", "PS3 (Fifa'15)", "PS3 (WWE)"];
 
     $cross = $(".spanExitButton");
     $cross.addClass("hideMe");
