@@ -42,13 +42,15 @@ $subBox=$('.subbtncontainer');
                 "<span style='text-decoration: underline; color:red;font-size:20px;'>MASK-ermind</span><p><br>Remember the iconic mask of Darth Vadar ?Charmed to death by V ? They say give a man a mask,and he’ll show you his true self. Well, Odyssey’s tagline ‘Reality is an illusion’ cannot be anymore suited for this! We hereby present to you our mask making event - MASK-ermind! Get those creative juices flowing and prove the artistic flair in you, by unveiling the disparity between the mask,and what it is obscuring beneath. Because ofcourse, there’s always more to that encounter than meets the eye ;) </p>",
             ["Everything has to be made on the spot-no prior preparations allowed."," Use of cellphones or other such reference material is strictly prohibited.","Any medium of colour can be used. "," A3 size chart paper and extra chart paper ,glue will be provided.", "Other required stationery has to be brought by the participants. It will not be provided.", "Podium Finish- 1st , 2nd and 3rd.<br><br>"],
 
-                "<span style='text-decoration:underline; color:red;font-size:20px;'>Cartoonista : escape into your own reality!</span>",
+                "<span style='text-decoration:underline; color:red;font-size:20px;'>Cartoonista : escape into your own reality!</span><br/><br/>The event is open on both the days. The participants can choose to come on the day suitable to them.",
             [
                 "A chance to show the cartoonist in you. Remember the back of your notebooks.. All those random scribbles.. Your dream guy/girl character.. Now it’s your chance to showcase your creation to the world. Participate in cartoonista and win exciting prizes.",
+                "Round 1: Themes will be given on the spot. You will be given 1.5 hrs will be something related to alternate reality)",
                 "<strong>More Rules :</strong>",
                 "No internet access allowed.",
-                "Round 1 themes will be declared on our fb page 2-3 days before the     fest",
-                "Themes for round 2 will be given on the spot.",
+                "NO DIGITAL entries will be accepted.",
+                "The organizers reserve the right to change the rules as they deem fit.",
+                "Organizers have the right to disqualify any team if they break any rule)",
                 "Participants will have to get their own stationary. Only sheets will be provided",
                 "Only original work will be accepted.",
                 "Decision of judges and event head will be final and binding."
