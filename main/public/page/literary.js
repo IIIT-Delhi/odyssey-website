@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
     var description = []; // change the event wise description in the switch case at the end not this
 
 
-	var grammarnazi = "TDoes your nose twitch everytime you hear a word pronounced wrongly? Do you have the itch to correct every word you see misspelled and have been lah-di-da-ed for the same? We present to you Grammar Nazi, an opportunity for you to know your speed, your skills, efficiency, your fluency and of course your level of expertise. PS : Dare u use d chatin lang here . its al abot bludy grammar :P. The long awaited debating battle is back in this year’s edition of Odyssey. however, there is a twist in the tale. This time, we have decided to have an “Oxford” style debate. The event description and details are as follows:";
+	var grammarnazi = "Does your nose twitch everytime you hear a word pronounced wrongly? Do you have the itch to correct every word you see misspelled and have been lah-di-da-ed for the same? We present to you Grammar Nazi, an opportunity for you to know your speed, your skills, efficiency, your fluency and of course your level of expertise. PS : Dare u use d chatin lang here . its al abot bludy grammar :P";
 
     var vrules = [
    "There would be two major rounds in total which would be further divided into smaller tasks to be accomplished.",
