@@ -88,3 +88,9 @@ exports.reach_us = function ( req, res){
 		title: "Odyssey'15 | Directions"
 	});
 }
+
+exports.schedule = function ( req, res){
+	res.render('schedule', {
+		title: "Odyssey'15 | Schedule"
+	});
+}

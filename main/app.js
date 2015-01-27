@@ -28,6 +28,7 @@ app.get('/team', routes.team);
 app.get('/dt', routes.dt);
 app.get('/informals', routes.informals);
 app.get('/reach_us', routes.reach_us);
+app.get('/schedule', routes.schedule);
 
 //app.listen(8080);
 app.listen(80);
