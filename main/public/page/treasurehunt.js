@@ -10,9 +10,16 @@ jQuery(document).ready(function($) {
 
     var menuIn = false;
     
-    var description = ""; // change the event wise description in the switch case at the end not this
+    var description = "Do you ever wonder what it would be like to die?<br/>Do you crave for the supernatural?<br/>Do you believe in a heaven and a hell?<br/>…And the devil?<br/>Above all, do you dare to defeat him - at his own game?<br/>Sounds surreal? It isn't. Come and try your luck at Odyssey’s first alternate dark reality Treasure Hunt<b>7 Sins - Hunt for The Lost Souls﻿</b><br/>Sign the deal with the devil and exchange your soul for a chance at a fortune.<br/>Embark upon a dark journey,go through various levels of hell summoning the creatures of darkness, come face to face with your darkest deepest desires and redeem your soul in a final battle with the Satan himself.<br/>Make a team of 3-4 warriors and register yourself because nobody can survive this alone..<br/><br/>WARNING: No one returns from hell the same.<br/><br/>Entry Fees - Rs 40/-<br/><br/>Prizes worth Rs 12,000 to be won!"; // change the event wise description in the switch case at the end not this
 
-    var tHuntRules =[]
+    var tHuntRules =["Each team should comprise of 3-4 members. Cross college and school teams are allowed.",
+    "It will be a 2 day event.Teams will face elimination leading up to the final round of the hunt, details of each round will be revealed only to those who make it.",
+    "In case of any discrepancy, the decision of the organisers will be final and binding.",
+    "No accommodation facility will be provided by IIIT-Delhi to teams which qualify for finals on second day.",
+    "A smart-phone with internet connectivity is a must!",
+    "The prizes are subject to change on the basis of quality of participation.<br/><br/><br/>Contact for further assistance-<br/><br/>Shubham Sinha(shubham13159@iiitd.ac.in)   :- +91-9953600441<br/>Rishi Baijal(rishi12084@iiitd.ac.in)                  :- +91-8527385260<br/>Hardik Choudhary(hardik12038@iiitd.ac.in)    :- +91-9910550694"
+    
+    ]
 
 
     $cross = $(".spanExitButton");
@@ -80,10 +87,10 @@ var imagePath ;
         eventName = $(this).attr('id');
         switch (eventName) { 
             case 'tHunt': 
-                imagePath = "/page/dk.jpg";
+                imagePath = "/page/7Sins_low.jpg";
                 arrayOfRules = tHuntRules;
-                description = "<h1 style='text-align:center;'>Rules will be here soon !<h1><br><h3 style='text-align:center;'>Meanwhile folow us this event on <a href='https://www.facebook.com/events/1387994388164507/?ref=5'>facebook</a></h3>";
-                eventRegistrationForm = "#";
+                description = description;
+                eventRegistrationForm = "http://goo.gl/forms/VtgrFET8Lo";
                 break;
 
             
