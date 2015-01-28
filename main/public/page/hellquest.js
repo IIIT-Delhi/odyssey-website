@@ -10,9 +10,22 @@ jQuery(document).ready(function($) {
 
     var menuIn = false;
     
-    var description = ""; // change the event wise description in the switch case at the end not this
+    var description = "Do you ever wonder what it would be like to die?<br/>
+Do you crave for the supernatural?<br/>Do you believe in a heaven and a hell?<br/> 
+…And the devil?<br/>Above all, do you dare to defeat him - at his own game?<br/>
+Sounds surreal? It isn't. Come and try your luck at Odyssey’s first alternate dark reality Treasure Hunt
+<b>7 Sins - Hunt for The Lost Souls﻿</b><br/>
+Sign the deal with the devil and exchange your soul for a chance at a fortune.<br/>
+Embark upon a dark journey,go through various levels of hell summoning the creatures of darkness, come face to face with your darkest deepest desires and redeem your soul in a final battle with the Satan himself.<br/>
 
-  var chessRules = [], chessDesc = "<h1>Hell Quest</h1><h2 style='text-align:left;'>Rules will be here soon !</h2>";
+Make a team of 3-4 warriors and register yourself because nobody can survive this alone..<br>
+
+ WARNING: No one returns from hell the same.<br/>
+
+Entry Fees - Rs 40/-<br/>
+Prizes worth Rs 12,000 to be won!"; // change the event wise description in the switch case at the end not this
+
+  var chessRules = [], chessDesc = "<h1>7 Sins</h1>";
 
 
     $cross = $(".spanExitButton");
